@@ -1,29 +1,27 @@
 body {
-    background-color: #dddddd;
+    background: #fff url(../images/USMC.png) no-repeat fixed center;
+    background-size: 60%;
 }
+
 h1 {
     font-family: Audiowide;
     font-size: 24px;
-    color: #d50000;
+    color: #43a047;
     text-shadow: 2px 3px 4px #000000;
 }
 
 h2 {
   font-family: Audiowide;
   font-size: 20px;
-  color: #d50000;
+  color: #43a047;
   text-shadow: 2px 3px 4px #000000;
 }
 
-#background
-{
-  background-image: url(../images/usmc.png);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 0;
-  min-height: 100%;
-  height: auto;
+h3 {
+  font-family: Iceland;
+  font-size: 32px;
+  color: #1565c0;
+  text-shadow: 1px 3px 3px #000000;
 }
 
 .wrapper {
@@ -57,7 +55,7 @@ h2 {
 }
  .email a {
    text-decoration: none;
-   color: #d50000;
+   color: #43a047;
  }
 
 /* Modal */
@@ -68,7 +66,7 @@ h2 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   opacity: 0;
   transition: .5s ease;
   z-index: -1;
@@ -89,12 +87,13 @@ h2 {
   left: 50%;
   max-width: 600px;
   transform: translate(-50%, -50%);
-  background-color: rgb(23,29,34, 0.8);
+  background-color: rgba(39, 48, 56, 0.7);
   box-shadow: 1px 1px 8px 6px #0c0c0c, 1px -1px 8px 6px #0c0c0c;
   z-index: 3;
   visibility: hidden;
   opacity: 0;
   transition: .5s ease;
+  border-radius: 8%;
 }
 
 .modal h2 
@@ -145,7 +144,7 @@ button.close
   padding-bottom: 2%;
   border: 1px solid rgb(0,0,0, 0.3);
   background-color: rgb(0,0,0, 0.2);
-  box-shadow: 1px 1px 2px #000000;
+  box-shadow: 0px 1px 2px #000000;
 }
 
 button.close:hover 
@@ -153,5 +152,44 @@ button.close:hover
   border: 1px solid rgb(0,0,0, 0.3);
   background-color: rgb(0,0,0, 0.3);
   color: #d50000;
-  box-shadow: 2px 3px 6px #000000;
+  box-shadow: 0px 2px 6px #000000;
+}
+
+/* Main Content */
+.main-flex {
+  background-color: none;
+  display: flex;
+  height: 400px;
+  justify-content: left;
+  align-items: center;
+  margin-left: 5%;
+  padding-left: 30px;
+}
+
+/* Accordion Styling */
+.toggle {
+  font-family: Iceland;
+  font-size: 26px;
+  text-decoration: none;
+  color: #000;
+  font-weight:bold;
+  text-shadow: 1px 1px 2px #2b2b2b;
+}
+
+li {
+  list-style: none;
+}
+
+.inner {
+  display: none;
+  font-family: Ubuntu;
+  font-size:24px;
+  color:#000;
+}
+
+p {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }

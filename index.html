@@ -5,6 +5,7 @@
     <title>GRIMM</title>
 	<link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </head>
@@ -20,14 +21,72 @@
             </div>
         </div>
     </div>
-        <div class="overlay">
-            <div class="modal">
-                <p>Welcome to my page!<br>Look around and learn more about me.</p>
-                <button class="close">Close</button>
-            </div>
+    <div class="main-flex">
+        <div class="about-box">
+            <!-- Use the accordion JS class to list things for the about me section -->
+            <h3>About Me:</h3>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Personal Life</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>Hi! My name is Adrian.<br>My wife, Jessica, and I have been married 17 years.<br> We have 3 kids, Courtney (21), Cameron (17), and Chase (10).</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Work History</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>Recent work history goes here.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Marine Corps</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>My Marine Corps Experience.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Music</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>My musical tastes.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Hobbies / Interests</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>Stuff I like.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
-        <script src="js/welcome.js"></script>
+    <div class="overlay">
+        <div class="modal">
+            <p>Welcome to my page!<br>Look around and learn more about me.</p>
+            <button class="close">Close</button>
+        </div>
     </div>
+    <script src="js/welcome.js"></script>
+    <script src="js/about.js"></script>
+    <footer>
+        <!-- Footer will contain links -->
+    </footer>
 </body>
 </html>
