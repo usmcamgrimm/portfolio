@@ -2,19 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>GRIMM</title>
+    <title>ADRIAN GRIMM</title>
 	<link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Iceland&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/tabIcon.png" type="image/png" sizes="24x24">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
+    <div id="container">
     <div class="wrapper">
         <div class="nav">
             <div class="title">
-                <h1>ADRIAN GRIMM</h1>
+                <h1 onclick="this.innerHTML='Welcome to my page!'">ADRIAN GRIMM</h1>
             </div>
             <div class="email">
                 <h2><a href="mailto:usmcamgrimm@gmail.com">usmcamgrimm@gmail.com</a></h2>
@@ -24,7 +25,7 @@
     <div class="main-flex">
         <div class="about-box">
             <!-- Use the accordion JS class to list things for the about me section -->
-            <h3>About Me:</h3>
+            <h3 onclick="this.innerHTML='Click the headers to learn more about me:'">About Me:</h3>
             <ul class="accordion">
                 <li>
                     <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Personal Life</a>
@@ -37,10 +38,10 @@
             </ul>
             <ul class="accordion">
                 <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Work History</a>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Employer</a>
                     <ul class="inner">
                         <li style="padding-left:25px;">
-                            <p>Recent work history goes here.</p>
+                            <p>I am currently employed by Securitas Electronic Security.<br>I am a <span style="font-weight:bold;">Senior Programming Specialist</span>. I provide remote programming support for alarm systems, for both technicians and customers.</p>
                         </li>
                     </ul>
                 </li>
@@ -50,7 +51,7 @@
                     <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Marine Corps</a>
                     <ul class="inner">
                         <li style="padding-left:25px;">
-                            <p>My Marine Corps Experience.</p>
+                            <p>I joined the Marine Corps in 2002 as a 2131 - Towed Artillery Systems Technician.  <br>I was deployed 3 times: 2003 (2nd Maint. Bn), 2005 (CLB-8), 2007 (2nd Bn, 10th Marines)<br>I left active duty in 2010.</p>
                         </li>
                     </ul>
                 </li>
@@ -60,7 +61,7 @@
                     <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Music</a>
                     <ul class="inner">
                         <li style="padding-left:25px;">
-                            <p>My musical tastes.</p>
+                            <p>I love music! I have music playing in the background whenever possible.<br>My musical tastes vary from <span style=font-weight:bold;">metal</span> such as: <a href="https://www.youtube.com/watch?v=z8ZqFlw6hYg" style="color:#000;">Slayer</a> or <a href="https://www.youtube.com/watch?v=3Or87hx0R7w" style="color:#000;">Amon Amarth</a>, <br>to the ancient sounds of <a href="https://www.youtube.com/watch?v=c6MczzFi67M" style="color:#000;">Danheim</a> or <a href="https://www.youtube.com/watch?v=3yCYO9YELPE" style="color:#000;">Heilung</a>.</p>
                         </li>
                     </ul>
                 </li>
@@ -70,7 +71,17 @@
                     <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Hobbies / Interests</a>
                     <ul class="inner">
                         <li style="padding-left:25px;">
-                            <p>Stuff I like.</p>
+                            <p>Android ROM and Theme Development<br>I am a <span style="font-weight:bold; font-style:italic">HUGE</span> fan of the <a href="https://www.colts.com/" style="color:#000; text-decoration:none;">Indianapolis Colts</a><br>I love learning</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Why VetsWhoCode?</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>My coding journey has been slow to this point.<br>I started learning java and xml as part of compiling ROMs and themes for Android devices.<br>I started to enjoy it, and decided it was time for a career change, so I applied to <a href="https://www.starkstate.edu/" style="color:#000; text-decoration:none;">Stark State College</a>.<br>My major is <span style="font-style:italic;">Computer Science and Engineering</span>.<br>I am applying to <span style="font-weight:bold;">VetsWhoCode</span> because I want to increase my potential.<br><span style="font-size:34px">&#8608;</span> <span style="font-size:26;font-weight:bold;color:#d50000;text-shadow:0px 1px 2px #000000">I love creating things with code and am eager to begin my new career! </span><span style="font-size:34px">&#8606;</span></p>
                         </li>
                     </ul>
                 </li>
@@ -79,14 +90,21 @@
     </div>
     <div class="overlay">
         <div class="modal">
-            <p>Welcome to my page!<br>Look around and learn more about me.</p>
+            <p>Welcome!<br>Look around and learn more about me.</p>
             <button class="close">Close</button>
         </div>
     </div>
     <script src="js/welcome.js"></script>
     <script src="js/about.js"></script>
-    <footer>
-        <!-- Footer will contain links -->
+    <footer id="footer">
+        <ul>
+            <li><a href="https://twitter.com/usmcamgrimm/" target="-blank"><img src="images/twitter.png"></a></li>
+            &nbsp; &nbsp;
+            <li><a href="https://github.com/usmcamgrimm" target="-blank"><img src="images/github.png"></a></li>
+            &nbsp; &nbsp;
+            <li><a href="https://www.linkedin.com/in/adrian-grimm-6a164a18/" target="-blank"><img src="images/linkedin.png"></a></li>
+        </ul>
     </footer>
+    </div>
 </body>
 </html>

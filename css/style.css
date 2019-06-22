@@ -1,6 +1,6 @@
 body {
-    background: #fff url(../images/USMC.png) no-repeat fixed center;
-    background-size: 60%;
+    background: #fff url(../images/usmc.png) no-repeat fixed center;
+    background-size: 48%;
 }
 
 h1 {
@@ -8,6 +8,7 @@ h1 {
     font-size: 24px;
     color: #43a047;
     text-shadow: 2px 3px 4px #000000;
+    cursor: crosshair;
 }
 
 h2 {
@@ -18,25 +19,27 @@ h2 {
 }
 
 h3 {
-  font-family: Iceland;
-  font-size: 32px;
-  color: #1565c0;
-  text-shadow: 1px 3px 3px #000000;
+  font-family: Ubuntu;
+  font-size: 26px;
+  color: #979797;
+  text-shadow: -1px 3px 3px #000000;
 }
 
 .wrapper {
   position: relative;
 }
 
+/* Top Bar */
 .nav
 {
   display: inline-block;
   width: 100%;
+  border-radius: 10px;
+  border: 1px solid #43a047;
   background: linear-gradient(180deg, #1b1b1b,  #3b3b3b);
   box-shadow: 0 6px 6px #000000;
   margin: 0;
 }
-
 .title {
   display: flex;
   justify-content: center;
@@ -53,10 +56,13 @@ h3 {
   float: right;
   padding-right: 5%;
 }
- .email a {
-   text-decoration: none;
-   color: #43a047;
- }
+.email a {
+  text-decoration: none;
+  color: #43a047;
+}
+.email a:hover {
+  color: #1565c0;
+}
 
 /* Modal */
 .overlay 
@@ -72,13 +78,11 @@ h3 {
   z-index: -1;
   text-align: center;
 }
-
 .overlay.active 
 {
   opacity: 1;
   z-index: 2;
 }
-
 .modal 
 {
   max-height: calc(100% - 100px);
@@ -95,7 +99,6 @@ h3 {
   transition: .5s ease;
   border-radius: 8%;
 }
-
 .modal h2 
 {
   margin: 0;
@@ -103,7 +106,6 @@ h3 {
   padding: 1rem;
   border-bottom: 1px solid #DDE0E7;
 }
-
 .modal p 
 {
   padding: 1rem;
@@ -112,13 +114,11 @@ h3 {
   color: #2196f3;
   text-shadow: 2px 3px 3px #000000;
 }
-
 .modal.active 
 {
   visibility: visible;
   opacity: 1;
 }
-
 button 
 {
   display: inline-block;
@@ -135,7 +135,6 @@ button
   overflow: visible;
   text-align: center;
 }
-
 button.close 
 {
   margin: 0 0 1em;
@@ -146,7 +145,6 @@ button.close
   background-color: rgb(0,0,0, 0.2);
   box-shadow: 0px 1px 2px #000000;
 }
-
 button.close:hover 
 {
   border: 1px solid rgb(0,0,0, 0.3);
@@ -157,39 +155,64 @@ button.close:hover
 
 /* Main Content */
 .main-flex {
-  background-color: none;
+  background-color: rgb(251, 251, 251, 0.1);
   display: flex;
-  height: 400px;
+  height: 100%;
   justify-content: left;
   align-items: center;
+  margin-top: 2%;
   margin-left: 5%;
+  margin-right: 5%;
   padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  border: 2px double #f1f1f1;
+  box-shadow: 0px 1px 2px #c0c0c0;
 }
 
 /* Accordion Styling */
 .toggle {
-  font-family: Iceland;
   font-size: 26px;
   text-decoration: none;
-  color: #000;
+  color: #1565c0;
   font-weight:bold;
-  text-shadow: 1px 1px 2px #2b2b2b;
+  text-shadow: 1px 1px 2px #000;
 }
-
+.toggle:hover {
+  padding: 0.2em;
+  background-color: rgb(43, 43, 43, 0.9);
+  border-radius: 8px;
+  border: 1px dotted #1565c0;
+}
+.toggle:active {
+  color: #d50000;
+}
 li {
   list-style: none;
 }
-
 .inner {
   display: none;
-  font-family: Ubuntu;
-  font-size:24px;
-  color:#000;
 }
-
-p {
+.accordion p {
   font-family: Ubuntu;
   font-size: 20px;
-  font-weight: bold;
-  color: black;
+  color: #000000;
+}
+
+/* Footer */
+#footer {
+  clear: both;
+  position: relative;
+  margin-top: 15vh;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+footer ul {
+  float: right;
+  margin-right: 5%;
+}
+footer li {
+  display: inline;
 }
