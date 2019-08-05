@@ -1,5 +1,4 @@
 body {
-  background-image: url("../images/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: #05081b;
@@ -9,9 +8,20 @@ h1 {
   font-size: 32px;
   color: #e8cb0d;
   padding-top: 2rem;
+  text-align: center;
+}
+hr {
+  height: 2px;
+  background-color: #cc0000;
 }
 .navbar-light .navbar-nav .nav-link {
   font-family: Arial;
   font-size: 18px;
+  color: #e8cb0d;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e8cb0d;
+}
+.navbar-light .navbar-nav .nav-link:visited {
   color: #e8cb0d;
 }
