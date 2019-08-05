@@ -8,6 +8,11 @@ h1 {
   padding-top: 2rem;
   text-align: center;
 }
+p {
+  font-family: Arial;
+  font-size: 18px;
+  color: #ffffff;
+}
 hr {
   height: 2px;
   background-color: #cc0000;
@@ -19,9 +24,9 @@ hr {
   display: inline-block;
   list-style: none;
   text-align: center;
-  padding: 2em;
-  padding-top: 0;
+  padding: 0 2em 0 2em;
   margin: 0;
+  margin-bottom: 5em;
 }
 .nav a {
   font: Arial;
@@ -30,4 +35,7 @@ hr {
 }
 .nav a:hover {
   text-decoration: none;
+}
+.center {
+  text-align: center;
 }
