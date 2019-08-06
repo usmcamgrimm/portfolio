@@ -10,7 +10,7 @@ h1 {
 }
 p {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
 }
 hr {
@@ -37,5 +37,12 @@ hr {
   text-decoration: none;
 }
 .center {
+  text-align: center;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
 }
