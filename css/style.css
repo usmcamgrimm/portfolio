@@ -46,3 +46,6 @@ footer {
   width: 100%;
   text-align: center;
 }
+.rounded-circle {
+  cursor: none;
+}
