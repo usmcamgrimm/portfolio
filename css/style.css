@@ -1,16 +1,14 @@
 body {
-  background-color: #ffffff;
-  background: #232526;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #ffffff;
+    background-size: 48%;
 }
 
 h1 {
-  font-family: Audiowide;
-  font-size: 24px;
-  color: #43a047;
-  text-shadow: 2px 3px 4px #000000;
-  cursor: crosshair;
+    font-family: Audiowide;
+    font-size: 24px;
+    color: #43a047;
+    text-shadow: 2px 3px 4px #000000;
+    cursor: crosshair;
 }
 
 h2 {
