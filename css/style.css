@@ -1,4 +1,6 @@
 body {
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #05081b;
 }
 h1 {
@@ -12,22 +14,14 @@ hr {
   height: 2px;
   background-color: #cc0000;
 }
-.nav {
-  text-align: center;
-}
-.nav li {
-  display: inline-block;
-  list-style: none;
-  text-align: center;
-  padding: 2em;
-  padding-top: 0;
-  margin: 0;
-}
-.nav a {
-  font: Arial;
-  font-size: 22px;
+.navbar-light .navbar-nav .nav-link {
+  font-family: Arial;
+  font-size: 18px;
   color: #e8cb0d;
 }
-.nav a:hover {
-  text-decoration: none;
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #e8cb0d;
+}
+.navbar-light .navbar-nav .nav-link:visited {
+  color: #e8cb0d;
 }
