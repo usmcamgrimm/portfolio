@@ -1,13 +1,16 @@
 body {
-    background-color: #fff;
-    background-size: 48%;
+  background-color: #fff;
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 h1 {
-    font-family: Audiowide;
-    font-size: 24px;
-    color: #43a047;
-    text-shadow: 2px 3px 4px #000000;
-    cursor: crosshair;
+  font-family: Audiowide;
+  font-size: 24px;
+  color: #43a047;
+  text-shadow: 2px 3px 4px #000000;
+  cursor: crosshair;
 }
 h2 {
   font-family: Audiowide;
@@ -84,13 +87,13 @@ h3 {
   left: 50%;
   max-width: 600px;
   transform: translate(-50%, -50%);
-  background-color: rgba(39, 48, 56, 0.7);
+  background-color: rgba(39, 48, 56);
   box-shadow: 1px 1px 8px 6px rgb(0,0,0,0.6), 1px -1px 8px 6px rgb(0,0,0,0.6);
   z-index: 3;
   visibility: hidden;
   opacity: 0;
   transition: .5s ease;
-  border-radius: 8%;
+  border-radius: 3%;
 }
 .modal h2 
 {
@@ -147,7 +150,7 @@ button.close:hover
 }
 /* Main Content */
 .main-flex {
-  background-color: rgb(251, 251, 251, 0.1);
+  background-color: transparent;
   display: flex;
   height: 100%;
   justify-content: left;
@@ -187,15 +190,14 @@ li {
 #footer {
   clear: both;
   position: relative;
-  margin-top: 8vh;
+  margin-top: 15vh;
   bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
 }
 footer ul {
-  float: right;
-  margin-right: 5%;
+  text-align: center;
 }
 footer li {
   display: inline;
