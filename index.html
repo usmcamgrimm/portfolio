@@ -16,7 +16,7 @@
     <div id="container">
         <div class="row">
             <div class="container center">
-                <div class="col-md-12 col-xs-12">
+                <div class="col-md-12 col-sm-6">
                     <h1 onclick="this.innerHTML='Welcome!'">Adrian Grimm</h1>
                     <hr>
                 </div>
@@ -33,35 +33,73 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div id="personal">
-            <div class="row" style="margin-top:6em;">
-                <div class="col-md-6 col-xs-12 text-center">
-                    <p>Hi! My name is Adrian Grimm.<br>I have been married to my wife, Jessica, for 17 years. We have 3 kids, Courtney (21), Cameron (17), and Chase (10). Currently employed by Securitas Electronic Security, I am a <span style="font-weight:bold;">Senior Programming Specialist</span>. I provide remote programming support for alarm and camera systems, for both technicians and customers.</p>
-                </div>
-                <div class="col-md-6 col-xs-12 text-center">
-                    <p>I'm going to put some sort of picture in this box!</p>
-                </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-md-12 col-xs-12 text-center">
-                    <p>I joined the Marine Corps in January 2002 and was assigned the MOS 2131 - Towed Artillery Systems Technician. I was deployed 3 times: 2003 (2nd Maint. Bn), 2005 (CLB-8), 2007 (2nd Bn, 10th Marines). In January of 2010, I left active duty.</p>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div id="interests">
-            <div class="row" style="margin-top:6em;">
-                <div class="col-md-6 col-xs-12 text-center">
-                    <p>Another picture will go here.</p>
-                </div>
-                <div class="col-md-6 col-xs-12 text-center">
-                    <p>I have been doing Android ROM and Theme Development for about 7 years, and have been a member of VanirAOSP and Team Exodus. I also formed my own, called UnholyDevs. I love football and am a <span style="font-weight:bold; font-style:italic">HUGE</span> fan of the <a href="https://www.colts.com/" style="color:#fff; text-decoration:none;font-family:Arial;font-size:18px">Indianapolis Colts. #ColtsNation!</a></p>
-                </div>
-            </div>
+    <div class="main-flex">
+        <div class="about-box">
+            <!-- Use the accordion JS class to list things for the about me section -->
+            <h3 onclick="this.innerHTML='Click the headers to learn more about me:'">About Me:</h3>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Personal Life</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>Hi! My name is Adrian.<br>My wife, Jessica, and I have been married 17 years.<br> We have 3 kids, Courtney (21), Cameron (17), and Chase (10).</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Employer</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>I am currently employed by Securitas Electronic Security.<br>I am a <span style="font-weight:bold;">Senior Programming Specialist</span>. I provide remote programming support for alarm systems, for both technicians and customers.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Marine Corps</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>I joined the Marine Corps in 2002 as a 2131 - Towed Artillery Systems Technician.  <br>I was deployed 3 times: 2003 (2nd Maint. Bn), 2005 (CLB-8), 2007 (2nd Bn, 10th Marines)<br>I left active duty in 2010.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Music</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>I love music! I have music playing in the background whenever possible.<br>My musical tastes vary from <span style="font-weight:bold;">metal</span> such as: <a href="https://www.youtube.com/watch?v=z8ZqFlw6hYg" style="color:#000;">Slayer</a> or <a href="https://www.youtube.com/watch?v=3Or87hx0R7w" style="color:#000;">Amon Amarth</a>, <br>to the ancient sounds of <a href="https://www.youtube.com/watch?v=c6MczzFi67M" style="color:#000;">Danheim</a> or <a href="https://www.youtube.com/watch?v=3yCYO9YELPE" style="color:#000;">Heilung</a>.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Hobbies / Interests</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>Android ROM and Theme Development<br>I am a <span style="font-weight:bold; font-style:italic">HUGE</span> fan of the <a href="https://www.colts.com/" style="color:#000; text-decoration:none;">Indianapolis Colts</a><br>I love learning</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="accordion">
+                <li>
+                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Why VetsWhoCode?</a>
+                    <ul class="inner">
+                        <li style="padding-left:25px;">
+                            <p>My coding journey has been slow to this point.<br>I started learning java and xml as part of compiling ROMs and themes for Android devices.<br>I started to enjoy it, and decided it was time for a career change, so I applied to <a href="https://www.starkstate.edu/" style="color:#000; text-decoration:none;">Stark State College</a>.<br>My major is <span style="font-style:italic;">Computer Science and Engineering</span>.<br>I am applying to <span style="font-weight:bold;">VetsWhoCode</span> because I want to increase my potential.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
+    <script src="js/about.js"></script>
     <footer>
         <div class="container center">
           <a href="https://github.com/usmcamgrimm" target="_blank"><i class="fab fa-github-square" style="font-size:36px;color:#212121"></a></i>
