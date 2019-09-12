@@ -1,27 +1,27 @@
 body {
+/*
   background-color: #fff;
-  background: #ADA996;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #abbaab;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*background-attachment: fixed;*/
+  background-color: #abbaab;
 }
 h1 {
-  font-family: Audiowide;
-  font-size: 24px;
-  color: #43a047;
-  text-shadow: 2px 3px 4px #000000;
+  font-family: Metamorphous;
+  font-size: 36px;
+  color: #1565c0;
   cursor: crosshair;
 }
 h2 {
-  font-family: Audiowide;
-  font-size: 20px;
-  color: #43a047;
-  text-shadow: 2px 3px 4px #000000;
+  font-family: Mirza;
+  font-size: 22px;
+  color: #1565c0;
 }
 h3 {
   font-family: Ubuntu;
   font-size: 26px;
-  color: #c0c0c0;
+  color: #d50000;
 }
 .wrapper {
   position: relative;
@@ -31,122 +31,20 @@ h3 {
 {
   display: inline-block;
   width: 100%;
-  border-radius: 10px;
-  border: 1px solid #43a047;
-  background: linear-gradient(180deg, #1b1b1b,  #3b3b3b);
-  box-shadow: 0 6px 6px #000000;
   margin: 0;
+}
+.nav a {
+  text-decoration: none;
 }
 .title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-left: 5%;
-  float: left;
-}
-.email {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  float: right;
-  padding-right: 5%;
-}
-.email a {
-  text-decoration: none;
-  color: #43a047;
-}
-.email a:hover {
-  color: #1565c0;
-}
-/* Modal */
-.overlay 
-{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  transition: .5s ease;
-  z-index: -1;
   text-align: center;
 }
-.overlay.active 
-{
-  opacity: 1;
-  z-index: 2;
+.title a:hover {
+  cursor: crosshair;
 }
-.modal 
-{
-  max-height: calc(100% - 100px);
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  max-width: 600px;
-  transform: translate(-50%, -50%);
-  background-color: rgba(39, 48, 56);
-  box-shadow: 1px 1px 8px 6px rgb(0,0,0,0.6), 1px -1px 8px 6px rgb(0,0,0,0.6);
-  z-index: 3;
-  visibility: hidden;
-  opacity: 0;
-  transition: .5s ease;
-  border-radius: 3%;
-}
-.modal h2 
-{
-  margin: 0;
-  font-weight: 400;
-  padding: 1rem;
-  border-bottom: 1px solid #DDE0E7;
-}
-.modal p 
-{
-  padding: 1rem;
-  font-family: Ubuntu;
-  font-size: 18px;
-  color: #2196f3;
-  text-shadow: 2px 3px 3px #000000;
-}
-.modal.active 
-{
-  visibility: visible;
-  opacity: 1;
-}
-button 
-{
-  display: inline-block;
-  background: rgba(10, 20, 30, .1);
-  border: 1px solid transparent;
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-  padding: 1em 2em;
-  border-radius: 45px;
-  margin: .25em 0;
-  vertical-align: middle;
-  line-height: 1;
-  overflow: visible;
-  text-align: center;
-}
-button.close 
-{
-  margin: 0 0 1em;
-  font-family: Ubuntu;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  border: 1px solid rgb(0,0,0, 0.3);
-  background-color: rgb(0,0,0, 0.2);
-  box-shadow: 0px 1px 2px #000000;
-}
-button.close:hover 
-{
-  border: 1px solid rgb(0,0,0, 0.3);
-  background-color: rgb(0,0,0, 0.3);
-  color: #d50000;
-  box-shadow: 0px 2px 6px #000000;
+hr {
+  background-color: #bdbdbd;
+  width: 50%;
 }
 /* Main Content */
 .main-flex {
@@ -170,7 +68,7 @@ button.close:hover
 }
 .toggle:hover {
   padding: 0.2em;
-  text-shadow: 0px 2px 4px #000;
+  text-shadow: 0px 2px 2px #000;
 }
 .toggle:active {
   color: #d50000;
@@ -189,8 +87,7 @@ li {
 /* Footer */
 #footer {
   clear: both;
-  position: relative;
-  margin-top: 15vh;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -202,3 +99,11 @@ footer ul {
 footer li {
   display: inline;
 }
+/*Media Queries */
+/*
+@media only screen and (max-width: 767px) {
+  html {
+    background-color: #000000;
+  }
+}
+*/
