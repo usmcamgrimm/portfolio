@@ -3,101 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>ADRIAN GRIMM</title>
-    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Metamorphous|Ubuntu&display=swap" rel="stylesheet">
     <link rel="icon" href="images/tabIcon.png" type="image/png" sizes="24x24">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="js/jquery-3.2.1.min.js"></script>
+<style>
+    body {
+        background-image: url("images/underConstruction.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-color: #ffffff;
+    }
+</style>
 </head>
 
 <body>
-    <div id="container">
-    <div class="wrapper">
-        <div class="nav">
-            <div class="title">
-                <h1><a href="mailto:usmcamgrimm@gmail.com">Adrian Grimm</a></h1>
-            </div>
-            <hr>
-        </div>
-    </div>
-    <div class="main-flex">
-        <div class="about-box">
-            <!-- Use the accordion JS class to list things for the about me section -->
-            <h3 onclick="this.innerHTML='Click the headers to learn more about me:'">About Me:</h3>
-            <ul class="accordion">
-                <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Personal Life</a>
-                    <ul class="inner">
-                        <li style="padding-left:25px;">
-                            <p>Hi! My name is Adrian.<br>My wife, Jessica, and I have been married 17 years.<br> We have 3 kids, Courtney (21), Cameron (17), and Chase (10).</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="accordion">
-                <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Employer</a>
-                    <ul class="inner">
-                        <li style="padding-left:25px;">
-                            <p>I am currently employed by Securitas Electronic Security.<br>I am a <span style="font-weight:bold;">Senior Programming Specialist</span>. I provide remote programming support for alarm systems and video equipment, for both technicians and customers.</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="accordion">
-                <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Marine Corps</a>
-                    <ul class="inner">
-                        <li style="padding-left:25px;">
-                            <p>I joined the Marine Corps in 2002 as a 2131 - Towed Artillery Systems Technician.  <br>I was deployed 3 times: 2003 (2nd Maint. Bn), 2005 (CLB-8), 2007 (2nd Bn, 10th Marines)<br>I was stationed in Aberdeen Proving Ground, MD as an MOS instructor before leaving active duty in 2010.</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="accordion">
-                <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Music</a>
-                    <ul class="inner">
-                        <li style="padding-left:25px;">
-                            <p>I love music! I have music playing in the background whenever possible.<br>My musical tastes vary from <span style="font-weight:bold;">metal</span> such as: <a href="https://www.youtube.com/watch?v=z8ZqFlw6hYg" style="color:#000;">Slayer</a> or <a href="https://www.youtube.com/watch?v=3Or87hx0R7w" style="color:#000;">Amon Amarth</a>, <br>to the ancient sounds of <a href="https://www.youtube.com/watch?v=c6MczzFi67M" style="color:#000;">Danheim</a> or <a href="https://www.youtube.com/watch?v=3yCYO9YELPE" style="color:#000;">Heilung</a>.</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="accordion">
-                <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Hobbies / Interests</a>
-                    <ul class="inner">
-                        <li style="padding-left:25px;">
-                            <p>Android ROM and Theme Development<br>I am a <span style="font-weight:bold; font-style:italic">HUGE</span> fan of the <a href="https://www.colts.com/" style="color:#000; text-decoration:none;">Indianapolis Colts</a><br>I love learning</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="accordion">
-                <li>
-                    <a class="toggle" href="javascript:void(0);" style="font-family:Ubuntu">Why VetsWhoCode?</a>
-                    <ul class="inner">
-                        <li style="padding-left:25px;">
-                            <p>My coding journey has been slow to this point.<br>I started learning java and xml as part of compiling ROMs and themes for Android devices.<br>I started to enjoy it, and decided it was time for a career change, so I applied to <a href="https://www.starkstate.edu/" style="color:#000; text-decoration:none;">Stark State College</a>.<br>My major is <span style="font-style:italic;">Computer Science and Engineering</span>.<br>I am applying to <span style="font-weight:bold;">VetsWhoCode</span> because I want to increase my potential.<br><span style="font-size:22px;font-weight:bold;color:#d50000;text-shadow:0px 1px 2px #000000">I love creating things with code and am eager to begin my new career!</span></p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <!-- !JavaScript -->
-    <script src="js/about.js"></script>
 
-    <footer id="footer">
-        <ul>
-            <li><a href="https://twitter.com/usmcamgrimm/" target="-blank"><i class="fab fa-twitter-square" style="font-size:30px;color:#212121"></a></i></li>
-            <li></li>
-            <li><a href="https://github.com/usmcamgrimm" target="-blank"><i class="fab fa-github-square" style="font-size:30px;color:#212121"></a></i></li>
-            <li></li>
-            <li><a href="https://www.linkedin.com/in/adrian-grimm-6a164a18/" target="-blank"><i class="fab fa-linkedin" style="font-size:30px;color:#212121"></a></i></li>
-        </ul>
-    </footer>
-    </div>
 </body>
 </html>
