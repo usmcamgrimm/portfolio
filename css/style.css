@@ -1,109 +1,59 @@
 body {
-/*
   background-color: #fff;
-  background: #abbaab;  /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to bottom, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to bottom, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /*background-attachment: fixed;*/
-  background-color: #abbaab;
+}
+header {
+  display: flex;
+  justify-content: center;
 }
 h1 {
-  font-family: Metamorphous;
-  font-size: 36px;
-  color: #1565c0;
-  cursor: crosshair;
-}
-h2 {
-  font-family: Mirza;
-  font-size: 22px;
-  color: #1565c0;
-}
-h3 {
-  font-family: Ubuntu;
-  font-size: 26px;
-  color: #d50000;
-}
-.wrapper {
-  position: relative;
-}
-/* Top Bar */
-.nav
-{
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-}
-.nav a {
-  text-decoration: none;
-}
-.title {
-  text-align: center;
-}
-.title a:hover {
+  font-family: 'Uncial Antiqua';
+  font-size: 52px;
+  color: #870201;
   cursor: crosshair;
 }
 hr {
-  background-color: #bdbdbd;
+  background-color: #bcbcbc;
   width: 50%;
+  padding: 0;
+  margin: 0 auto;
 }
-/* Main Content */
-.main-flex {
-  background-color: transparent;
+p {
+  font-family: ubuntu;
+  font-size: 1.1em;
+}
+nav {
+  font-family: ubuntu;
+  font-size: 1.1em;
+}
+ul {
   display: flex;
-  height: 100%;
-  justify-content: left;
-  align-items: center;
-  margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-/* Accordion Styling */
-.toggle {
-  font-size: 26px;
-  text-decoration: none;
-  color: #1565c0;
-  font-weight:bold;
-}
-.toggle:hover {
-  padding: 0.2em;
-  text-shadow: 0px 2px 2px #000;
-}
-.toggle:active {
-  color: #d50000;
+  justify-content: center;
 }
 li {
   list-style: none;
+  padding: 10px;
 }
-.inner {
-  display: none;
+li a {
+  text-decoration: none;
 }
-.accordion p {
-  font-family: Ubuntu;
-  font-size: 20px;
-  color: #000000;
+.container {
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
 }
-/* Footer */
-#footer {
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+.container > div.flexxed {
+  border: 2px solid #000000;
+  background-color: #c0c0c0;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
 }
-footer ul {
-  text-align: center;
-}
-footer li {
-  display: inline;
-}
-/*Media Queries */
-/*
 @media only screen and (max-width: 767px) {
-  html {
-    background-color: #000000;
+  h1 {
+    font-size: 28px;
+  }
+  header {
+    text-align: center;
   }
 }
-*/
