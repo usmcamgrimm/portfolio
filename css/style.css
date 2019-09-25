@@ -122,3 +122,11 @@ p {
   font-family: Ubuntu;
   font-size: 1.2em;
 }
+.img {
+  transition: transform .5s ease-in-out;
+  animation-duration: .4s;
+  animation-timing-function: linear;
+}
+.img:hover {
+  transform: rotate(360deg);
+}
