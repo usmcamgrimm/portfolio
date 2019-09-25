@@ -25,9 +25,11 @@ nav {
   font-family: ubuntu;
   font-size: 1.1em;
 }
-ul {
-  display: flex;
-  justify-content: space-around;
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "nav nav nav nav";
+  justify-items: center;
 }
 li {
   list-style: none;
