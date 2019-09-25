@@ -27,14 +27,15 @@ nav {
 }
 ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 li {
   list-style: none;
-  padding: 10px;
 }
 li a {
   text-decoration: none;
+  color: #030303;
+
 }
 .container {
   display: flex;
