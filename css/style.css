@@ -65,30 +65,33 @@ li a {
 * {
   box-sizing: border-box;
 }
+body {
+  height: 80vh;
+  background-color: #6395b9;
+}
 .nav {
   grid-area: nav;
   font-family: Ubuntu;
   font-size: 1.5em;
-  display: flex;
-  justify-content: space-around;
+  justify-self: space-around;
+  align-self: center;
 }
 .nav ul {
   list-style: none;
 }
-.nav li {
+.nav li a {
   text-decoration: none;
   color: #030303;
 }
 .header {
   grid-area: header;
-  display: flex;
-  justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
 .mainLeft {
   grid-area: mainL;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-self: center;
+  align-self: center;
 }
 .mainRight {
   grid-area: mainR;
@@ -97,6 +100,8 @@ li a {
 }
 .footer {
   grid-area: footer;
+  justify-self: center;
+  align-self: center;
 }
 .container {
   display: grid;
@@ -104,35 +109,25 @@ li a {
   grid-template-rows: repeat(8, 1fr);
   grid-gap: 10px 10px;
   grid-template-areas:"header header header header header header"
-                       "mainL mainL mainL mainR mainR mainR"
-                       "mainL mainL mainL mainR mainR mainR"
-                       "mainL mainL mainL . nav nav"
-                       "mainL mainL mainL . nav nav"
-                       "mainL mainL mainL . nav nav"
+                       "mainL mainL mainL mainR mainR ."
+                       "mainL mainL mainL mainR mainR ."
+                       "mainL mainL mainL . . ."
+                       "mainL mainL mainL nav nav ."
+                       "mainL mainL mainL . . ."
                        "footer footer footer footer footer footer";
 }
 h1 {
   font-family: 'Uncial Antiqua';
-  font-size: 52px;
+  font-size: 4vw;
   color: #870201;
   margin-top: 0;
-  text-shadow: 1px 1px  2px #000;
+  text-shadow: 1px 1px  2px #030303;
 }
 p {
   font-family: Ubuntu;
-  font-size: 1.2em;
+  font-size: 1.5vw;
 }
-.img {
-  transition: transform .5s ease-in-out;
-  animation-duration: .4s;
-  animation-timing-function: linear;
-}
-.img:hover {
-  transform: rotate(360deg);
-}
-@media screen only and (max-width: 767px) {
-  h1 {
-    font-size: 38px;
-    text-shadow: 1px 1px 2px #000;
-  }
+.responsive {
+  max-width: 85%;
+  height: auto;
 }
