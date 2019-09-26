@@ -89,7 +89,7 @@ body {
   align-self: center;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .mainLeft {
   grid-area: mainL;
@@ -111,10 +111,10 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(7, 1fr);
   gap: 10px 10px;
-  grid-template-areas:"header header header header header header"
-                       "mainL mainL mainL mainR mainR ."
+  grid-template-areas:"nav nav nav nav nav nav"
+                       "mainL mainL mainL header header header"
                        "mainL mainL mainL . . ."
-                       "mainL mainL mainL nav nav ."
+                       "mainL mainL mainL mainR mainR mainR"
                        "mainL mainL mainL . . ."
                        ". . . . . ."
                        "footer footer footer footer footer footer";
