@@ -66,15 +66,15 @@ li a {
   box-sizing: border-box;
 }
 body {
-  height: 80vh;
+  height: 90vh;
   background-color: #6395b9;
 }
 .nav {
   grid-area: nav;
   font-family: Ubuntu;
   font-size: 1.5em;
-  justify-self: space-around;
-  align-self: center;
+  justify-items: center;
+  align-items: center;
 }
 .nav ul {
   list-style: none;
@@ -87,6 +87,9 @@ body {
   grid-area: header;
   justify-self: center;
   align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .mainLeft {
   grid-area: mainL;
@@ -106,19 +109,19 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  grid-gap: 10px 10px;
+  grid-template-rows: repeat(7, 1fr);
+  gap: 10px 10px;
   grid-template-areas:"header header header header header header"
-                       "mainL mainL mainL mainR mainR ."
                        "mainL mainL mainL mainR mainR ."
                        "mainL mainL mainL . . ."
                        "mainL mainL mainL nav nav ."
                        "mainL mainL mainL . . ."
+                       ". . . . . ."
                        "footer footer footer footer footer footer";
 }
 h1 {
   font-family: 'Uncial Antiqua';
-  font-size: 4vw;
+  font-size: 60px;
   color: #870201;
   margin-top: 0;
   text-shadow: 1px 1px  2px #030303;
@@ -130,4 +133,22 @@ p {
 .responsive {
   max-width: 85%;
   height: auto;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "header header header header"
+                         "nav nav nav nav"
+                         ". mainL mainL ."
+                         "mainR mainR mainR mainR"
+                         "footer footer footer footer";
+  }
+  .nav {
+    font-size: 75%;
+  }
+  h1 {
+    font-size: 80%;
+  }
 }
