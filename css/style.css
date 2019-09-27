@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  height: 100vh;
+  height: 110vh;
   background-color: #6395b9;
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#393e3f+0,0c0d0f+100 */
 background: #393e3f;
@@ -18,7 +18,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#393e3f', endC
 }
 .nav {
   grid-area: nav;
-  grid-column: 2 / 6;
+  grid-column: 1 / 7;
   grid-row: 1 / 2;
   font-family: 'Prosto One';
   font-size: 1.2em;
@@ -27,6 +27,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#393e3f', endC
 }
 .nav ul {
   list-style: none;
+  padding: 0;
 }
 .nav li a {
   text-decoration: none;
@@ -71,14 +72,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#393e3f', endC
 }
 h1 {
   font-family: 'Uncial Antiqua';
-  font-size: 60px;
+  font-size: 70px;
   color: #1278b5;
   margin-top: 0;
   text-shadow: 1px 1px  2px #030303;
 }
 h2 {
   font-family: Ubuntu;
-  font-size: 1.5vw;
+  font-size: 1.6vw;
   color: #ffffff;
 }
 h2 a {
