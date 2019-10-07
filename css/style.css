@@ -3,7 +3,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #121212;
+  margin: 0;
+  background-color: #ffffff;
 }
 .container {
   display: grid;
@@ -12,35 +13,30 @@ body {
   justify-items: center;
   align-items: center;
 }
-.nav {
-  grid-area: nav;
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
-  font-family: 'Prosto One';
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+.navbar {
   overflow: hidden;
+  background-color: #025fa1;
+  margin-top: 15px;
+  box-shadow: 0 2px 5px rgba(3,3,3,.6), 0 -1px 4px rgba(3,3,3,.4);
 }
-.nav .icon {
+.navbar .icon {
   display: none;
 }
-  .nav ul {
-  list-style: none;
-  padding: 0;
-}
-  .nav li a {
-  text-decoration: none;
+.navbar a {
+  float: left;
+  display: block;
   color: #ffffff;
+  font-family: Cambay;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 15px;
 }
-  .nav li a:hover {
-  font-size: 1.5em;
+.navbar a:hover {
+  font-size: 1.2em;
   color: #3fdb87;
   text-shadow: 1px 2px 4px #393e3f;
 }
-.nav a.active {
+.navbar a.active {
   color: #3fdb87;
 }
 .header {
@@ -51,7 +47,7 @@ body {
 h1 {
   font-family: Exo;
   font-size: 36px;
-  color: #3c8ee0;
+  color: #025fa1;
   text-shadow: 1px 2px  2px #000000;
 }
 h2 {
@@ -67,7 +63,7 @@ h2 a {
 p {
   font-family: Ubuntu;
   font-size: 12px;
-  font-color: #bcbcbc;
+  color: #bcbcbc;
 }
 .mainPhoto {
   grid-area: image;
@@ -95,27 +91,42 @@ p {
   align-items: center;
 }
 @media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {
+  .navbar a:not(:first-child) {
     display: none;
   }
-  .nav a.icon {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center; 
+  .navbar a:first-child {
+    font-family: Exo;
+    font-size: 24px;
+    text-shadow: 1px 2px 4px #000000;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  h1 {
+    display: none;
   }
 }
 @media screen and (max-width: 600px) {
-  .nav.responsive {
+  .navbar.responsive {
     position: relative;
   }
-  .nav.responsive a.icon {
+  .navbar.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .nav.responsive a {
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 729px) {
+  .navbar a:first-child {
+    display: none;
+  }
+  .navbar a {
+    font-size: 18px;
   }
 }
