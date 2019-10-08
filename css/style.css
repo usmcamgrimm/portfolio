@@ -55,7 +55,7 @@ body {
 }
 .header {
   grid-area: header;
-  grid-column: 2 / 3;
+  grid-column: 1 / 4;;
   grid-row: 1 / 2;
 }
 h1 {
@@ -65,31 +65,39 @@ h1 {
   text-shadow: 1px 2px  2px #000000;
 }
 h2 {
-  font-family: Ubuntu;
+  font-family: Cambay;
   font-size: 24px;
-  color: #030303;
+  color: #025fa1;
   text-align: center;
+  text-shadow: 0 1px 2px rgba(3,3,3,.5);
+}
+h2 a {
+  text-decoration: none;
+  color: #025fa1;
 }
 p {
   font-family: Ubuntu;
   font-size: 12px;
   color: #bcbcbc;
 }
-.mainPhoto {
+.photoContainer {
   grid-area: image;
-  grid-column: 2 / 3;
-  grid-row: 2 / 4;
-  justify-items: space-around;
+  grid-column: 1 / 4;
+  grid-row: 2 / 5;
+  justify-items: center;
   align-items: center;
+}
+img {
+  border-radius: 8px;
 }
 .responsive {
   max-width: 100%;
   height: auto;
 }
-.mainContent {
+.titleContent {
   grid-area: content;
-  grid-column: 1 / 3;
-  grid-row: 4 / 5;
+  grid-column: 1 / 4;
+  grid-row: 6 / 7;
   justify-items: center;
   align-items: center;
   display: flex;
@@ -106,44 +114,6 @@ p {
 }
 .fas, .fab {
   margin-top: 8px;
-}
-.photoContainer {
-  position: relative;
-  width: 50%;
-}
-.img {
-  display: block;
-  width: 90%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #424243;
-  border: 2px ridge #424243;
-  border-radius: 8px;
-}
-.photoContainer:hover .overlay {
-  opacity: 1;
-}
-.message {
-  color: #3fdb87;
-  font-size: 24px;
-  font-family: Exo;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 769px) {
   .navbar {
