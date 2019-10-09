@@ -118,7 +118,7 @@ img {
 @media screen and (min-width: 769px) {
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 0;
     height: 70px;
     align-items: center;
@@ -127,13 +127,14 @@ img {
     display: flex;
     margin-right: 30px;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .main-nav li {
     margin: 0;
   }
   .nav-links {
-    margin-left: 40px;
+    padding: 8rem;
+    font-size: 1.5rem;
   }
   .logo {
     display: none;
@@ -141,13 +142,20 @@ img {
   .navbar-toggle {
     display: none;
   }
-  .logo:hover,
   .nav-links:hover {
-    color: #ffffff;
+    color: #3fdb87;
+    font-size: 1.6rem;
+    text-shadow: 0 1px 3px #000000;
+  }
+  .img {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
   h1 {
+    display: none;
+  }
+  .img2 {
     display: none;
   }
 }
