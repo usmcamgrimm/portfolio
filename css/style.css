@@ -59,13 +59,13 @@ body {
   grid-row: 1 / 2;
 }
 h1 {
-  font-family: Exo;
+  font-family: Fahkwang;
   font-size: 36px;
   color: #025fa1;
   text-shadow: 1px 2px  2px #000000;
 }
 h2 {
-  font-family: Cambay;
+  font-family: Exo;
   font-size: 24px;
   color: #025fa1;
   text-align: center;
@@ -76,7 +76,7 @@ h2 a {
   color: #025fa1;
 }
 p {
-  font-family: Ubuntu;
+  font-family: Cambay;
   font-size: 12px;
   color: #bcbcbc;
 }
@@ -149,6 +149,13 @@ img {
   }
   .img {
     display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .img2 {
+    background-image: url('../images/adrian3.png');
+    background-color: #ffffff;
+    background-repeat: no-repeat;
   }
 }
 @media screen and (max-width: 768px) {
