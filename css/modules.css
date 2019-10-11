@@ -1,0 +1,142 @@
+/* Mobile Display */
+@media screen and (max-width: 768px) {
+    h1, h2, h2 a {
+        display: none;
+    }
+    .photoContainer {
+        display: flex;
+    }
+    .img2 {
+        display: none;
+    }
+    .aboutSection {
+        display: flex;
+        text-align: center;
+    }
+    p {
+        font-family: Exo;
+        font-size: 1.1rem;
+        color: #ffffff;
+    }
+    p a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+/* Tablet-specific Display */
+@media screen and (min-width: 769px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        height: 50px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        padding: 8rem;
+        font-size: 1.2rem;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .nav-links:hover {
+        color: #3fdb87;
+        font-size: 1.2rem;
+        text-shadow: 0 1px 3px #000000;
+    }
+    .img {
+        display: none;
+    }
+}
+
+/* PC/Laptop Display */
+@media screen and (min-width: 1024px) {
+    .navbar {
+        display: none;
+    }
+    .heroSection {
+        background-color: #2b2b2b;
+        background: url("../images/adrian4.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 399px;
+        opacity: 0.8;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-shadow: 1px 1px 2px #030303;
+    }
+    .heroText {
+        margin-top: 250px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        align-items: flex-end;
+        bottom: 0;
+    }
+    h1 {
+        font-family: Fahkwang;
+        font-size: 4rem;
+        color: #3fdb87;
+        text-shadow: 0 2px 4px #030303;
+    }
+    h2 {
+        font-family: Cambay;
+        font-size: 4rem;
+        color: #025fa1;
+        text-shadow: 0 2px 4px #030303;
+    }
+    h3 {
+        display: none;
+    }
+    .vl {
+        border-left: 2px solid #424243;
+        height: 5em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .aboutSection {
+        display: flex;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
+        padding: 25px;
+    }
+    p {
+        font-family: Exo;
+        font-size: 1.4rem;
+        color: #ffffff;
+        text-align: center;
+    }
+    p a {
+        font-family: Exo;
+        text-decoration: none;
+        color: #ffffff;
+        cursor: crosshair;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .aboutSection {
+        display: flex;
+        margin-top: 25px;
+        padding: 20px;
+    }
+}
