@@ -22,6 +22,12 @@
         text-decoration: none;
         color: #ffffff;
     }
+    .aboutSection p {
+        margin: 10px;
+    }
+    .titleContent h3 {
+        margin-top: 10px;
+    }
 }
 
 /* Tablet-specific Display */
@@ -114,7 +120,8 @@
         margin-right: 10px;
     }
     .aboutSection {
-        display: flex;
+        grid-column: 2 / 3;
+        display: grid;
         margin-top: 25px;
         margin-right: 25px;
         margin-left: 25px;

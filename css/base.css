@@ -60,3 +60,8 @@ img {
   display: flex;
   justify-content: center;
 }
+.aboutSection {
+  grid-area: about;
+  grid-column: 1 / 4;
+  grid-row: 8 / 9;
+}
