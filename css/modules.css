@@ -68,6 +68,12 @@
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .linkMenu {
+        display: none;
+    }
+}
+
 /* PC/Laptop Display */
 @media screen and (min-width: 1024px) {
     .navbar {
