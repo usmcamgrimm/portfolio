@@ -46,7 +46,8 @@
     grid-row: 1 / 2;
 }
 .footer {
-    position: absolute;
+    position: sticky;
+    position: -webkit-sticky;
     bottom: 0;
     width: 100%;
     height: 40px;
