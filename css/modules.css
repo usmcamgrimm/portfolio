@@ -143,27 +143,6 @@
     .footer {
         display: none;
     }
-    /*
-    .fab {
-        width: 56px;
-        height: 56px;
-        background-color: #025fa1;
-        border-radius: 50px;
-        box-shadow: 0 3px 6px #030303;
-        font-size: 30px;
-        color: #3fdb87;
-        text-align: center;
-        margin: 0 auto;
-        padding-top: 5px;
-        position: fixed;
-        right: 50px;
-        bottom: 50px;
-    }
-    .fab:hover {
-        box-shadow: 0 5px 12px #030303;
-        transform: scale(1.10);
-    }
-    */
     .float {
         width: 72px;
         height: 72px;
