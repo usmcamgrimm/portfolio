@@ -139,11 +139,133 @@
         color: #ffffff;
         cursor: crosshair;
     }
+    /* Add section for FAB Menu */
+    .footer {
+        display: none;
+    }
+    /*
+    .fab {
+        width: 56px;
+        height: 56px;
+        background-color: #025fa1;
+        border-radius: 50px;
+        box-shadow: 0 3px 6px #030303;
+        font-size: 30px;
+        color: #3fdb87;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 5px;
+        position: fixed;
+        right: 50px;
+        bottom: 50px;
+    }
+    .fab:hover {
+        box-shadow: 0 5px 12px #030303;
+        transform: scale(1.10);
+    }
+    */
+    .float {
+        width: 72px;
+        height: 72px;
+        background-color: #025fa1;
+        border-radius: 50%;
+        box-shadow: 0 3px 12px #030303;
+        font-size: 36px;
+        color: #3fdb87;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 10px;
+        position: fixed;
+        right: 50px;
+        bottom: 20px;
+        z-index: 1000;
+    }
+    .float:hover {
+        box-shadow: 0 3px 15px #030303;
+    }
+    ul {
+        position: fixed;
+        right: 62px;
+        padding-bottom: 48px;
+        bottom: 50px;
+        z-index: 100;
+    }
+    ul li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+    ul li a {
+        background-color: #025fa1;
+        color: #3fdb87;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 0 2px 8px #030303;
+        width: 48px;
+        height: 48px;
+        display: block;
+    }
+    ul li a:hover {
+        box-shadow: 0px 4px 12px #030303;
+        transform: scale(1.10);
+    }
+    ul:hover {
+        visibility: visible!important;
+        opacity: 1!important;
+    }
+    .my-float {
+        font-size: 24px;
+        margin-top: 12px;
+    }
+    a#menu-share + ul {
+        visibility: hidden;
+    }
+    a#menu-share:hover + ul {
+        visibility: visible;
+        animation: scale-in 0.2s;
+    }
+    a#menu-share i {
+        animation: rotate-in 0.5s;
+    }
+    a#menu-share:hover > i {
+        animation: rotate-out 0.2s;
+    }
+    @keyframes scale-in {
+        from {
+            transform: scale(0);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    @keyframes rotate-in {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes rotate-out {
+        from {
+            transform: rotate(360deg);
+        }
+        to {
+            transform: rotate(0deg);
+        }
+    }
 }
 @media screen and (min-width: 1440px) {
     .aboutSection {
         display: flex;
         margin-top: 25px;
         padding: 20px;
+    }
+    .float {
+        bottom: 50px;
+    }
+    ul {
+        bottom: 80px;
     }
 }
