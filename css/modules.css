@@ -72,6 +72,9 @@
     .linkMenu {
         display: none;
     }
+    .heroNav {
+        display: none;
+    }
 }
 
 /* PC/Laptop Display */
