@@ -132,10 +132,9 @@
     }
     .aboutSection {
         display: grid;
-        margin-top: 8px;
         margin-right: 50px;
         margin-left: 50px;
-        padding: 50px;
+        padding: 30px;
     }
     p {
         font-family: Exo;
@@ -150,6 +149,9 @@
         cursor: crosshair;
     }
     .heroNav {
+        position: sticky;
+        z-index: 10;
+        top: 0;
         margin: 20px;
         width: auto;
         display: flex;
@@ -160,11 +162,13 @@
         font-size: 18px;
     }
     .heroNav a {
-        position: sticky;
-        top: 0;
         display: flex;
         color: #3fdb87;
         text-decoration: none;
+    }
+    .heroNav a:hover {
+        transform: scale(1.2);
+        text-shadow: 1px 4px 10px #030303;
     }
 
     /* Add section for FAB Menu */
@@ -172,18 +176,18 @@
         display: none;
     }
     .float {
-        width: 72px;
-        height: 72px;
+        width: 60px;
+        height: 60px;
         background-color: #025fa1;
         border-radius: 50%;
         box-shadow: 0 3px 12px #030303;
-        font-size: 36px;
+        font-size: 32px;
         color: #3fdb87;
         text-align: center;
         margin: 0 auto;
-        padding-top: 10px;
+        padding-top: 6px;
         position: fixed;
-        right: 25px;
+        right: 20px;
         bottom: 20px;
         z-index: 1000;
     }
@@ -192,8 +196,8 @@
     }
     ul {
         position: fixed;
-        right: 37px;
-        padding-bottom: 48px;
+        right: 28px;
+        padding-bottom: 40px;
         bottom: 50px;
         z-index: 100;
     }
@@ -207,8 +211,8 @@
         border-radius: 50%;
         text-align: center;
         box-shadow: 0 2px 8px #030303;
-        width: 48px;
-        height: 48px;
+        width: 42px;
+        height: 42px;
         display: block;
     }
     ul li a:hover {
@@ -220,8 +224,8 @@
         opacity: 1!important;
     }
     .my-float {
-        font-size: 24px;
-        margin-top: 12px;
+        font-size: 22px;
+        margin-top: 10px;
     }
     a#menu-share + ul {
         visibility: hidden;
