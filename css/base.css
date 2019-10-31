@@ -10,7 +10,7 @@ body {
   margin: 0;
   background-color: #2b2b2b;
 }
-.container {
+.mobContainer {
   margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr, auto, 1fr;

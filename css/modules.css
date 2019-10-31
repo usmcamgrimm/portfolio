@@ -41,6 +41,12 @@
 
 /* PC/Laptop Display */
 @media screen and (min-width: 1024px) {
+    .mobContainer {
+        display: none;
+    }
+    section#home {
+        height: 100vh;
+    }
     .photoContainer {
         display: none;
     }
