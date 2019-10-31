@@ -1,5 +1,5 @@
 /* Mobile Display */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     h1, h2, h2 a {
         display: none;
     }
@@ -30,44 +30,6 @@
     }
 }
 
-/* Tablet-specific Display */
-@media screen and (min-width: 769px) {
-    .navbar {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 0;
-        height: 50px;
-        align-items: center;
-    }
-    .main-nav {
-        display: flex;
-        margin-right: 30px;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .main-nav li {
-        margin: 0;
-    }
-    .nav-links {
-        padding: 8rem;
-        font-size: 1.2rem;
-    }
-    .logo {
-        display: none;
-    }
-    .navbar-toggle {
-        display: none;
-    }
-    .nav-links:hover {
-        color: #3fdb87;
-        font-size: 1.2rem;
-        text-shadow: 0 1px 3px #000000;
-    }
-    .img {
-        display: none;
-    }
-}
-
 @media screen and (max-width: 1023px) {
     .linkMenu {
         display: none;
@@ -79,6 +41,9 @@
 
 /* PC/Laptop Display */
 @media screen and (min-width: 1024px) {
+    .photoContainer {
+        display: none;
+    }
     .navbar {
         display: none;
     }
@@ -174,8 +139,6 @@
         margin-top: 25px;
         margin-left: 50px;
         margin-right: 50px;
-        box-shadow: 1px 2px 8px rgba(03, 03, 03, 0.4),
-        -1px -2px 8px rgba(03, 03, 03, 0.4);
         transition: all .3s linear;
     }
     .navBox a {
