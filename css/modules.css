@@ -79,9 +79,6 @@
 
 /* PC/Laptop Display */
 @media screen and (min-width: 1024px) {
-    body {
-        margin-top: 30px;
-    }
     .navbar {
         display: none;
     }
@@ -155,26 +152,47 @@
         cursor: crosshair;
     }
     .heroNav {
-        position: sticky;
+        height: 100vh;
         z-index: 10;
-        top: 0;
         margin: 20px;
         width: auto;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-content: flex-start;
         font-family: Fahkwang;
-        font-size: 18px;
+        font-size: 22px;
     }
-    .heroNav a {
+    .navBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        border-radius: 6px;
+        background: #2b2b2b;
+        margin-top: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        box-shadow: 1px 2px 8px rgba(03, 03, 03, 0.4),
+        -1px -2px 8px rgba(03, 03, 03, 0.4);
+        transition: all .3s linear;
+    }
+    .navBox a {
         display: flex;
         color: #3fdb87;
         text-decoration: none;
     }
-    .heroNav a:hover {
+    .navBox a:hover {
         transform: scale(1.2);
         text-shadow: 1px 4px 10px #030303;
+    }
+    .navBox:hover {
+        border-radius: 50%;
+        background: #025fa1;
+        font-size: 24px;
+        box-shadow: 1px 2px 8px rgba(03, 03, 03, 0.5),
+        -1px -2px 8px rgba(03, 03, 03, 0.5);
     }
 
     /* Add section for FAB Menu */
