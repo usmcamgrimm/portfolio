@@ -68,3 +68,7 @@ img {
   grid-column: 1 / 4;
   grid-row: 8 / 9;
 }
+.gitBtn {
+  background-color: #025fa1;
+  border-radius: 8px;
+}

@@ -13,6 +13,9 @@
         display: flex;
         text-align: center;
     }
+    #about {
+        display: none;
+    }
     p {
         font-family: Exo;
         font-size: 1.1rem;
