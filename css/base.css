@@ -68,7 +68,26 @@ img {
   grid-column: 1 / 4;
   grid-row: 8 / 9;
 }
+#gitLoad {
+  margin-top: 25px;
+  text-align: center;
+}
+h4 {
+  font-family: Exo;
+  text-align: center;
+  color: #025fa1;
+  font-size: 24px;
+}
+#gitBtn {
+  margin: 20px;
+}
 .gitBtn {
   background-color: #025fa1;
+  color: #3fdb87;
+  font-size: 16px;
+  font-family: Fahkwang;
   border-radius: 8px;
+  border: none;
+  padding: 10px;
+  box-shadow: 1px 2px 6px #030303;
 }
