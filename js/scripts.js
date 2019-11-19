@@ -7,21 +7,10 @@ navBarToggle.addEventListener('click', function () {
 });
 
 // Script to change title on main screen
-/*
-let array = ['Front End Developer', 'Developer', 'Web Developer', 'Programmer'];
+let devArray = ['Front End Developer', 'Developer', 'Web Developer', 'Programmer'];
+
+const myDev = setInterval(devRandom, 2000);
 
 function devRandom() {
-    document.getElementById("dev").innerHTML = array[Math.floor(Math.random() * array.length)];
+    document.getElementById("dev").innerHTML = devArray[Math.floor(Math.random() * devArray.length)];
 }
-*/
-let array = ['Front End Developer', 'Developer', 'Web Developer', 'Programmer'];
-
-var i = 0;
-let intervalDev = setInterval(devRandom() {
-    document.getElementById('dev').innerHTML = dev[i];
-    if (i == (dev.length -1)) {
-        i = 0;
-    } else {
-        i++;
-    }
-}, 2000)
