@@ -11,7 +11,7 @@ body {
   background-color: #fefefe;
 }
 .mobContainer {
-  margin-top: 20px;
+  margin-top: 5px;
   display: grid;
   grid-template-columns: 1fr, auto, 1fr;
   grid-template-rows: 1fr, auto, 1fr;
