@@ -14,7 +14,7 @@ body {
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr, auto, 1fr;
-  grid-template-rows: 1fr, auto, 1fr;
+  grid-template-rows: 1fr, auto, 1fr, 1fr;
   justify-items: center;
   align-items: center;
 }
@@ -46,8 +46,8 @@ p {
   grid-row: 1 / 2;
   justify-items: center;
   align-items: center;
-  display: flex;
   text-align: center;
+  padding-bottom: 10px;
 }
 .photoContainer {
   grid-area: image;
@@ -85,5 +85,6 @@ h4 {
 }
 #gitHub {
   margin: 0 auto;
+  padding-top: 25px;
   text-align: center;
 }

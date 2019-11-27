@@ -1,6 +1,6 @@
 /* Mobile Display */
 @media screen and (max-width: 1024px) {
-    h1, h2, h2 a {
+    h2, h2 a {
         display: none;
     }
     .photoContainer {
@@ -30,6 +30,9 @@
     }
     .titleContent h3 {
         margin-top: 10px;
+    }
+    .heroText {
+        display: none;
     }
 }
 
