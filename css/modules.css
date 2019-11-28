@@ -70,7 +70,6 @@
         background-position: center;
         background-repeat: no-repeat;
         height: 399px;
-        opacity: 0.8;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
@@ -129,16 +128,17 @@
         cursor: crosshair;
     }
     .heroNav {
-        height: 100vh;
+        height: 9em;
         z-index: 10;
-        margin: 20px;
+        margin: 20px 100px 20px 100px;
         width: auto;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: center;
         align-content: flex-start;
         font-family: Fahkwang;
         font-size: 22px;
+        box-shadow: 0px 2px 8px rgba(3,3,3,0.5);
     }
     .navBox {
         display: flex;
@@ -147,7 +147,7 @@
         width: 150px;
         height: 150px;
         border-radius: 6px;
-        background: #2b2b2b;
+        background: #fefefe;
         margin-top: 25px;
         margin-left: 50px;
         margin-right: 50px;
@@ -155,12 +155,8 @@
     }
     .navBox a {
         display: flex;
-        color: #3fdb87;
+        color: #025fa1;
         text-decoration: none;
-    }
-    .navBox a:hover {
-        transform: scale(1.2);
-        text-shadow: 1px 4px 10px #030303;
     }
     .navBox:hover {
         border-radius: 50%;
@@ -168,6 +164,15 @@
         font-size: 24px;
         box-shadow: 1px 2px 8px rgba(03, 03, 03, 0.5),
         -1px -2px 8px rgba(03, 03, 03, 0.5);
+    }
+    .navBox:hover a {
+        color: #3fdb87;
+        text-shadow: 0px 2px 6px rgba(3,3,3,0.6);
+    }
+    .navBox a:hover {
+        transform: scale(1.2);
+        color: #3fdb87;
+        text-shadow: 1px 4px 10px #030303;
     }
 
     /* Add section for FAB Menu */
