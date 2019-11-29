@@ -12,6 +12,7 @@
     .aboutSection {
         display: flex;
         text-align: center;
+        margin-top: 20px;
     }
     #about {
         display: none;
@@ -42,6 +43,29 @@
     }
     .heroNav {
         display: none;
+    }
+    .heroContainer {
+        display: none;
+    }
+    .mobLinks {
+        margin: 80px auto;
+        width: 200px;
+        height: 100px;
+        background-color:#fefefe;
+        display:grid;
+        grid-template-columns: 100px 100px;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+    .mobLink {
+        color:#025fa1;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-family: Fahkwang;
+        font-size: 25px;
+        font-family:sans-serif;
     }
 }
 
