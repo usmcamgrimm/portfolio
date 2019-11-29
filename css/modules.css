@@ -83,6 +83,9 @@
     .navbar {
         display: none;
     }
+    .mobLinks {
+        display: none;
+    }
     .container {
         display: grid;
         grid-template-columns: 20px, 20px, 200px, 20px, 20px;
@@ -166,6 +169,7 @@
         align-content: flex-start;
         font-family: Fahkwang;
         font-size: 22px;
+        border-radius: 8px;
         box-shadow: 0px 2px 8px rgba(3,3,3,0.5);
     }
     .navBox {
@@ -176,7 +180,6 @@
         height: 150px;
         border-radius: 6px;
         background: none;
-        
         margin-top: 25px;
         margin-left: 50px;
         margin-right: 50px;
@@ -203,18 +206,20 @@
         color: #3fdb87;
         text-shadow: 1px 4px 10px #030303;
     }
+    .footer p {
+        font-family: Fahkwang;
+        font-size: 1.1em;
+        color: #030303;
+
+    }
 
     /* Add section for FAB Menu */
-    .footer p {
-        font-size: 1.2em;
-        color: #c0c0c0;
-    }
     .float {
         width: 60px;
         height: 60px;
         background-color: #025fa1;
         border-radius: 50%;
-        box-shadow: 0 3px 12px #030303;
+        box-shadow: 0 3px 12px #000000;
         font-size: 32px;
         color: #3fdb87;
         text-align: center;
