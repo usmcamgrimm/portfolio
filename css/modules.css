@@ -69,21 +69,24 @@
         background: url("../images/adrian4.png");
         background-position: center;
         background-repeat: no-repeat;
-        height: 399px;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        -webkit-justify-content: center;
-        -ms-flex-pack: center;
-        justify-content: center;
+        width: 100%;
         text-shadow: 1px 1px 2px #030303;
     }
-    .heroText {
-        margin-top: 250px;
+    .heroContainer {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+    }
+    .heroText {
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: flex-start;
+        bottom: 0;
+    }
+    .heroDev {
+        display: flex;
+        justify-content: center;
         flex-direction: row;
         align-items: flex-end;
         bottom: 0;
@@ -103,11 +106,9 @@
     h3 {
         display: none;
     }
-    .vl {
-        border-left: 2px solid #424243;
-        height: 5em;
-        margin-left: 10px;
-        margin-right: 10px;
+    hr {
+        width: 20%;
+        margin: 0 auto;
     }
     .aboutSection {
         display: grid;
@@ -176,8 +177,9 @@
     }
 
     /* Add section for FAB Menu */
-    .footer {
-        display: none;
+    .footer p {
+        font-size: 1.2em;
+        color: #c0c0c0;
     }
     .float {
         width: 60px;

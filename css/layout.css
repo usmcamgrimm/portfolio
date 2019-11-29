@@ -52,6 +52,6 @@
     width: 100%;
     height: 40px;
     text-align: center;
-    background-color: #025fa1;
-    box-shadow: 0 -1px 5px rgba(3, 3, 3, .3);
+    font-family: Fahkwang;
+    color: #030303;
 }
