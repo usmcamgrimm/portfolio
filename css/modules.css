@@ -156,9 +156,6 @@
         cursor: crosshair;
     }
     .heroNav {
-        background: #fefefe;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #fefefe, #c0c0c0);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #fefefe, #c0c0c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         height: 9em;
         z-index: 10;
         margin: 20px 100px 20px 100px;
@@ -169,8 +166,6 @@
         align-content: flex-start;
         font-family: Fahkwang;
         font-size: 22px;
-        border-radius: 8px;
-        box-shadow: 0px 2px 8px rgba(3,3,3,0.5);
     }
     .navBox {
         display: flex;

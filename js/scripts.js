@@ -22,3 +22,11 @@ const myMobDev = setInterval(mobRandom, 2000);
 function mobRandom() {
     document.getElementById("mobDev").innerHTML = devArray[Math.floor(Math.random() * devArray.length)];
 }
+
+// Change tab title
+window.onblur = function () {
+    document.title = 'Don\'t Go!';
+}
+window.onfocus = function () {
+    document.title = 'Adrian Grimm';
+}
