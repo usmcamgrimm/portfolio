@@ -25,7 +25,7 @@ function mobRandom() {
 
 // Change tab title
 window.onblur = function () {
-    document.title = 'Don\'t Go!';
+    document.title = 'Come back soon!';
 }
 window.onfocus = function () {
     document.title = 'Adrian Grimm';

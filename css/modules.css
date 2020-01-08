@@ -71,6 +71,9 @@
 
 /* PC/Laptop Display */
 @media screen and (min-width: 1024px) {
+    body {
+        background-color: #2b2b2b;
+    }
     .mobContainer {
         display: none;
     }
@@ -93,10 +96,12 @@
     }
     .heroSection {
         background-color: #2b2b2b;
+        /* 
         background: url("../images/adrian4.png");
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
+        */
         text-shadow: 1px 1px 2px #030303;
     }
     .heroContainer {
@@ -156,56 +161,31 @@
         cursor: crosshair;
     }
     .heroNav {
-        height: 9em;
         z-index: 10;
-        margin: 20px 100px 20px 100px;
         width: auto;
         display: flex;
         flex-flow: row nowrap;
-        justify-content: center;
-        align-content: flex-start;
+        justify-content: flex-end;
+        align-content: center;
         font-family: Fahkwang;
-        font-size: 22px;
+        font-size: 18px;
     }
     .navBox {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         width: 150px;
-        height: 150px;
-        border-radius: 6px;
-        background: none;
         margin-top: 25px;
-        margin-left: 50px;
-        margin-right: 50px;
-        transition: all .3s linear;
+        margin-right: 18px;
     }
     .navBox a {
-        display: flex;
         color: #025fa1;
         text-decoration: none;
-    }
-    .navBox:hover {
-        border-radius: 50%;
-        background: #025fa1;
-        font-size: 24px;
-        box-shadow: 1px 2px 8px rgba(03, 03, 03, 0.5),
-        -1px -2px 8px rgba(03, 03, 03, 0.5);
-    }
-    .navBox:hover a {
-        color: #3fdb87;
-        text-shadow: 0px 2px 6px rgba(3,3,3,0.6);
-    }
-    .navBox a:hover {
-        transform: scale(1.2);
-        color: #3fdb87;
-        text-shadow: 1px 4px 10px #030303;
     }
     .footer p {
         font-family: Fahkwang;
         font-size: 1.1em;
         color: #030303;
-
     }
 
     /* Add section for FAB Menu */
