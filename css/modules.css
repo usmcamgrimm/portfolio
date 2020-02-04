@@ -142,12 +142,6 @@
         width: 20%;
         margin: 0 auto;
     }
-    .aboutSection {
-        display: grid;
-        margin-right: 50px;
-        margin-left: 50px;
-        padding: 30px;
-    }
     p {
         font-family: Exo;
         font-size: 1.4rem;
@@ -158,6 +152,26 @@
         font-family: Exo;
         text-decoration: none;
         color: #fefefe;
+        cursor: crosshair;
+    }
+    section#about {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 50px;
+        margin-left: 50px;
+        padding: 40px;
+        background: #fefefe;
+        color: #010101;
+    }
+    section#about p {
+        font-family: Exo;
+        text-decoration: none;
+        color:#010101;
+    }
+    section#about p a {
+        font-family: Exo;
+        text-decoration: none;
+        color: #010101;
         cursor: crosshair;
     }
     .heroNav {
