@@ -1,37 +1,48 @@
 /* Mobile Display */
 @media screen and (max-width: 1024px) {
-    h2, h2 a {
+
+    h2,
+    h2 a {
         display: none;
     }
+
     .photoContainer {
         display: flex;
     }
+
     .img2 {
         display: none;
     }
+
     .aboutSection {
         display: flex;
         text-align: center;
         margin-top: 20px;
     }
+
     #about {
         display: none;
     }
+
     p {
         font-family: Exo;
         font-size: 1.1rem;
         color: #030303;
     }
+
     p a {
         text-decoration: none;
         color: #030303;
     }
+
     .aboutSection p {
         margin: 10px;
     }
+
     .titleContent h3 {
         margin-top: 10px;
     }
+
     .heroText {
         display: none;
     }
@@ -41,31 +52,35 @@
     .linkMenu {
         display: none;
     }
+
     .heroNav {
         display: none;
     }
+
     .heroContainer {
         display: none;
     }
+
     .mobLinks {
         margin: 80px auto;
         width: 200px;
         height: 100px;
-        background-color:#fefefe;
-        display:grid;
+        background-color: #fefefe;
+        display: grid;
         grid-template-columns: 100px 100px;
         grid-row: auto auto;
         grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
+
     .mobLink {
-        color:#025fa1;
-        display:flex;
-        align-items:center;
-        justify-content:center;
+        color: #025fa1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-family: Fahkwang;
         font-size: 25px;
-        font-family:sans-serif;
+        font-family: sans-serif;
     }
 }
 
@@ -74,26 +89,33 @@
     body {
         background-color: #2b2b2b;
     }
+
     .mobContainer {
         display: none;
     }
+
     section#home {
         height: 100vh;
     }
+
     .photoContainer {
         display: none;
     }
+
     .navbar {
         display: none;
     }
+
     .mobLinks {
         display: none;
     }
+
     .container {
         display: grid;
         grid-template-columns: 20px, 20px, 200px, 20px, 20px;
         grid-template-rows: repeat(3, auto);
     }
+
     .heroSection {
         background-color: #2b2b2b;
         /* 
@@ -104,10 +126,12 @@
         */
         text-shadow: 1px 1px 2px #030303;
     }
+
     .heroContainer {
         display: flex;
         flex-direction: column;
     }
+
     .heroText {
         margin-top: 200px;
         display: flex;
@@ -116,6 +140,7 @@
         align-items: flex-start;
         bottom: 0;
     }
+
     .heroDev {
         display: flex;
         justify-content: center;
@@ -123,57 +148,65 @@
         align-items: flex-end;
         bottom: 0;
     }
+
     h1 {
         font-family: Fahkwang;
         font-size: 4rem;
         color: #3fdb87;
         text-shadow: 0 2px 4px #030303;
     }
+
     h2 {
         font-family: Cambay;
         font-size: 3rem;
         color: #025fa1;
         text-shadow: 0 2px 4px #030303;
     }
+
     h3 {
         display: none;
     }
+
     hr {
         width: 20%;
         margin: 0 auto;
     }
+
     p {
         font-family: Exo;
         font-size: 1.4rem;
         color: #fefefe;
         text-align: center;
     }
+
     p a {
         font-family: Exo;
         text-decoration: none;
         color: #fefefe;
         cursor: crosshair;
     }
+
     section#about {
-        display: flex;
-        justify-content: space-around;
-        margin-right: 50px;
-        margin-left: 50px;
         padding: 40px;
         background: #fefefe;
         color: #010101;
     }
+
     section#about p {
         font-family: Exo;
         text-decoration: none;
-        color:#010101;
+        color: #010101;
+        margin: 10px 3em;
+        padding: 1em;
     }
+
     section#about p a {
         font-family: Exo;
         text-decoration: none;
         color: #010101;
         cursor: crosshair;
     }
+
     .heroNav {
         z-index: 10;
         width: auto;
@@ -184,6 +217,7 @@
         font-family: Fahkwang;
         font-size: 18px;
     }
+
     .navBox {
         display: flex;
         justify-content: flex-end;
@@ -192,10 +226,12 @@
         margin-top: 25px;
         margin-right: 18px;
     }
+
     .navBox a {
         color: #025fa1;
         text-decoration: none;
     }
+
     .footer p {
         font-family: Fahkwang;
         font-size: 1.1em;
@@ -219,9 +255,11 @@
         bottom: 20px;
         z-index: 1000;
     }
+
     .float:hover {
         box-shadow: 0 3px 15px #030303;
     }
+
     ul {
         position: fixed;
         right: 28px;
@@ -229,10 +267,12 @@
         bottom: 50px;
         z-index: 100;
     }
+
     ul li {
         list-style: none;
         margin-bottom: 10px;
     }
+
     ul li a {
         background-color: #025fa1;
         color: #3fdb87;
@@ -243,58 +283,72 @@
         height: 42px;
         display: block;
     }
+
     ul li a:hover {
         box-shadow: 0px 4px 12px #030303;
         transform: scale(1.10);
     }
+
     ul:hover {
-        visibility: visible!important;
-        opacity: 1!important;
+        visibility: visible !important;
+        opacity: 1 !important;
     }
+
     .my-float {
         font-size: 22px;
         margin-top: 10px;
     }
-    a#menu-share + ul {
+
+    a#menu-share+ul {
         visibility: hidden;
     }
-    a#menu-share:hover + ul {
+
+    a#menu-share:hover+ul {
         visibility: visible;
         animation: scale-in 0.2s;
     }
+
     a#menu-share i {
         animation: rotate-in 0.5s;
     }
-    a#menu-share:hover > i {
+
+    a#menu-share:hover>i {
         animation: rotate-out 0.2s;
     }
+
     @keyframes scale-in {
         from {
             transform: scale(0);
             opacity: 0;
         }
+
         to {
             transform: scale(1);
             opacity: 1;
         }
     }
+
     @keyframes rotate-in {
         from {
             transform: rotate(0deg);
         }
+
         to {
             transform: rotate(360deg);
         }
     }
+
     @keyframes rotate-out {
         from {
             transform: rotate(360deg);
         }
+
         to {
             transform: rotate(0deg);
         }
     }
 }
+
 @media screen and (min-width: 1440px) {
     .aboutSection {
         display: flex;
@@ -302,9 +356,11 @@
         margin-right: 3em;
         margin-left: 3em;
     }
+
     .float {
         bottom: 30px;
     }
+
     ul {
         bottom: 60px;
     }
