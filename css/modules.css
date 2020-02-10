@@ -152,14 +152,14 @@
     h1 {
         font-family: Fahkwang;
         font-size: 4rem;
-        color: #3fdb87;
+        color: #025fa1;
         text-shadow: 0 2px 4px #030303;
     }
 
     h2 {
         font-family: Cambay;
         font-size: 3rem;
-        color: #025fa1;
+        color: #3fdb87;
         text-shadow: 0 2px 4px #030303;
     }
 
@@ -223,12 +223,12 @@
         justify-content: flex-end;
         align-items: center;
         width: 150px;
-        margin-top: 25px;
+        margin-top: 18px;
         margin-right: 18px;
     }
 
     .navBox a {
-        color: #025fa1;
+        color: #3fdb87;
         text-decoration: none;
     }
 
