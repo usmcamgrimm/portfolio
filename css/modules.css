@@ -151,14 +151,14 @@
     h1 {
         font-family: Fahkwang;
         font-size: 4rem;
-        color: #3fdb87;
+        color: #1dbaba;
         text-shadow: 0 2px 4px #030303;
     }
 
     h2 {
-        font-family: Cambay;
+        font-family: Comfortaa;
         font-size: 3rem;
-        color: #bcbcbc;
+        color: #ada3a1;
         text-shadow: 0 2px 4px #030303;
     }
 
@@ -167,6 +167,7 @@
     }
 
     hr {
+        background: #a31223;
         width: 20%;
         margin: 0 auto;
     }
@@ -224,13 +225,18 @@
         justify-content: flex-end;
         align-items: center;
         width: 100px;
-        margin-top: 1rem;
+        margin: 12px;
         margin-right: 18px;
     }
 
     .navBox a {
         color: #fefefe;
         text-decoration: none;
+    }
+    .navBox a:hover {
+        color: #bcbcbc;
+        text-decoration: none;
+        text-shadow: 0 2px 6px #111111;
     }
 
     .footer p {
@@ -243,11 +249,11 @@
     .float {
         width: 60px;
         height: 60px;
-        background-color: #025fa1;
+        background-color: #515151;
         border-radius: 50%;
         box-shadow: 0 3px 12px #000000;
         font-size: 32px;
-        color: #3fdb87;
+        color: #1dbaba;
         text-align: center;
         margin: 0 auto;
         padding-top: 6px;
@@ -275,8 +281,8 @@
     }
 
     ul li a {
-        background-color: #025fa1;
-        color: #3fdb87;
+        background-color: #515151;
+        color: #1dbaba;
         border-radius: 50%;
         text-align: center;
         box-shadow: 0 2px 8px #030303;
