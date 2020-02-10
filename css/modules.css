@@ -87,7 +87,7 @@
 /* PC/Laptop Display */
 @media screen and (min-width: 1024px) {
     body {
-        background-color: #2b2b2b;
+        background-color: #016caf;
     }
 
     .mobContainer {
@@ -117,7 +117,7 @@
     }
 
     .heroSection {
-        background-color: #2b2b2b;
+        background-color: #016caf;
         /* 
         background: url("../images/adrian4.png");
         background-position: center;
@@ -152,14 +152,14 @@
     h1 {
         font-family: Fahkwang;
         font-size: 4rem;
-        color: #025fa1;
+        color: #3fdb87;
         text-shadow: 0 2px 4px #030303;
     }
 
     h2 {
         font-family: Cambay;
         font-size: 3rem;
-        color: #3fdb87;
+        color: #bcbcbc;
         text-shadow: 0 2px 4px #030303;
     }
 
@@ -216,19 +216,20 @@
         align-content: center;
         font-family: Fahkwang;
         font-size: 18px;
+        background: #025fa1;
     }
 
     .navBox {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 150px;
-        margin-top: 18px;
+        width: 100px;
+        margin-top: 1rem;
         margin-right: 18px;
     }
 
     .navBox a {
-        color: #3fdb87;
+        color: #bcbcbc;
         text-decoration: none;
     }
 
