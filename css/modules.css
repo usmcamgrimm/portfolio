@@ -240,6 +240,18 @@
         text-shadow: 0 2px 6px #111111;
     }
 
+    section#projects {
+        background: #3a4659;
+        padding: 3rem;
+    }
+
+    .imageLinks {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-content: flex-end;
+    }
+    
     .footer p {
         font-family: Fahkwang;
         font-size: 1.1em;
