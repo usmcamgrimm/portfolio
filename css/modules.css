@@ -174,14 +174,14 @@
     }
 
     p {
-        font-family: Exo;
+        font-family: Cambay;
         font-size: 1.4rem;
         color: #fefefe;
         text-align: center;
     }
 
     p a {
-        font-family: Exo;
+        font-family: Cambay;
         text-decoration: none;
         color: #fefefe;
         cursor: crosshair;
@@ -194,7 +194,7 @@
     }
 
     section#about p {
-        font-family: Exo;
+        font-family: Cambay;
         text-decoration: none;
         color: #010101;
         margin: 10px 3em;
