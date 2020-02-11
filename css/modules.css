@@ -241,15 +241,19 @@
     }
 
     section#projects {
-        background: #3a4659;
+        background: #fefefe;
         padding: 3rem;
+        display: flex;
+        justify-content: space-around;
     }
 
     .imageLinks {
         margin-top: 2rem;
         display: flex;
-        justify-content: center;
-        align-content: flex-end;
+    }
+    .imgProj {
+        max-width: 50%;
+        height: auto;
     }
     
     .footer p {
