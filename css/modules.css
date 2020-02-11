@@ -151,7 +151,7 @@
     h1 {
         font-family: Fahkwang;
         font-size: 4rem;
-        color: #1dbaba;
+        color: #025fa1;
         text-shadow: 0 2px 4px #030303;
     }
 
@@ -160,6 +160,7 @@
         font-size: 3rem;
         color: #ada3a1;
         text-shadow: 0 2px 4px #030303;
+        padding-top: .5rem;;
     }
 
     h3 {
