@@ -20,16 +20,6 @@ section#home {
     display: none;
 }
 
-.mobLinks {
-    display: none;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: 20px, 20px, 200px, 20px, 20px;
-    grid-template-rows: repeat(3, auto);
-}
-
 .heroSection {
     background-color: #28313e;
     text-shadow: 1px 1px 2px #030303;
@@ -112,7 +102,7 @@ section#about p {
 }
 
 section#about p a {
-    font-family: Exo;
+    font-family: Cambay;
     text-decoration: none;
     color: #010101;
     cursor: crosshair;
@@ -170,7 +160,6 @@ section#projects {
     max-width: 30%;
     height: auto;
 }
-
 
 .footer p {
     font-family: Fahkwang;
