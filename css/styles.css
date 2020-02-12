@@ -1,13 +1,15 @@
 * {
-box-sizing: border-box;
-padding: 0;
-margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+
 body {
-    background-color: #3a4659;
+    background-color: #28313e;
 }
 
 .mobContainer {
@@ -37,12 +39,7 @@ section#home {
 }
 
 .heroSection {
-    background-color: #3a4659;
-    /* background: url("../images/adrian4.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-    height: auto; */
+    background-color: #28313e;
     text-shadow: 1px 1px 2px #030303;
 }
 
@@ -68,11 +65,12 @@ section#home {
     bottom: 0;
 }
 
+
 h1 {
     font-family: Fahkwang;
     font-size: 4rem;
     color: #025fa1;
-    text-shadow: 4px 0 6px #242427;
+    text-shadow: 4px 3px 6px #242427;
 }
 
 h2 {
@@ -80,7 +78,8 @@ h2 {
     font-size: 3rem;
     color: #ada3a1;
     text-shadow: 0 2px 4px #030303;
-    padding-top: .5rem;;
+    padding-top: .5rem;
+    ;
 }
 
 h3 {
@@ -154,6 +153,7 @@ section#about p a {
     color: #fefefe;
     text-decoration: none;
 }
+
 .navBox a:hover {
     color: #bcbcbc;
     text-decoration: none;
@@ -171,6 +171,7 @@ section#projects {
     margin-top: 2rem;
     display: flex;
 }
+
 .imgProj {
     max-width: 50%;
     height: auto;
@@ -200,7 +201,8 @@ section#projects {
     z-index: 1000;
 }
 
-.fas, .fab {
+.fas,
+.fab {
     margin-top: 8px;
 }
 
