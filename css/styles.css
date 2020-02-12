@@ -12,16 +12,8 @@ body {
     background-color: #28313e;
 }
 
-.mobContainer {
-    display: none;
-}
-
 section#home {
     height: 100vh;
-}
-
-.photoContainer {
-    display: none;
 }
 
 .navbar {
@@ -87,7 +79,6 @@ h3 {
 }
 
 hr {
-    color: #a31223;
     width: 20%;
     margin: 0 auto;
 }
