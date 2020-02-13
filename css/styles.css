@@ -8,11 +8,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #28313e;
-}
-
 section#home {
+    background: #28313e;
     height: 100vh;
 }
 
