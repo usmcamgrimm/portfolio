@@ -2,16 +2,24 @@
     .linkMenu {
         display: none;
     }
+
     h1 {
         font-size: 2.6rem;
     }
+
     h2 {
         font-size: 2.1rem;
     }
+
+    hr.heroLine {
+        width: 50%;
+    }
+
     section#about {
         margin: 0;
         padding: 0;
     }
+
     section#about p {
         margin: 0;
         padding: .6em;

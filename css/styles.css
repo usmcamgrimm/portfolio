@@ -70,9 +70,10 @@ h3 {
     margin-bottom: 2rem;
 }
 
-hr {
-    width: 20%;
+hr.heroLine {
+    width: 28%;
     margin: 0 auto;
+    border: 1px solid #fbd46c;
 }
 
 p {
