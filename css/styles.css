@@ -65,7 +65,12 @@ h2 {
 }
 
 h3 {
-    display: none;
+    font-family: Fahkwang;
+    font-size: 2rem;
+    color: #025fa1;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 hr {
@@ -143,17 +148,21 @@ section#about p a {
 
 section#projects {
     background: #fefefe;
-    padding: 3rem;
+    border: 2px solid #025fa1;
+    border-radius: 8px;
+    margin: 2rem 4rem;
+    padding: 2rem;
 }
 
 .imageLinks {
-    margin-top: 2rem;
     display: flex;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-content: flex-end;
+    align-items: center;
+}
+
+.imageLinks p a {
+    color: #025fa1;
+    padding: 1rem;
 }
 
 .imgProj {
