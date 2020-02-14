@@ -31,16 +31,13 @@
 
     section#projects {
         background: #fefefe;
-        border: 2px solid #025fa1;
-        border-radius: 8px;
         margin: 2rem 1.5rem;
-        padding: .5rem;
     }
 
     .imageLinks {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: self;
     }
 
     .imageLinks p a {
