@@ -67,13 +67,18 @@ h3 {
     color: #025fa1;
     text-align: center;
     margin-top: 1rem;
-    margin-bottom: 2rem;
 }
 
 hr.heroLine {
     width: 28%;
     margin: 0 auto;
     border: 1px solid #fbd46c;
+}
+
+hr.projectTitle {
+    width: 28%;
+    margin: 0 auto;
+    border: 1px solid #025fa1;
 }
 
 p {
@@ -145,17 +150,19 @@ section#about p a {
 }
 
 section#projects {
-    background: #fefefe;
-    border: 2px solid #025fa1;
-    border-radius: 8px;
     margin: 2rem 3.2rem;
     padding: 1rem;
+}
+
+.projHeader {
+    margin-bottom: 2rem;
 }
 
 .imageLinks {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .imageLinks p a {
