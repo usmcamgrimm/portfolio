@@ -160,14 +160,11 @@ section#projects {
 
 .imageLinks {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    align-items: self;
+    justify-content: center;
+    height: 300px;
     margin-top: 3rem;
-}
-
-.imageLinks p a {
-    color: #025fa1;
-    padding: .5rem;
+    text-align: center;
 }
 
 .imgProj {
