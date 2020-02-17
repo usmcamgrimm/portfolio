@@ -158,6 +158,16 @@ section#projects {
     margin-bottom: 2rem;
 }
 
+.havamal {
+    display: flex;
+    justify-content: center;
+}
+
+.imgHavamal {
+    max-width: 80%;
+    height: auto;
+}
+
 .imageLinks {
     display: flex;
     align-items: self;
