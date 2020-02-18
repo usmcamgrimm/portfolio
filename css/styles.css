@@ -133,7 +133,6 @@ section#about p a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 100px;
     margin: 12px;
     margin-right: 18px;
 }

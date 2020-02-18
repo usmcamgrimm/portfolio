@@ -34,6 +34,22 @@
         margin: 2rem 1.5rem;
     }
 
+    .apps {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+
+    .imgSample {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imgSample2 {
+        max-width: 100%;
+        height: auto;
+    }
+
     .imageLinks {
         display: flex;
         justify-content: space-around;
