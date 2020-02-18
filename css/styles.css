@@ -158,15 +158,22 @@ section#projects {
     margin-bottom: 2rem;
 }
 
-.havamal {
+.apps {
     display: flex;
     justify-content: center;
 }
 
-.imgHavamal {
+.imgSample {
     max-width: 80%;
     height: auto;
+    border-radius: 8px;
 }
+.imgSample2 {
+  max-width: 85%;
+  height: auto;
+  border-radius: 8px;
+}
+
 
 .imageLinks {
     display: flex;
