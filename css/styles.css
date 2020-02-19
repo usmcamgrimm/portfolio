@@ -167,18 +167,17 @@ section#projects {
     height: auto;
     border-radius: 8px;
 }
-.imgSample2 {
-  max-width: 85%;
-  height: auto;
-  border-radius: 8px;
-}
 
+.imgSample2 {
+    max-width: 85%;
+    height: auto;
+    border-radius: 8px;
+}
 
 .imageLinks {
     display: flex;
     align-items: self;
     justify-content: center;
-    height: 300px;
     margin-top: 3rem;
     text-align: center;
 }
@@ -188,10 +187,18 @@ section#projects {
     height: auto;
 }
 
+.footer {
+    height: 60px;
+    background: #025fa1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer p {
-    font-family: Fahkwang;
-    font-size: 1.1em;
-    color: #030303;
+    font-family: Cambay;
+    font-size: 1em;
+    color: #fbd46c;
 }
 
 /* Add section for FAB Menu */
