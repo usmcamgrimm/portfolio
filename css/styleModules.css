@@ -34,6 +34,30 @@
         margin: 2rem 1.5rem;
     }
 
+    .aboutImg {
+        display: none;
+    }
+
+    .about {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+    /*
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .aboutImg {
+        max-width: 60%;
+        height: auto;
+    }
+    */
+
     .apps {
         display: flex;
         width: 90vw;

@@ -116,6 +116,19 @@ section#about p a {
     cursor: crosshair;
 }
 
+.about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 .heroNav {
     z-index: 10;
     width: auto;
