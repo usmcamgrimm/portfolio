@@ -168,12 +168,6 @@ section#projects {
     border-radius: 8px;
 }
 
-.imgSample2 {
-    max-width: 85%;
-    height: auto;
-    border-radius: 8px;
-}
-
 .imageLinks {
     display: flex;
     align-items: self;
