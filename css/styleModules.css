@@ -36,17 +36,14 @@
 
     .apps {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
+        width: 90vw;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .imgSample {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .imgSample2 {
-        max-width: 100%;
+        max-width: 90%;
         height: auto;
     }
 
