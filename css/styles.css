@@ -158,8 +158,12 @@ section#projects {
 }
 
 .apps {
+    height: 350px;
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .imgSample {
