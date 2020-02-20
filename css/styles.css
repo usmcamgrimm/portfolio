@@ -159,15 +159,14 @@ section#projects {
 
 .apps {
     height: 350px;
-    width: 100vw;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .imgSample {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
