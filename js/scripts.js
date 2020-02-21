@@ -17,14 +17,6 @@ function devRandom() {
     document.getElementById("dev").innerHTML = devArray[Math.floor(Math.random() * devArray.length)];
 };
 
-/*
-const myMobDev = setInterval(mobRandom, 1400);
-!Temp Disable this
-function mobRandom() {
-    document.getElementById("mobDev").innerHTML = devArray[Math.floor(Math.random() * devArray.length)];
-}
-*/
-
 // Change tab title
 window.onblur = function () {
     document.title = 'Come back soon!';
