@@ -9,7 +9,7 @@ navBarToggle.addEventListener('click', function () {
 */
 
 // Script to change title on main screen
-let devArray = ['Front-End Developer', 'Developer', 'Web Developer', 'Programmer', 'Veteran', 'Husband', 'Father'];
+let devArray = ['Front-End Developer', 'Developer', 'Web Developer', 'Programmer', 'Marine Corps Veteran', 'Husband', 'Father'];
 
 const myDev = setInterval(devRandom, 1200);
 
