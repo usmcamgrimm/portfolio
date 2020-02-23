@@ -8,6 +8,7 @@
         background: #025fa1;
         text-align: center;
         overflow: hidden;
+        position: relative;
     }
 
     .mobNav #mobLinks {
@@ -16,7 +17,6 @@
 
     .mobNav a {
         color: #fefefe;
-        margin-right: 10px;
         padding: 1rem;
         font-family: Fahkwang;
         text-decoration: none;
@@ -25,9 +25,14 @@
     }
 
     .mobNav a.icon {
-        background: #010101;
+        background: #025fa1;
+        /* display: flex;
+        justify-content: flex-end;
+        padding: .5rem; */
         display: block;
-        margin-right: .5px;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     /* Style the active link (or home/logo) */
