@@ -1,12 +1,12 @@
-// Navbar script
-/*
-let mainNav = document.getElementById('navMenu');
-let navBarToggle = document.getElementById('navToggle');
-
-navBarToggle.addEventListener('click', function () {
-    mainNav.classList.toggle('active');
-});
-*/
+// Mobile Navbar toggle script
+function showNav() {
+    let x = document.getElementById("mobLinks");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
 // Script to change title on main screen
 let devArray = ['Front-End Developer', 'Developer', 'Web Developer', 'Programmer', 'Marine Corps Veteran', 'Husband', 'Father'];

@@ -1,0 +1,49 @@
+/* Styling the mobile navigation menu */
+@media screen and (max-width: 1023px) {
+    .heroNav {
+        display: none;
+    }
+
+    .mobNav {
+        background: #025fa1;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .mobNav #mobLinks {
+        display: none;
+    }
+
+    .mobNav a {
+        color: #fefefe;
+        margin-right: 10px;
+        padding: 1rem;
+        font-family: Fahkwang;
+        text-decoration: none;
+        font-size: 1.5rem;
+        display: block;
+    }
+
+    .mobNav a.icon {
+        background: #010101;
+        display: block;
+        margin-right: .5px;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: #025fa1;
+    }
+
+    p {
+        font-family: Fahkwang;
+        font-size: 1.5rem;
+        color: #fbd46c;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobNav {
+        display: none;
+    }
+}
