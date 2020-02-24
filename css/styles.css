@@ -81,6 +81,12 @@ hr.projectTitle {
     border: 1px solid #025fa1;
 }
 
+hr.contactTitle {
+    width: 41%;
+    margin: 0 auto;
+    border: 1px solid #025fa1;
+}
+
 p {
     font-family: Cambay;
     font-size: 1.4rem;
