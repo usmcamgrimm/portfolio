@@ -85,6 +85,12 @@
         max-width: 50%;
         height: auto;
     }
+
+    .mobContact {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width: 1024px) {
