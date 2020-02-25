@@ -85,30 +85,6 @@
         max-width: 50%;
         height: auto;
     }
-
-    .mobContact {
-        margin-top: 1.5rem;
-        display: flex;
-        justify-content: center;
-    }
-    /*
-    .mobContact {
-        width: 60px;
-        height: 60px;
-        background-color: #515151;
-        border-radius: 50%;
-        box-shadow: 0 3px 12px #000000;
-        font-size: 32px;
-        color: #1dbaba;
-        text-align: center;
-        margin: 0 auto;
-        padding-top: 6px;
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        z-index: 1000;
-    }
-    */
     
     .mob-fab a {
         background-color: #515151;
@@ -143,7 +119,7 @@
         grid-row-gap: 20px;
     }
 
-    .mobContact {
+    .mobContactMe {
         color: #025fa1;
         display: flex;
         align-items: center;
