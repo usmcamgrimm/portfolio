@@ -91,6 +91,67 @@
         display: flex;
         justify-content: center;
     }
+    /*
+    .mobContact {
+        width: 60px;
+        height: 60px;
+        background-color: #515151;
+        border-radius: 50%;
+        box-shadow: 0 3px 12px #000000;
+        font-size: 32px;
+        color: #1dbaba;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 6px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 1000;
+    }
+    */
+    
+    .mob-fab a {
+        background-color: #515151;
+        color: #1dbaba;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 0 2px 8px #030303;
+        width: 42px;
+        height: 42px;
+        display: block;
+    }
+    
+    .mob-fab a:hover {
+        box-shadow: 0px 4px 12px #030303;
+        transform: scale(1.10);
+    }
+    
+    .my-float {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .mobContact {
+        margin: 80px auto;
+        width: 200px;
+        height: 100px;
+        background-color: #fefefe;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .mobContact {
+        color: #025fa1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Fahkwang;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
 }
 
 @media screen and (max-width: 1024px) {
