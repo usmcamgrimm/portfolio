@@ -86,32 +86,21 @@
         height: auto;
     }
     
-    .mob-fab a {
-        background-color: #515151;
-        color: #1dbaba;
-        border-radius: 50%;
+    .mob-fab {
+        background-color: #025fa1;
+        color: #fefefe;
+        border: 1px solid #025fa1;
+        border-radius: 25px;
         text-align: center;
+        padding: .5rem;
         box-shadow: 0 2px 8px #030303;
-        width: 42px;
-        height: 42px;
-        display: block;
-    }
-    
-    .mob-fab a:hover {
-        box-shadow: 0px 4px 12px #030303;
-        transform: scale(1.10);
-    }
-    
-    .my-float {
-        font-size: 22px;
-        margin-top: 10px;
     }
 
     .mobContact {
         display: grid;
         height: 200px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1 fr 1fr;;
+        grid-template-rows: auto;
     }
 
     .mobContactMe {
