@@ -108,14 +108,10 @@
     }
 
     .mobContact {
-        width: 200px;
-        height: 100px;
-        background-color: #fefefe;
         display: grid;
-        grid-template-columns: 100px 100px;
-        grid-row: auto auto;
-        grid-column-gap: 20px;
-        grid-row-gap: 20px;
+        height: 200px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1 fr 1fr;;
     }
 
     .mobContactMe {
