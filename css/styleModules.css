@@ -93,8 +93,13 @@
         border-radius: 25px;
         text-align: center;
         padding: .5rem;
-        box-shadow: 0 2px 8px #030303;
+        box-shadow: 0 2px 5px #111111;
         width: 6rem;
+    }
+
+    .mob-fab:active {
+        background: #73e2fd;
+        transform: translateY(1px);
     }
 
     .mobContact {
