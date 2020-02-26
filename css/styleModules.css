@@ -94,23 +94,17 @@
         text-align: center;
         padding: .5rem;
         box-shadow: 0 2px 8px #030303;
+        width: 6rem;
     }
 
     .mobContact {
         display: grid;
         height: 200px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-
-    .mobContactMe {
-        color: #025fa1;
-        display: flex;
+        grid-template-rows: auto auto;
+        justify-items: center;
         align-items: center;
-        justify-content: center;
-        font-family: Fahkwang;
-        font-size: 25px;
-        font-family: sans-serif;
+        grid-auto-flow: row;
     }
 }
 
