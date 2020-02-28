@@ -26,13 +26,11 @@
 
     .mobNav a.icon {
         background: #025fa1;
-        /* display: flex;
-        justify-content: flex-end;
-        padding: .5rem; */
         display: block;
         position: absolute;
         right: 0;
         top: 0;
+        padding: .8rem 1.25rem;
     }
 
     /* Style the active link (or home/logo) */
