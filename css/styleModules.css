@@ -84,6 +84,7 @@
     .imgProj {
         max-width: 50%;
         height: auto;
+        padding-top: 2rem;
     }
     
     .mob-fab {
