@@ -87,6 +87,21 @@ hr.contactTitle {
     border: 1px solid #025fa1;
 }
 
+.arrowDown {
+    color: #fbd46c;
+    text-shadow: 4px 3px 6px #242427;
+    font-size: 2rem;
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+    left: 0;
+    text-align: center;
+}
+.arrowDown .fas:hover {
+    color: #025fa1;
+    transform: scale(1.5);
+}
+
 p {
     font-family: Cambay;
     font-size: 1.4rem;
