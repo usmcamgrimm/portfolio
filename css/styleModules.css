@@ -19,6 +19,10 @@
         width: 50%;
     }
 
+    .arrowDown .fas:hover {
+        display: none;
+    }
+
     section#about {
         margin: 0;
         padding: 0;
