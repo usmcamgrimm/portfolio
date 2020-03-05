@@ -19,8 +19,23 @@
         width: 50%;
     }
 
+    .arrowDown {
+        display: none;
+    }
+
     .arrowDown .fas:hover {
         display: none;
+    }
+
+    .mobArrow {
+        color: #fbd46c;
+        text-shadow: 4px 3px 6px #242427;
+        font-size: 2rem;
+        position: absolute;
+        width: 100%;
+        bottom: 40px;
+        left: 0;
+        text-align: center;
     }
 
     section#about {
@@ -120,6 +135,12 @@
 
 @media screen and (max-width: 1024px) {
     .float {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .mobArrow {
         display: none;
     }
 }

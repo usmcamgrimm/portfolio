@@ -97,6 +97,7 @@ hr.contactTitle {
     left: 0;
     text-align: center;
 }
+
 .arrowDown .fas:hover {
     color: #025fa1;
     transform: scale(1.4);
