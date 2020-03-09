@@ -219,13 +219,6 @@ section#projects {
     height: auto;
 }
 
-.caption {
-    font-family: Cambay;
-    font-size: 1.2rem;
-    text-align: center;
-    color: #111111;
-}
-
 .footer {
     height: 60px;
     background: #025fa1;
