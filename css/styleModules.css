@@ -50,7 +50,7 @@
 
     section#projects {
         background: #fefefe;
-        margin: 2rem 1.5rem;
+        margin: 2rem .75rem;
     }
 
     .aboutImg {
@@ -79,10 +79,15 @@
 
     .apps {
         display: flex;
-        width: 90vw;
+        max-width: 90vw;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+
+    figcaption {
+        font-size: 1.1rem;
+        max-width: 90vw;
     }
 
     .imgSample {
