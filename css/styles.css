@@ -44,7 +44,6 @@ section#home {
     bottom: 0;
 }
 
-
 h1 {
     font-family: Fahkwang;
     font-size: 4rem;
@@ -225,6 +224,44 @@ figcaption {
     max-width: 30%;
     height: auto;
 }
+
+.wrapper {
+    position: relative;
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #fefefe;
+}
+
+.wrapper:hover .overlay {
+    opacity: 1;
+  }
+  
+  .label {
+    font-family: Cambay;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .label a {
+      text-decoration: none;
+      color: #010101;
+      cursor: crosshair;
+  }
 
 .footer {
     height: 60px;
