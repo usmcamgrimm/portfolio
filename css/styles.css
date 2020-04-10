@@ -47,17 +47,16 @@ section#home {
 h1 {
     font-family: Fahkwang;
     font-size: 4rem;
-    color: #025fa1;
+    color: #fefefe;
     text-shadow: 4px 3px 6px #242427;
 }
 
 h2 {
     font-family: Comfortaa;
     font-size: 3rem;
-    color: #ada3a1;
+    color: #fed46d;
     text-shadow: 4px 3px 6px #242427;
     padding-top: .5rem;
-    ;
 }
 
 h3 {
@@ -246,9 +245,9 @@ figcaption {
 
 .wrapper:hover .overlay {
     opacity: 1;
-  }
-  
-  .label {
+}
+
+.label {
     font-family: Cambay;
     font-size: 1.5rem;
     position: absolute;
@@ -256,13 +255,13 @@ figcaption {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
-  .label a {
-      text-decoration: none;
-      color: #010101;
-      cursor: crosshair;
-  }
+.label a {
+    text-decoration: none;
+    color: #010101;
+    cursor: crosshair;
+}
 
 .footer {
     height: 60px;
