@@ -135,8 +135,8 @@ section#about p a {
     text-decoration: none;
     color: #025fa1;
     cursor: crosshair;
+}  font-size: 1.2rem;
 }
-
 .about {
     display: flex;
     flex-flow: row nowrap;
