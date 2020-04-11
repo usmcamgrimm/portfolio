@@ -4,15 +4,21 @@
     margin: 0;
 }
 
-section#home {
-    background: #28313e;
+body {
     height: 100vh;
+    background: #28313e;
+    /* Don't use the background image for now
+    background-image: url('../images/adrian6.png');
+    background-size: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
 }
 
 h1 {
-    font-family: 'Contrail One';
-    font-size: 1.5rem;
-    color: #fefefe;
+    font-family: 'Racing Sans One';
+    font-size: 3rem;
+    color: #1dbaba;
     text-shadow: 4px 3px 6px #242427;
 }
 
@@ -21,7 +27,7 @@ h1 {
     background: #28313e;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .footer p {
