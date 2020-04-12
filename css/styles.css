@@ -22,6 +22,19 @@ h1 {
     text-shadow: 4px 3px 6px #242427;
 }
 
+h2 {
+    font-family: Cambay;
+    font-size: 2rem;
+    color: #1dbaba;
+    text-shadow: 4px 3px 6px #242427;
+}
+
+section .header {
+    display: flex;
+    justify-content: center;
+}
+
+
 .footer {
     height: 60px;
     background: #28313e;
