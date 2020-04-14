@@ -29,9 +29,12 @@ h2 {
     text-shadow: 4px 3px 6px #242427;
 }
 
-section .header {
+.introBox {
     display: flex;
-    justify-content: center;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20rem;
 }
 
 
