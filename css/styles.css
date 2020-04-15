@@ -95,6 +95,10 @@ h2 {
     margin-top: 8px;
 }
 
+ul li a .fa-arrow-circle-left {
+    font-size: 1.5rem;
+}
+
 .float:hover {
     box-shadow: 0 3px 15px rgba(3, 3, 3, 0.7);
 }

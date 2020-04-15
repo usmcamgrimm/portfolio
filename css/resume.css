@@ -4,14 +4,27 @@
     margin: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background: #28313e;
 }
 
 section#resume {
     height: 100vh;
+}
+
+ul li a .linkLabel {
+    visibility: hidden;
+    width: 100px;
+    background-color: transparent;
+    font-family: Cambay;
+    background-color: #515151;
+    color: #1dbaba;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    text-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    right: 80%;
 }

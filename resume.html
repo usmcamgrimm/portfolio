@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adrian Grimm</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/styleModules.css">
-    <link rel="stylesheet" href="css/menuModule.css">
+    <link rel="stylesheet" href="css/mobileStyles.css">
     <link rel="stylesheet" href="css/resume.css">
     <link rel="icon" href="images/tabIcon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Cambay|Comfortaa|Fahkwang&display=swap" rel="stylesheet">
@@ -21,6 +20,7 @@
     <section id="nav">
 
         <!-- Mobile display navbar -->
+        <!-- 
         <div class="mobNav">
             <a href="#home" class="active">
                 <p>
@@ -33,19 +33,13 @@
                 <a href="index.html#projects">Projects</a>
                 <a href="resume.html">Resume</a>
                 <a href="index.html#contact">Contact</a>
-                <!-- <a href="https://dev.to/usmcamgrimm" target="_blank">Blog</a> -->
+
+                ?Will disable this section -> <a href="https://dev.to/usmcamgrimm" target="_blank">Blog</a>
             </div>
-            <!-- Menu arrows -->
+            ?This is also commented -> Menu Arrows
             <a href="javascript:void(0);" class="icon" onClick="showNav()"><i class="fas fa-angle-double-down"></i></a>
         </div>
-
-        <!-- Navbar to display on wider screens -->
-        <div class="heroNav">
-            <div class="navBox"><a href="index.html#home">Home</a></div>
-            <div class="navBox"><a href="index.html#about">About</a></div>
-            <div class="navBox"><a href="index.html#projects">Projects</a></div>
-            <!-- <div class="navBox"><a href="https://dev.to/usmcamgrimm">Blog</a></div> -->
-        </div>
+    -->
     </section>
 
     <section id="resume">
@@ -57,15 +51,18 @@
             <i class="fas fa-bars"></i>
         </a>
         <ul>
-            <li><a href="mailto:usmcamgrimm@gmail.com?Subject=Hello"><i class="far fa-envelope my-float"></a></i></li>
-            <li><a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer"><i
-                        class="fab fa-github my-float"></a></i></li>
-            <li><a href="https://twitter.com/usmcamgrimm/" target="_blank" rel="noreferrer"><i
-                        class="fab fa-twitter my-float"></a></i></li>
-            <li><a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><i
-                        class="fab fa-linkedin-in my-float"></a></i></li>
-            <li><a href="https://dev.to/usmcamgrimm" target="_blank" rel="noreferrer"><i
-                        class="fab fa-dev my-float"></a></i></li>
+            <li><a href="mailto:usmcamgrimm@gmail.com?Subject=Hello"><span class="linkLabel">Email</span><i
+                        class="far fa-envelope my-float"></a></i></li>
+            <li><a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer"><span
+                        class="linkLabel">GitHub</span><i class="fab fa-github my-float"></a></i></li>
+            <li><a href="https://twitter.com/usmcamgrimm/" target="_blank" rel="noreferrer"><span
+                        class="linkLabel">Twitter</span><i class="fab fa-twitter my-float"></a></i></li>
+            <li><a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><span
+                        class="linkLabel">LinkedIn</span><i class="fab fa-linkedin-in my-float"></a></i></li>
+            <!-- ?Remove dev.to link until I have some content -->
+            <!-- <li><a href="https://dev.to/usmcamgrimm" target="_blank" rel="noreferrer"><span class="linkLabel">Resume</span><i class="fab fa-dev my-float"></a></i></li> -->
+            <li><a href="resume.html"><span class="linkLabel">Back</span><i class="fas fa-arrow-circle-left"></a></i>
+            </li>
         </ul>
     </div>
 
