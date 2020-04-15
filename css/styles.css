@@ -128,9 +128,26 @@ ul li a:hover {
     transform: scale(1.20);
 }
 
+ul li a .linkLabel {
+    visibility: hidden;
+    width: 100px;
+    background-color: transparent;
+    color: #1dbaba;
+    text-align: center;
+    text-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 75%;
+}
+
 ul:hover {
     visibility: visible !important;
     opacity: 1 !important;
+}
+
+ul li a:hover .linkLabel {
+    visibility: visible;
 }
 
 .my-float {
