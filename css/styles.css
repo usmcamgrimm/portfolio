@@ -73,7 +73,9 @@ h3 {
     margin-top: 2rem;
     padding: 2rem;
     background: #28313e;
+    border-radius: 6px;
     width: 80%;
+    margin-bottom: 2rem;
     box-shadow: 0 2px 6px #242427;
 }
 
@@ -309,13 +311,6 @@ a#menu-share:hover>i {
 }
 
 @media screen and (min-width: 1440px) {
-    .aboutSection {
-        display: flex;
-        margin-top: 10px;
-        margin-right: 3em;
-        margin-left: 3em;
-    }
-
     .float {
         bottom: 30px;
     }
