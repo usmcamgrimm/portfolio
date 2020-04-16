@@ -37,7 +37,7 @@ h2 {
 .introBox {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: fixed;
     top: 25%;
@@ -53,7 +53,7 @@ h2 {
 
 .devBox {
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
