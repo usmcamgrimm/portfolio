@@ -6,12 +6,6 @@
 
 body {
     background: #28313e;
-    /* Don't use the background image for now
-    background-image: url('../images/adrian6.png');
-    background-size: 15%;
-    background-position: center;
-    background-repeat: no-repeat;
-    */
 }
 
 h1 {
@@ -26,6 +20,12 @@ h2 {
     font-size: 3.5rem;
     color: #1dbaba;
     text-shadow: 4px 3px 6px #242427;
+}
+
+h3 {
+    font-family: Cambay;
+    font-size: 1.5rem;
+    color: #1dbaba;
 }
 
 #particles {
@@ -56,6 +56,90 @@ h2 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#about {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutContainer {
+    padding: 2rem;
+    background: rgba(14, 26, 44, 0.5);
+    width: 80%;
+    box-shadow: 0 2px 6px #242427;
+}
+
+#about p {
+    font-family: Cambay;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.vwcLink a {
+    color: #fefefe;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+hr.welcomeLine {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #fefefe;
+    border-radius: 8px;
+    margin-bottom: 1.1rem;
+}
+
+.imageLinks {
+    display: flex;
+    align-items: self;
+    justify-content: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.imgProj {
+    max-width: 30%;
+    height: auto;
+}
+
+.wrapper {
+    position: relative;
+    width: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #28313e;
+}
+
+.wrapper:hover .overlay {
+    opacity: 1;
+}
+
+.label {
+    font-family: Cambay;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.label a {
+    text-decoration: none;
+    color: #1dbaba;
+    cursor: crosshair;
 }
 
 .footer {
