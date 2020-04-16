@@ -111,9 +111,16 @@ hr.btmLine {
     display: flex;
     align-items: self;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-align: center;
     padding-bottom: 3rem;
+}
+
+.imgText {
+    font-family: Cambay;
+    font-size: 2rem;
+    color: #1dbaba;
+    text-align: center;
 }
 
 .imgProj {
