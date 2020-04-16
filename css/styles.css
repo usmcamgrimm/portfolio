@@ -154,6 +154,8 @@ hr.btmLine {
 }
 
 .label a {
+    font-family: Cambay;
+    font-size: 2rem;
     text-decoration: none;
     color: #28313e;
     cursor: crosshair;
