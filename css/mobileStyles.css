@@ -9,7 +9,19 @@
         display: none;
     }
 
+    #mobNav {
+        display: none;
+    }
+
+    .navOverlay {
+        display: none;
+    }
+
     .mobFloat {
+        display: none;
+    }
+
+    .navContent {
         display: none;
     }
 }
