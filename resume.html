@@ -19,27 +19,20 @@
 
     <section id="nav">
 
-        <!-- Mobile display navbar -->
-        <!-- 
-        <div class="mobNav">
-            <a href="#home" class="active">
-                <p>
-                    Welcome!
-                </p>
-            </a>
-            <div id="mobLinks">
-                <a href="index.html#home">Home</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#projects">Projects</a>
+        <!-- ?Section for the mobile links menu -->
+        <div id="mobNav" class="navOverlay">
+            <a href=javascript:void(0) class="closeBtn" onclick="closeNav()">&times;</a>
+            <div class="navContent">
+                <a href="mailto:usmcamgrimm@gmail.com?Subject=Hello">Email</a>
+                <a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://twitter.com/usmcamgrimm/" target="_blank" rel="noreferrer">Twitter</a>
+                <a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer">LinkedIn</a>
                 <a href="resume.html">Resume</a>
-                <a href="index.html#contact">Contact</a>
-
-                ?Will disable this section -> <a href="https://dev.to/usmcamgrimm" target="_blank">Blog</a>
             </div>
-            ?This is also commented -> Menu Arrows
-            <a href="javascript:void(0);" class="icon" onClick="showNav()"><i class="fas fa-angle-double-down"></i></a>
         </div>
-    -->
+
+        <span class="mobFloat" onclick="openNav()"><i class="fas fa-bars"></i></span>
+
     </section>
 
     <section id="resume">
@@ -67,6 +60,7 @@
     </div>
 
     <script src="js/scripts.js"></script>
+    <script src="js/mobNav.js"></script>
 
     <div class="footer">
         <p>
