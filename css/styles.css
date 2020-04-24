@@ -1,330 +1,330 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background: #28313e;
+  background: #28313e;
 }
 
 h1 {
-    font-family: 'Racing Sans One';
-    font-size: 5rem;
-    color: #fefefe;
-    text-shadow: 4px 3px 6px #242427;
+  font-family: 'Racing Sans One';
+  font-size: 5rem;
+  color: #fefefe;
+  text-shadow: 4px 3px 6px #242427;
 }
 
 h2 {
-    font-family: Cambay;
-    font-size: 3.5rem;
-    color: #1dbaba;
-    text-shadow: 4px 3px 6px #242427;
+  font-family: Cambay;
+  font-size: 3.5rem;
+  color: #1dbaba;
+  text-shadow: 4px 3px 6px #242427;
 }
 
 h3 {
-    font-family: Cambay;
-    font-size: 1.8rem;
-    color: #1dbaba;
-    text-shadow: 0 3px 2px #242427;
+  font-family: Cambay;
+  font-size: 1.8rem;
+  color: #1dbaba;
+  text-shadow: 0 3px 2px #242427;
 }
 
 #particles {
-    width: 100%;
-    height: 100vh;
-    text-align: center;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
 }
 
 .introBox {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
 .myPhoto {
-    max-width: 50%;
-    height: auto;
+  max-width: 50%;
+  height: auto;
 }
 
 .devBox {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .aboutSection {
-    background: #fefefe;
+  background: #fefefe;
 }
 
 #about {
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutContainer {
-    margin-top: 2rem;
-    padding: 2rem;
-    background: #28313e;
-    border-radius: 6px;
-    width: 80%;
-    margin-bottom: 2rem;
-    box-shadow: 0 2px 6px #242427;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #28313e;
+  border-radius: 6px;
+  width: 80%;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px #242427;
 }
 
 #about p {
-    font-family: Cambay;
-    font-size: 1.2rem;
-    color: #ffffff;
+  font-family: Cambay;
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .vwcLink a {
-    color: #fefefe;
-    text-decoration: none;
-    cursor: pointer;
+  color: #fefefe;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 hr.welcomeLine {
-    width: 85%;
-    margin: 0 auto;
-    border: 1px solid #fbd46c;
-    border-radius: 8px;
-    margin-bottom: 1.1rem;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #fbd46c;
+  border-radius: 8px;
+  margin-bottom: 1.1rem;
 }
 
 hr.btmLine {
-    width: 85%;
-    margin: 0 auto;
-    border: 1px solid #fbd46c;
-    border-radius: 8px;
-    margin-top: 1.1rem;
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #fbd46c;
+  border-radius: 8px;
+  margin-top: 1.1rem;
 }
 
 .imageLinks {
-    display: flex;
-    align-items: self;
-    justify-content: center;
-    margin-top: 2rem;
-    text-align: center;
-    padding-bottom: 3rem;
+  display: flex;
+  align-items: self;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
 .imgText {
-    font-family: Cambay;
-    font-size: 2rem;
-    color: #1dbaba;
-    text-align: center;
+  font-family: Cambay;
+  font-size: 2rem;
+  color: #1dbaba;
+  text-align: center;
 }
 
 .imgProj {
-    max-width: 30%;
-    height: auto;
+  max-width: 30%;
+  height: auto;
 }
 
 .wrapper {
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 50%;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #fefefe;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #fefefe;
 }
 
 .wrapper:hover .overlay {
-    opacity: 1;
+  opacity: 1;
 }
 
 .label {
-    font-family: Cambay;
-    font-size: 1.5rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  font-family: Cambay;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .label a {
-    font-family: Cambay;
-    font-size: 2rem;
-    text-decoration: none;
-    color: #28313e;
-    cursor: crosshair;
+  font-family: Cambay;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #1dbaba;
+  cursor: crosshair;
 }
 
 .footer {
-    height: 45px;
-    background: #28313e;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+  height: 45px;
+  background: #28313e;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .footer p {
-    font-family: Cambay;
-    font-size: 1em;
-    color: #fbd46c;
+  font-family: Cambay;
+  font-size: 1em;
+  color: #fbd46c;
 }
 
 /* Add section for FAB Menu */
 .float {
-    width: 60px;
-    height: 60px;
-    background-color: #515151;
-    border-radius: 50%;
-    box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
-    font-size: 32px;
-    color: #1dbaba;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 6px;
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    z-index: 1000;
+  width: 60px;
+  height: 60px;
+  background-color: #515151;
+  border-radius: 50%;
+  box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
+  font-size: 32px;
+  color: #1dbaba;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 6px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
 }
 
 .fas,
 .fab {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 ul li a .fa-arrow-circle-left {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .float:hover {
-    box-shadow: 0 3px 15px rgba(3, 3, 3, 0.7);
+  box-shadow: 0 3px 15px rgba(3, 3, 3, 0.7);
 }
 
 ul {
-    position: fixed;
-    right: 30px;
-    padding-bottom: 40px;
-    bottom: 50px;
-    z-index: 100;
+  position: fixed;
+  right: 30px;
+  padding-bottom: 40px;
+  bottom: 50px;
+  z-index: 100;
 }
 
 ul li {
-    list-style: none;
-    margin-bottom: 10px;
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 ul li a {
-    background-color: #515151;
-    color: #1dbaba;
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(3, 3, 3, 0.6);
-    width: 42px;
-    height: 42px;
-    display: block;
+  background-color: #515151;
+  color: #1dbaba;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(3, 3, 3, 0.6);
+  width: 42px;
+  height: 42px;
+  display: block;
 }
 
 ul li a:hover {
-    box-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
-    transform: scale(1.20);
+  box-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
+  transform: scale(1.2);
 }
 
 ul li a .linkLabel {
-    visibility: hidden;
-    width: 100px;
-    background-color: transparent;
-    color: #1dbaba;
-    font-family: Cambay;
-    text-align: center;
-    text-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
-    position: absolute;
-    z-index: 1;
-    top: 10px;
-    right: 75%;
+  visibility: hidden;
+  width: 100px;
+  background-color: transparent;
+  color: #1dbaba;
+  font-family: Cambay;
+  text-align: center;
+  text-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 75%;
 }
 
 ul:hover {
-    visibility: visible !important;
-    opacity: 1 !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 ul li a:hover .linkLabel {
-    visibility: visible;
+  visibility: visible;
 }
 
 .my-float {
-    font-size: 22px;
-    margin-top: 10px;
+  font-size: 22px;
+  margin-top: 10px;
 }
 
-a#menu-share+ul {
-    visibility: hidden;
+a#menu-share + ul {
+  visibility: hidden;
 }
 
-a#menu-share:hover+ul {
-    visibility: visible;
-    animation: scale-in 0.2s;
+a#menu-share:hover + ul {
+  visibility: visible;
+  animation: scale-in 0.2s;
 }
 
 a#menu-share i {
-    animation: rotate-in 0.5s;
+  animation: rotate-in 0.5s;
 }
 
-a#menu-share:hover>i {
-    animation: rotate-out 0.2s;
+a#menu-share:hover > i {
+  animation: rotate-out 0.2s;
 }
 
 @keyframes scale-in {
-    from {
-        transform: scale(0);
-        opacity: 0;
-    }
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
 
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes rotate-in {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes rotate-out {
-    from {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(360deg);
+  }
 
-    to {
-        transform: rotate(0deg);
-    }
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .float {
-        bottom: 30px;
-    }
+  .float {
+    bottom: 30px;
+  }
 
-    ul {
-        bottom: 60px;
-    }
+  ul {
+    bottom: 60px;
+  }
 }
