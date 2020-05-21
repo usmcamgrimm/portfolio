@@ -270,11 +270,11 @@ ul li a:hover .linkLabel {
   margin-top: 10px;
 }
 
-a#menu-share + ul {
+a#menu-share+ul {
   visibility: hidden;
 }
 
-a#menu-share:hover + ul {
+a#menu-share:hover+ul {
   visibility: visible;
   animation: scale-in 0.2s;
 }
@@ -283,7 +283,7 @@ a#menu-share i {
   animation: rotate-in 0.5s;
 }
 
-a#menu-share:hover > i {
+a#menu-share:hover>i {
   animation: rotate-out 0.2s;
 }
 
