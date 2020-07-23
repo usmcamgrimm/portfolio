@@ -60,6 +60,10 @@ h3 {
   width: 80%;
 }
 
+.typed-cursor {
+  display: none;
+}
+
 .aboutSection {
   background: #fefefe;
 }
