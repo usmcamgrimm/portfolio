@@ -351,9 +351,16 @@ a#menu-share:hover>i {
 .projWrapper {
   display: flex;
   flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
   background-color: #fefefe;
-  border: 1px solid #28313e;
   border-radius: 5px;
   width: 375px;
-  height: 375px;
+  height: 280px;
+  box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
+}
+
+section#projects {
+  padding-bottom: 3rem;
 }
