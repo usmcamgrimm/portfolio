@@ -16,7 +16,7 @@ let typed3 = new Typed('#typed3', {
         'I am a Marine Corps Veteran'
     ],
     typeSpeed: 70,
-    backSpeed: 45,
+    backSpeed: 80,
     shuffle: true,
     smartBackspace: true,
     loop: true
