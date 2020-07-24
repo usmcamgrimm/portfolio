@@ -351,4 +351,9 @@ a#menu-share:hover>i {
 .projWrapper {
   display: flex;
   flex-flow: column wrap;
+  background-color: #fefefe;
+  border: 1px solid #28313e;
+  border-radius: 5px;
+  width: 375px;
+  height: 375px;
 }
