@@ -333,3 +333,22 @@ a#menu-share:hover>i {
     bottom: 60px;
   }
 }
+
+/* ?Projects Section */
+.projImg {
+  max-width: 350px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.projectScreens {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.projWrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
