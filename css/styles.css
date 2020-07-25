@@ -112,6 +112,13 @@ hr.sepLine {
   margin-top: 1.1rem;
 }
 
+hr.btmSepLine {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #fbd46c;
+  border-radius: 8px;
+}
+
 .imageLinks {
   display: flex;
   align-items: self;
