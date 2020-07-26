@@ -26,6 +26,25 @@
         color: #1dbaba;
         font-size: 2.5rem;
     }
+
+    .mobBackBtn {
+        width: 60px;
+        height: 60px;
+        background-color: #515151;
+        border-radius: 50%;
+        box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
+        font-size: 32px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 6px;
+        position: fixed;
+        left: 43%;
+        bottom: 35px;
+    }
+
+    .mobBackBtn a {
+        color: #1dbaba;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -34,6 +53,10 @@
     }
 
     .mobResume {
+        display: none;
+    }
+
+    .mobBackBtn {
         display: none;
     }
 }
