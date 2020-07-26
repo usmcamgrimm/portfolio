@@ -12,6 +12,20 @@
     .projWrapper {
         margin-bottom: 1.5rem;
     }
+
+    .mobSocContact {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .mobContact {
+        color: #1dbaba;
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -28,39 +42,9 @@
     .mobImgLinks {
         display: none;
     }
-
-    #mobNav {
-        display: none;
-    }
-
-    .navOverlay {
-        display: none;
-    }
-
-    .mobFloat {
-        display: none;
-    }
-
-    .navContent {
-        display: none;
-    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-    .mobSocContact {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-    }
-
-    .mobContact {
-        color: #1dbaba;
-        font-size: 2.5rem;
-    }
-
     .mobResume {
         display: none;
     }
@@ -121,60 +105,6 @@
         margin-top: 2rem;
         text-align: center;
         padding-bottom: 3rem;
-    }
-
-    .mobFloat {
-        width: 60px;
-        height: 60px;
-        background-color: #515151;
-        border-radius: 50%;
-        box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
-        font-size: 32px;
-        color: #1dbaba;
-        text-align: center;
-        margin: 0 auto;
-        padding-top: 6px;
-        position: fixed;
-        left: 43%;
-        bottom: 35px;
-    }
-
-    .navOverlay {
-        height: 0%;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgba(3, 3, 3, 0.9);
-        overflow-y: hidden;
-        transition: 0.5s
-    }
-
-    .navContent {
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-    }
-
-    .navOverlay a {
-        padding: .5rem;
-        font-family: Cambay;
-        font-size: 2.2rem;
-        color: #1dbaba;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        transition: 0.3s;
-    }
-
-    .navOverlay .closeBtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-        color: #fefefe;
     }
 
     .projWrapper {
