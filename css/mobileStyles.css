@@ -4,8 +4,18 @@
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .linkMenu {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .mobSocContact {
+        display: none;
+    }
+
+    .mobResume {
         display: none;
     }
 }
@@ -28,6 +38,26 @@
     }
 
     .navContent {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    .mobSocContact {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .mobContact {
+        color: #1dbaba;
+        font-size: 2.5rem;
+    }
+
+    .mobResume {
         display: none;
     }
 }
@@ -68,20 +98,6 @@
         width: 88%;
         padding-left: 12px;
         padding-right: 12px;
-    }
-
-    .mobSocContact {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;
-    }
-
-    .mobContact {
-        color: #1dbaba;
-        font-size: 2.5rem;
     }
 
     .imgProj {
