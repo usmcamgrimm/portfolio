@@ -119,9 +119,13 @@ hr.btmSepLine {
   border-radius: 8px;
 }
 
+section#images {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .imageLinks {
   display: flex;
-  align-items: self;
   justify-content: center;
   margin-top: 2rem;
   text-align: center;
