@@ -27,7 +27,7 @@
         font-size: 2.5rem;
     }
 
-    .mobBackBtn {
+    .mobBtn {
         width: 60px;
         height: 60px;
         background-color: #515151;
@@ -42,7 +42,7 @@
         bottom: 35px;
     }
 
-    .mobBackBtn a {
+    .mobBtn a {
         color: #1dbaba;
     }
 }
@@ -56,7 +56,7 @@
         display: none;
     }
 
-    .mobBackBtn {
+    .mobBtn {
         display: none;
     }
 }
