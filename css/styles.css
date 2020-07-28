@@ -122,14 +122,19 @@ hr.btmSepLine {
 section#images {
   display: flex;
   flex-flow: row nowrap;
+  justify-content: space-around;
 }
 
 .imageLinks {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 2rem;
   text-align: center;
   padding-bottom: 3rem;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .imgText {
