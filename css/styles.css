@@ -127,14 +127,14 @@ section#images {
 
 .imageLinks {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 2rem;
+  justify-content: space-around;
   text-align: center;
-  padding-bottom: 3rem;
-  margin-left: 75px;
-  margin-right: 75px;
-  padding-left: 75px;
-  padding-right: 75px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .imgText {
