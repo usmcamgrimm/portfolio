@@ -28,3 +28,87 @@ ul li a .linkLabel {
     top: 6px;
     right: 115%;
 }
+/*
+@media screen and (max-width: 768px) {
+    body {
+        font-family: Cambay;
+        color: #fefefe;
+    }
+    section#resume {
+        display: none;
+    }
+
+    h3 {
+        text-align: center;
+    }
+    .contact {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 0px 12px
+    }
+    .contact a {
+        text-decoration: none;
+    }
+    .contact p,
+    .contact a {
+        color: #fefefe;
+        font-size: 1rem;
+        font-family: Cambay;
+    }
+    .heading p strong{
+        font-size: 1.2rem;
+    }
+    .heading p {
+        color: #fefefe;
+        font-size: 1.1rem;
+        padding: 4px 10px;
+        font-family: Cambay;
+    }
+    .opening {
+        font-size: 1.1rem;
+        text-align: center;
+        font-family: Cambay;
+    }
+    p.opening {
+        padding-top: 12px;
+    }
+    .education {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        padding-left: 12px;
+    }
+    h4 {
+        font-family: Cambay;
+        font-size: 1.2rem;
+        color: #fefefe;
+        text-decoration: underline;
+    }
+    .title {
+        font-weight: bold;
+        color: #fefefe;
+        text-decoration: underline;
+    }
+    .ed_VWC {
+        padding-top: 1rem;
+    }
+    .ed_VWC,
+    .ed_SSC {
+        padding-bottom: 8px;
+    }
+    .skills {
+        padding-left: 8px;
+        padding-top: 1rem;
+    }
+    .skills ul{
+        padding-bottom: 0;
+    }
+    .skills li {
+        list-style-type: circle; 
+        padding-left: 1rem;
+    }
+    ul li a .linkLabel {
+        color: #1dbaba;
+}
+*/
