@@ -28,7 +28,7 @@ ul li a .linkLabel {
     top: 6px;
     right: 115%;
 }
-/*
+
 @media screen and (max-width: 768px) {
     body {
         font-family: Cambay;
@@ -84,6 +84,7 @@ ul li a .linkLabel {
         font-size: 1.2rem;
         color: #fefefe;
         text-decoration: underline;
+        padding-top: 1rem;
     }
     .title {
         font-weight: bold;
@@ -97,18 +98,7 @@ ul li a .linkLabel {
     .ed_SSC {
         padding-bottom: 8px;
     }
-    .skills {
-        padding-left: 8px;
-        padding-top: 1rem;
-    }
-    .skills ul{
-        padding-bottom: 0;
-    }
-    .skills li {
-        list-style-type: circle; 
-        padding-left: 1rem;
-    }
     ul li a .linkLabel {
         color: #1dbaba;
+    }
 }
-*/
