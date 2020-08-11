@@ -73,7 +73,9 @@ ul li a .linkLabel {
     p.opening {
         padding-top: 12px;
     }
-    .education {
+    .education,
+    .projects,
+    .employment {
         display: flex;
         flex-flow: column nowrap;
         align-items: flex-start;
@@ -81,8 +83,8 @@ ul li a .linkLabel {
     }
     h4 {
         font-family: Cambay;
-        font-size: 1.2rem;
-        color: #fefefe;
+        font-size: 1.3rem;
+        color: #1dbaba;
         text-decoration: underline;
         padding-top: 1rem;
     }
@@ -91,11 +93,8 @@ ul li a .linkLabel {
         color: #fefefe;
         text-decoration: underline;
     }
-    .ed_VWC {
-        padding-top: 1rem;
-    }
-    .ed_VWC,
-    .ed_SSC {
+    .edu,
+    .work {
         padding-bottom: 8px;
     }
     ul li a .linkLabel {
