@@ -102,6 +102,19 @@ ul li a .linkLabel {
     }
 }
 
+.skills {
+    padding-left: 12px;
+}
+
+.skillsList {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsList li {
+    list-style: none;
+}
+
 /* Accordion Styling */
 .work-accordion {
     padding: 12px;
@@ -111,24 +124,18 @@ ul li a .linkLabel {
     padding: 12px;
 }
 
-.job .arrow {
-    position: absolute;
-    right: 20px;
-    top: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    color: #fbd46c;
+li.job-list {
+    list-style: none;
 }
 
 .job-details {
     max-height: 0;
     overflow: hidden;
-    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
 }
 
 .answer p {
-    padding: 1rem;
+    padding: 12px;
 }
 
 .work-accordion li.open .job .arrow {
@@ -137,4 +144,5 @@ ul li a .linkLabel {
 
 .work-accordion li.open .job-details {
     max-height: 150px;
+    padding-top: 0;
 }
