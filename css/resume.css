@@ -101,3 +101,40 @@ ul li a .linkLabel {
         color: #1dbaba;
     }
 }
+
+/* Accordion Styling */
+.work-accordion {
+    padding: 12px;
+}
+
+.job {
+    padding: 12px;
+}
+
+.job .arrow {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fbd46c;
+}
+
+.job-details {
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+.answer p {
+    padding: 1rem;
+}
+
+.work-accordion li.open .job .arrow {
+    transform: rotate(180deg)
+}
+
+.work-accordion li.open .job-details {
+    max-height: 150px;
+}
