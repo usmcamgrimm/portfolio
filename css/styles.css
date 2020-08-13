@@ -226,7 +226,7 @@ section#images {
   margin-top: 8px;
 }
 
-ul li a .fa-arrow-circle-left {
+ul.float-menu li.float-list a .fa-arrow-circle-left {
   font-size: 1.5rem;
 }
 
@@ -234,7 +234,7 @@ ul li a .fa-arrow-circle-left {
   box-shadow: 0 3px 15px rgba(3, 3, 3, 0.7);
 }
 
-ul {
+ul.float-menu {
   position: fixed;
   right: 77px;
   padding-bottom: 40px;
@@ -242,12 +242,12 @@ ul {
   z-index: 100;
 }
 
-ul li {
+ul.float-menu li.float-list {
   list-style: none;
   margin-bottom: 10px;
 }
 
-ul li a {
+ul.float-menu li.float-list a {
   background-color: #515151;
   color: #1dbaba;
   border-radius: 50%;
@@ -258,12 +258,12 @@ ul li a {
   display: block;
 }
 
-ul li a:hover {
+ul.float-menu li.float-list a:hover {
   box-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
   transform: scale(1.2);
 }
 
-ul li a .linkLabel {
+ul.float-menu li.float-list a .linkLabel {
   visibility: hidden;
   width: 100px;
   background-color: transparent;
@@ -277,12 +277,12 @@ ul li a .linkLabel {
   right: 75%;
 }
 
-ul:hover {
+ul.float-menu:hover {
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-ul li a:hover .linkLabel {
+ul.float-menu li.float-list a:hover .linkLabel {
   visibility: visible;
 }
 
@@ -345,7 +345,7 @@ a#menu-share:hover>i {
     bottom: 30px;
   }
 
-  ul {
+  ul.float-menu {
     bottom: 60px;
   }
 }

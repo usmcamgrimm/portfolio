@@ -12,7 +12,7 @@ section#resume {
     height: 100vh;
 }
 
-ul li a .linkLabel {
+ul.float-menu li.float-list a .linkLabel {
     visibility: hidden;
     width: 80px;
     background-color: transparent;
@@ -34,6 +34,7 @@ ul li a .linkLabel {
         font-family: Cambay;
         color: #fefefe;
     }
+
     section#resume {
         display: none;
     }
@@ -41,38 +42,46 @@ ul li a .linkLabel {
     h3 {
         text-align: center;
     }
+
     .contact {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         padding: 0px 12px
     }
+
     .contact a {
         text-decoration: none;
     }
+
     .contact p,
     .contact a {
         color: #fefefe;
         font-size: 1rem;
         font-family: Cambay;
     }
-    .heading p strong{
+
+    .heading p strong {
         font-size: 1.2rem;
     }
+
     .heading p {
         color: #fefefe;
         font-size: 1.1rem;
         padding: 4px 10px;
         font-family: Cambay;
     }
+
     .opening {
         font-size: 1.1rem;
         text-align: center;
         font-family: Cambay;
     }
+
     p.opening {
         padding-top: 12px;
     }
+
     .education,
     .projects,
     .employment {
@@ -81,6 +90,7 @@ ul li a .linkLabel {
         align-items: flex-start;
         padding-left: 12px;
     }
+
     h4 {
         font-family: Cambay;
         font-size: 1.3rem;
@@ -88,16 +98,19 @@ ul li a .linkLabel {
         text-decoration: underline;
         padding-top: 1rem;
     }
+
     .title {
         font-weight: bold;
         color: #fefefe;
         text-decoration: underline;
     }
+
     .edu,
     .work {
         padding-bottom: 8px;
     }
-    ul li a .linkLabel {
+
+    ul.float-menu li.float-list a .linkLabel {
         color: #1dbaba;
     }
 }
