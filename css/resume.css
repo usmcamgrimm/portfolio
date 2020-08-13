@@ -138,11 +138,11 @@ li.job-list {
     padding: 12px;
 }
 
-.work-accordion li.open .job .arrow {
+.work-accordion ul.work-history li.job-list.open .job .arrow {
     transform: rotate(180deg)
 }
 
-.work-accordion li.open .job-details {
+.work-accordion ul.work-history li.job-list.open .job-details {
     max-height: 150px;
     padding-top: 0;
 }
