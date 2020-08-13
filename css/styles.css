@@ -216,8 +216,8 @@ section#images {
   margin: 0 auto;
   padding-top: 6px;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 70px;
+  bottom: 40px;
   z-index: 1000;
 }
 
@@ -236,9 +236,9 @@ ul li a .fa-arrow-circle-left {
 
 ul {
   position: fixed;
-  right: 30px;
+  right: 77px;
   padding-bottom: 40px;
-  bottom: 50px;
+  bottom: 65px;
   z-index: 100;
 }
 
