@@ -113,49 +113,54 @@ ul.float-menu li.float-list a .linkLabel {
     ul.float-menu li.float-list a .linkLabel {
         color: #1dbaba;
     }
-}
 
-.skills {
-    padding-left: 12px;
-}
+    .skills {
+        padding-left: 12px;
+    }
 
-.skillsList {
-    display: flex;
-    justify-content: space-evenly;
-}
+    .skillsList {
+        display: flex;
+        justify-content: space-evenly;
+    }
 
-.skillsList li {
-    list-style: none;
-}
+    .skillsList li {
+        list-style: none;
+    }
 
-/* Accordion Styling */
-.work-accordion {
-    padding: 12px;
-}
+    /* Accordion Styling */
+    .work-accordion {
+        padding: 12px;
+    }
 
-.job {
-    padding: 12px;
-}
+    li.job-list {
+        list-style: none;
+    }
 
-li.job-list {
-    list-style: none;
-}
+    li.job-list {
+        padding-bottom: 8px;
+    }
 
-.job-details {
-    max-height: 0;
-    overflow: hidden;
-    transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
-}
+    li.job-list.open {
+        padding-bottom: 12px;
+    }
 
-.answer p {
-    padding: 12px;
-}
+    .job-details::before {
+        padding: 0;
+        margin: 0;
+    }
+    .job-details {
+        max-height: 0;
+        overflow: hidden;
+        margin-bottom: 8px;
+        transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    }
 
-.work-accordion ul.work-history li.job-list.open .job .arrow {
-    transform: rotate(180deg)
-}
+    .work-accordion ul.work-history li.job-list.open .job .arrow {
+        transform: rotate(180deg)
+    }
 
-.work-accordion ul.work-history li.job-list.open .job-details {
-    max-height: 150px;
-    padding-top: 0;
+    .work-accordion ul.work-history li.job-list.open .job-details {
+        max-height: 150px;
+        padding-top: 0;
+    }
 }
