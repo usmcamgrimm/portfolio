@@ -9,7 +9,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156552132-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
         gtag('config', 'UA-156552132-1');
     </script>
@@ -136,6 +139,29 @@
                         <p class="proj"><a href="https://github.com/usmcamgrimm/havamal" target="_blank"
                                 rel="noreferrer">Source</a></p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="aboutContainer">
+                <h3>Send Me a Message</h3>
+                <p class="form-header">I'd love to hear from you!</p>
+                <div class="form-wrapper" id="contact-me">
+                    <form class="contact-form" method=POST" data-netlify="true" action="./success.html">
+                        <div class="form-fields">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" placeholder="Name" required>
+                            <label for="emailAddress">Email Address</label>
+                            <input type="email" name="emailAddress" placeholder="Your email address" required>
+                        </div>
+                        <div class="form-text">
+                            <label for="message-box">Message</label>
+                            <textarea rows="5" name="message-box" class="messageBox"
+                                placeholder="Type your message here" required></textarea>
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

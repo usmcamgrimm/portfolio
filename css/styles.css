@@ -403,3 +403,72 @@ a#menu-share:hover>i {
 section#projects {
   padding-bottom: 3rem;
 }
+
+/* ?Form Section */
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact h3 {
+  text-align: center;
+}
+
+p.form-header {
+  text-align: center;
+  font-family: Comfortaa;
+  font-size: 1rem;
+  color: #fbd46c;
+  padding-bottom: 1.2rem;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: Cambay;
+  font-size: 1.2rem;
+  color: #1dbaba;
+  padding: 8px 0 2px 0;
+}
+
+input[type=text],
+[type=email] {
+  padding: 8px 12px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.messageBox {
+  margin-bottom: 6px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button[type=submit] {
+  background: #515151;
+  color: #1dbaba;
+  border-radius: 5px;
+  font-family: Cambay;
+  font-size: 1rem;
+  border: none;
+  width: 300px;
+}
+
+button[type=submit]:hover {
+  box-shadow: 0 2px 8px #030303;
+}
