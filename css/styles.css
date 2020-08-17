@@ -472,3 +472,28 @@ button[type=submit] {
 button[type=submit]:hover {
   box-shadow: 0 2px 8px #030303;
 }
+
+.successContainer {
+  margin-top: 2rem;
+  padding: 3rem;
+  background: #28313e;
+  border-radius: 6px;
+  width: 80%;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 8px #242427;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#success h3 {
+  text-align: center;
+}
+
+p.successMessage {
+  font-family: cambay;
+  font-size: 1rem;
+  color: #fefefe;
+  text-align: center;
+}
