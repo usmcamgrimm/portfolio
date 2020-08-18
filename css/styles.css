@@ -497,3 +497,20 @@ p.successMessage {
   color: #fefefe;
   text-align: center;
 }
+
+p.successBack {
+  font-family: Cambay;
+  font-size: 1.15rem;
+  color: #fefefe;
+  text-align: center;
+  padding-top: 1.25rem;
+}
+
+p.successBack a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+p.successBack a:hover {
+  color: #1dbaba;
+}
