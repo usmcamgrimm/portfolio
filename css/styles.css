@@ -140,7 +140,7 @@ section#images {
 .imgText {
   font-family: Cambay;
   font-size: 2rem;
-  color: #1dbaba;
+  color: #28313e;
   text-align: center;
 }
 
@@ -185,7 +185,7 @@ section#images {
   font-family: Cambay;
   font-size: 2rem;
   text-decoration: none;
-  color: #1dbaba;
+  color: #28313e;
   cursor: crosshair;
 }
 
@@ -460,8 +460,8 @@ input[type=text],
 }
 
 button[type=submit] {
-  background: #515151;
-  color: #1dbaba;
+  background: #1dbaba;
+  color: #030303;
   border-radius: 5px;
   font-family: Cambay;
   font-size: 1rem;
