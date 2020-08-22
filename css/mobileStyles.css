@@ -75,6 +75,14 @@
     .mobBtn {
         display: none;
     }
+
+    #contact .aboutContainer {
+        width: 60%;
+    }
+
+    .email-label {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 600px) {
