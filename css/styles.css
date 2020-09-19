@@ -473,6 +473,10 @@ button[type=submit]:hover {
   box-shadow: 0 2px 8px #030303;
 }
 
+input:focus, .messageBox:focus {
+  outline: 1px solid #1dbaba;
+}
+
 .successContainer {
   margin-top: 2rem;
   padding: 3rem;
