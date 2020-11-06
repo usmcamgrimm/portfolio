@@ -3,15 +3,12 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     background: #3c4a5d;
 }
-
 section#resume {
     height: 100vh;
 }
-
 ul.float-menu li.float-list a .linkLabel {
     visibility: hidden;
     width: 80px;
@@ -28,60 +25,49 @@ ul.float-menu li.float-list a .linkLabel {
     top: 6px;
     right: 115%;
 }
-
 @media screen and (max-width: 768px) {
     body {
         font-family: Cambay;
         color: #fefefe;
     }
-
     section#resume {
         display: none;
     }
-
     h3 {
         text-align: center;
     }
-
     .contact {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         padding: 0px 12px
     }
-
     .contact a {
         text-decoration: none;
     }
-
     .contact p,
     .contact a {
         color: #fefefe;
         font-size: 1rem;
         font-family: Cambay;
     }
-
     .heading p strong {
         font-size: 1.2rem;
     }
-
     .heading p {
         color: #fefefe;
         font-size: 1.1rem;
         padding: 4px 10px;
         font-family: Cambay;
     }
-
     .opening {
         font-size: 1.1rem;
         text-align: center;
         font-family: Cambay;
     }
-
     p.opening {
         padding-top: 12px;
     }
-
     .education,
     .projects,
     .employment {
@@ -90,7 +76,6 @@ ul.float-menu li.float-list a .linkLabel {
         align-items: flex-start;
         padding-left: 12px;
     }
-
     h4 {
         font-family: Cambay;
         font-size: 1.3rem;
@@ -98,52 +83,41 @@ ul.float-menu li.float-list a .linkLabel {
         text-decoration: underline;
         padding-top: 1rem;
     }
-
     .title {
         font-weight: bold;
         color: #fefefe;
         text-decoration: underline;
     }
-
     .edu,
     .work {
         padding-bottom: 8px;
     }
-
     ul.float-menu li.float-list a .linkLabel {
         color: #1dbaba;
     }
-
     .skills {
         padding-left: 12px;
     }
-
     .skillsList {
         display: flex;
         justify-content: space-evenly;
     }
-
     .skillsList li {
         list-style: none;
     }
-
     /* Accordion Styling */
     .work-accordion {
         padding: 12px;
     }
-
     li.job-list {
         list-style: none;
     }
-
     li.job-list {
         padding-bottom: 8px;
     }
-
     li.job-list.open {
         padding-bottom: 12px;
     }
-
     .job-details::before {
         padding: 0;
         margin: 0;
@@ -154,11 +128,9 @@ ul.float-menu li.float-list a .linkLabel {
         margin-bottom: 8px;
         transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
     }
-
     .work-accordion ul.work-history li.job-list.open .job .arrow {
         transform: rotate(180deg)
     }
-
     .work-accordion ul.work-history li.job-list.open .job-details {
         max-height: 150px;
         padding-top: 0;

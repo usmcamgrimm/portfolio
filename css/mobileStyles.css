@@ -3,16 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
 @media screen and (max-width: 768px) {
     .linkMenu {
         display: none;
     }
-
     .projWrapper {
         margin-bottom: 1.5rem;
     }
-
     .mobSocContact {
         display: flex;
         flex-flow: row nowrap;
@@ -21,12 +18,10 @@
         justify-content: center;
         padding: 1rem;
     }
-
     .mobContact {
         color: #1dbaba;
         font-size: 2.5rem;
     }
-
     .mobBtn {
         width: 60px;
         height: 60px;
@@ -41,110 +36,88 @@
         left: 43%;
         bottom: 35px;
     }
-
     .mobBtn a {
         color: #1dbaba;
     }
-
     .contact-form {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-
     .messageBox {
         width: 100%;
     }
-
     button[type=submit] {
         width: 100%;
         border: none;
         padding: 6px 0;
     }
 }
-
 @media screen and (min-width: 769px) {
     .mobSocContact {
         display: none;
     }
-
     .mobResume {
         display: none;
     }
-
     .mobBtn {
         display: none;
     }
-
     #contact .aboutContainer {
         width: 60%;
     }
-
     .email-label {
         margin-top: 10px;
     }
 }
-
 @media screen and (min-width: 600px) {
     .mobImgLinks {
         display: none;
     }
 }
-
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .mobResume {
         display: none;
     }
 }
-
 @Media screen and (max-width: 599px) {
     .linkMenu {
         display: none;
     }
-
     .introBox {
         padding: 0;
         justify-content: center;
         width: 96%;
     }
-
     .myPhoto {
         max-width: 65%;
         height: auto;
     }
-
     .devBox {
         width: 95%;
     }
-
     h1 {
         font-size: 3rem;
     }
-
     h2 {
         font-size: 1.7rem;
     }
-
     .aboutSection {
         background: #fefefe;
     }
-
     .aboutContainer {
         width: 88%;
         padding-left: 12px;
         padding-right: 12px;
     }
-
     .imgProj {
         max-width: 40%;
         height: auto;
         color: #28313e;
     }
-
     .imageLinks {
         display: none;
     }
-
     .mobImgLinks {
         display: flex;
         align-items: self;
@@ -153,7 +126,6 @@
         text-align: center;
         padding-bottom: 3rem;
     }
-
     .projWrapper {
         margin-bottom: 1.2rem;
     }
