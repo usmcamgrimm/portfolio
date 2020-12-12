@@ -1,7 +1,13 @@
-# Hello!
+# Adrian's Portfolio
 
-### This is the repository I maintain for my portfolio site
+
+### This is the repository I maintain for my personal site
+
 
 **[adriangrimm.com](https://adriangrimm.com)**
 
-Created with HTML, CSS, and JavaScript
+To build this site, I used the basics:
+
+- HTML
+- CSS
+- JavaScript
