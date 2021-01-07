@@ -70,11 +70,6 @@
         margin-top: 10px;
     }
 }
-@media screen and (min-width: 600px) {
-    .mobImgLinks {
-        display: none;
-    }
-}
 @media screen and (min-width: 600px) and (max-width: 768px) {
     .mobResume {
         display: none;
@@ -109,22 +104,6 @@
         width: 88%;
         padding-left: 12px;
         padding-right: 12px;
-    }
-    .imgProj {
-        max-width: 40%;
-        height: auto;
-        color: #28313e;
-    }
-    .imageLinks {
-        display: none;
-    }
-    .mobImgLinks {
-        display: flex;
-        align-items: self;
-        justify-content: center;
-        margin-top: 2rem;
-        text-align: center;
-        padding-bottom: 3rem;
     }
     .projWrapper {
         margin-bottom: 1.2rem;
