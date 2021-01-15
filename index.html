@@ -9,13 +9,13 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156552132-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-156552132-1');
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-156552132-1');
     </script>
     <title>Adrian Grimm</title>
     <link rel="stylesheet" href="css/styles.css">
@@ -23,143 +23,123 @@
     <link rel="icon" href="images/tabIcon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css?family=Cambay|Comfortaa|Racing+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="js/particles.min.js"></script>
 </head>
 
 <body>
 
-    <div id="particles">
-        <section class="introBox">
-            <div class="nameText">
-                <h1>Adrian Grimm</h1>
-            </div>
-            <div class="badPhoto">
-                <img src="images/adrian.png" class="myPhoto" alt="adrian at the beach" />
-            </div>
-        </section>
+  <div id="particles">
+    <section class="introBox">
+      <div class="nameText">
+        <h1>Adrian Grimm</h1>
+      </div>
+      <div class="badPhoto">
+        <img src="images/adrian.png" class="myPhoto" alt="adrian at the beach" />
+      </div>
+    </section>
 
-        <section class="devBox">
-            <div class="titleText">
-                <h2 id="typed3"></h2>
-            </div>
-        </section>
-    </div>
+    <section class="devBox">
+      <div class="titleText">
+        <h2 id="typed3"></h2>
+      </div>
+    </section>
+  </div>
 
-    <div class="aboutSection">
-        <section id="about">
-            <div class="aboutContainer">
-                <h2>Welcome!</h2>
-                <hr class="welcomeLine">
-                <p>
-                    I'm Adrian, a motivated and passionate front-end developer! My love for coding began with
-                    open-source Android development and a passion for creating useful content. Realizing that I could
-                    turn this passion into a career, I took a few classes and found an organization for veterans, <span
-                        class="vwcLink"><a href="https://vetswhocode.io" target="_blank" rel="noreferrer">Vets Who
-                            Code</a></span>. Completing this bootcamp program provided a solid foundation for coding,
-                    and a better understanding of design standards. I enjoy creating content that allows me to learn and
-                    share my creative abilities.
-                </p>
-                <hr class="sepLine">
-                <div class="mobSocContact">
-                    <div class="wrapper">
-                        <a href="mailto:usmcamgrimm@gmail.com?Subject=Hello"><i
-                                class="far fa-envelope mobContact"></i></a>
-                    </div>
-                    <div class="wrapper">
-                        <a href="https://twitter.com/usmcamgrimm" target="_blank" rel="noreferrer"><i
-                                class="fab fa-twitter mobContact"></i></a>
-                    </div>
-                    <div class="wrapper">
-                        <a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><i
-                                class="fab fa-linkedin-in mobContact"></i></a>
-                    </div>
-                    <div class="wrapper">
-                        <a href="./resume.html"><i class="fas fa-file mobContact mobResShow"></i></a>
-                    </div>
-                </div>
-                <hr class="btmSepLine">
-            </div>
-        </section>
-
-        <section id="projects">
-            <p class="imgText">Projects</p>
-            <div class="projectScreens">
-                <div class="projWrapper">
-                    <img src="./images/portfolioScreen.JPG" class="projImg" alt="Screenshot of my portfolio" />
-                    <div class="projText1">
-                        <p class="proj"><a href="https://github.com/usmcamgrimm/portfolio" target="_blank"
-                                rel="noreferrer">Source</a></p>
-                    </div>
-                </div>
-                <div class="projWrapper">
-                    <img src="./images/havamalScreen.JPG" class="projImg" alt="Screenshot of my Havamal website" />
-                    <div class="projText2">
-                        <p class="proj"><a href="https://www.havamalband.com" target="_blank" rel="noreferrer">Link</a>
-                        </p>
-                        <p class="proj"><a href="https://github.com/usmcamgrimm/havamal" target="_blank"
-                                rel="noreferrer">Source</a></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="aboutContainer">
-                <h3>Send Me a Message</h3>
-                <p class="form-header">I'd love to hear from you!</p>
-                <div class="form-wrapper" id="contact-me-form">
-                    <form class="contact-form" method="POST" data-netlify="true" action="./success.html">
-                        <div class="form-fields">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" placeholder="Name" required>
-                            <label for="emailAddress" class="email-label">Email Address</label>
-                            <input type="email" id="emailAddress" name="emailAddress" placeholder="Your email address" required>
-                        </div>
-                        <div class="form-text">
-                            <label for="message-box">Message</label>
-                            <textarea rows="5" id="message-box" name="message-box" class="messageBox"
-                                placeholder="Type your message here" required></textarea>
-                            <button type="submit">SEND</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <div class="linkMenu">
-        <a href="#" class="float" id="menu-share">
-            <i class="fas fa-bars"></i>
-        </a>
-        <ul class="float-menu">
-            <li class="float-list"><a href="index.html#contact"><span
-                        class="linkLabel">Contact</span><i class="far fa-envelope my-float"></a></i></li>
-            <li class="float-list"><a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer"><span
-                        class="linkLabel">GitHub</span><i class="fab fa-github my-float"></a></i></li>
-            <li class="float-list"><a href="https://codepen.io/usmcamgrimm" target="_blank" rel="noreferrer"><span
-                        class="linkLabel">Codepen</span><i class="fab fa-codepen my-float"></a></i></li>
-            <li class="float-list"><a href="https://twitter.com/usmcamgrimm/" target="_blank" rel="noreferrer"><span
-                        class="linkLabel">Twitter</span><i class="fab fa-twitter my-float"></a></i></li>
-            <li class="float-list"><a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><span
-                        class="linkLabel">LinkedIn</span><i class="fab fa-linkedin-in my-float"></a></i></li>
-            <li class="float-list"><a href="resume.html"><span class="linkLabel">Resume</span><i
-                        class="fas fa-file my-float"></a></i>
-            </li>
-        </ul>
-    </div>
-
-    <script src="js/scripts.js"></script>
-    <script src="js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="js/randomDev.js"></script>
-
-    <!-- Footer -->
-    <div class="footer">
+  <div class="aboutSection">
+    <section id="about">
+      <div class="aboutContainer">
+        <h2>Welcome!</h2>
+        <hr class="welcomeLine">
         <p>
-            &copy;<script>document.write(new Date().getFullYear())</script> Adrian Grimm
+          I'm Adrian, a motivated and passionate front-end developer! My love for coding began with open-source Android development and a passion for creating useful content. Realizing that I could turn this passion into a career, I took a few classes and found an organization for veterans, <span class="vwcLink"><a href="https://vetswhocode.io" target="_blank" rel="noreferrer">Vets Who Code</a></span>. Completing this bootcamp program provided a solid foundation for coding, and a better understanding of design standards. I enjoy creating content that allows me to learn and share my creative abilities.
         </p>
-    </div>
+        <hr class="sepLine">
+        <div class="mobSocContact">
+          <div class="wrapper">
+            <a href="index.html#contact"><i class="far fa-envelope mobContact"></i></a>
+          </div>
+          <div class="wrapper">
+            <a href="https://twitter.com/usmcamgrimm" target="_blank" rel="noreferrer"><i class="fab fa-twitter mobContact"></i></a>
+          </div>
+          <div class="wrapper">
+            <a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in mobContact"></i></a>
+          </div>
+          <div class="wrapper">
+            <a href="./resume.html"><i class="fas fa-file mobContact mobResShow"></i></a>
+          </div>
+        </div>
+        <hr class="btmSepLine">
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="imgText">Projects</p>
+      <div class="projectScreens">
+        <div class="projWrapper">
+          <img src="./images/portfolioScreen.JPG" class="projImg" alt="Screenshot of my portfolio" />
+          <div class="projText1">
+            <p class="proj"><a href="https://github.com/usmcamgrimm/portfolio" target="_blank" rel="noreferrer">Source</a></p>
+          </div>
+        </div>
+        <div class="projWrapper">
+          <img src="./images/havamalScreen.JPG" class="projImg" alt="Screenshot of my Havamal website" />
+          <div class="projText2">
+            <p class="proj"><a href="https://www.havamalband.com" target="_blank" rel="noreferrer">Link</a></p>
+            <p class="proj"><a href="https://github.com/usmcamgrimm/havamal" target="_blank" rel="noreferrer">Source</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="aboutContainer">
+        <h3>Send Me a Message</h3>
+        <p class="form-header">I'd love to hear from you!</p>
+        <div class="form-wrapper" id="contact-me-form">
+          <form class="contact-form" method="POST" data-netlify="true" action="./success.html">
+            <div class="form-fields">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Name" required>
+              <label for="emailAddress" class="email-label">Email Address</label>
+              <input type="email" id="emailAddress" name="emailAddress" placeholder="Your email address" required>
+            </div>
+            <div class="form-text">
+              <label for="message-box">Message</label>
+              <textarea rows="5" id="message-box" name="message-box" class="messageBox" placeholder="Type your message here" required></textarea>
+              <button type="submit">SEND</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="linkMenu">
+    <a href="#" class="float" id="menu-share">
+      <i class="fas fa-bars"></i>
+    </a>
+    <ul class="float-menu">
+      <li class="float-list"><a href="index.html#contact"><span class="linkLabel">Contact</span><i class="far fa-envelope my-float"></a></i></li>
+      <li class="float-list"><a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer"><span class="linkLabel">GitHub</span><i class="fab fa-github my-float"></a></i></li>
+      <li class="float-list"><a href="https://codepen.io/usmcamgrimm" target="_blank" rel="noreferrer"><span class="linkLabel">Codepen</span><i class="fab fa-codepen my-float"></a></i></li>
+      <li class="float-list"><a href="https://twitter.com/usmcamgrimm/" target="_blank" rel="noreferrer"><span class="linkLabel">Twitter</span><i class="fab fa-twitter my-float"></a></i></li>
+      <li class="float-list"><a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><span class="linkLabel">LinkedIn</span><i class="fab fa-linkedin-in my-float"></a></i></li>
+      <li class="float-list"><a href="resume.html"><span class="linkLabel">Resume</span><i class="fas fa-file my-float"></a></i></li>
+    </ul>
+  </div>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+  <script src="js/randomDev.js"></script>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>
+      &copy;<script>document.write(new Date().getFullYear())</script> Adrian Grimm
+    </p>
+  </div>
 
 </body>
 
