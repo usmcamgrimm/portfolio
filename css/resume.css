@@ -4,7 +4,7 @@
     margin: 0;
 }
 body {
-    background: #3c4a5d;
+    background: #013369;
 }
 section#resume {
     height: 100vh;
@@ -15,7 +15,7 @@ ul.float-menu li.float-list a .linkLabel {
     background-color: transparent;
     font-family: Cambay;
     background-color: #515151;
-    color: #1dbaba;
+    color: #00c6bf;
     text-align: center;
     border-radius: 6px;
     padding: 3px 0;
@@ -28,7 +28,7 @@ ul.float-menu li.float-list a .linkLabel {
 @media screen and (max-width: 768px) {
     body {
         font-family: Cambay;
-        color: #fefefe;
+        color: #f1f1e6;
     }
     section#resume {
         display: none;
@@ -47,7 +47,7 @@ ul.float-menu li.float-list a .linkLabel {
     }
     .contact p,
     .contact a {
-        color: #fefefe;
+        color: #f1f1e6;
         font-size: 1rem;
         font-family: Cambay;
     }
@@ -55,7 +55,7 @@ ul.float-menu li.float-list a .linkLabel {
         font-size: 1.2rem;
     }
     .heading p {
-        color: #fefefe;
+        color: #f1f1e6;
         font-size: 1.1rem;
         padding: 4px 10px;
         font-family: Cambay;
@@ -79,13 +79,13 @@ ul.float-menu li.float-list a .linkLabel {
     h4 {
         font-family: Cambay;
         font-size: 1.3rem;
-        color: #1dbaba;
+        color: #00c6bf;
         text-decoration: underline;
         padding-top: 1rem;
     }
     .title {
         font-weight: bold;
-        color: #fefefe;
+        color: #f1f1e6;
         text-decoration: underline;
     }
     .edu,
@@ -93,7 +93,7 @@ ul.float-menu li.float-list a .linkLabel {
         padding-bottom: 8px;
     }
     ul.float-menu li.float-list a .linkLabel {
-        color: #1dbaba;
+        color: #00c6bf;
     }
     .skills {
         padding-left: 12px;
