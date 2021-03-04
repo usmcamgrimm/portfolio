@@ -292,13 +292,13 @@ a#menu-share:hover>i {
 .projWrapper {
   display: flex;
   flex-flow: column wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: space-between;
   padding: 12px;
   background-color: #fefefe;
   border-radius: 5px;
   width: 375px;
-  height: 280px;
+  height: 250px;
   box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
 }
 .projText1 {
