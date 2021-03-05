@@ -4,7 +4,7 @@
   margin: 0;
 }
 body {
-  background: #3c4a5d;
+  background: #183154;
 }
 h1 {
   font-family: 'Racing Sans One';
@@ -15,13 +15,13 @@ h1 {
 h2 {
   font-family: Cambay;
   font-size: 3rem;
-  color: #1dbaba;
+  color: #00b494;
   text-shadow: 4px 3px 6px #242427;
 }
 h3 {
   font-family: Cambay;
   font-size: 1.8rem;
-  color: #1dbaba;
+  color: #00b494;
   text-shadow: 0 3px 2px #242427;
 }
 #particles {
@@ -65,7 +65,7 @@ h3 {
 .aboutContainer {
   margin-top: 2rem;
   padding: 3rem;
-  background: #3c4a5d;
+  background: #183154;
   border-radius: 6px;
   width: 80%;
   margin-bottom: 2rem;
@@ -74,7 +74,7 @@ h3 {
 #about p {
   font-family: Cambay;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #fefefe;
 }
 .vwcLink a {
   color: #fefefe;
@@ -104,7 +104,7 @@ hr.btmSepLine {
 .imgText {
   font-family: Cambay;
   font-size: 2rem;
-  color: #28313e;
+  color: #183154;
   text-align: center;
 }
 .wrapper {
@@ -139,12 +139,12 @@ hr.btmSepLine {
   font-family: Cambay;
   font-size: 2rem;
   text-decoration: none;
-  color: #28313e;
+  color: #183154;
   cursor: crosshair;
 }
 .footer {
   height: 45px;
-  background: #3c4a5d;
+  background: #183154;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -158,11 +158,11 @@ hr.btmSepLine {
 .float {
   width: 60px;
   height: 60px;
-  background-color: #515151;
+  background-color: #484848;
   border-radius: 50%;
-  box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
+  box-shadow: 0 3px 12px rgba(3, 3, 3, 0.8);
   font-size: 32px;
-  color: #1dbaba;
+  color: #00b494;
   text-align: center;
   margin: 0 auto;
   padding-top: 6px;
@@ -193,8 +193,8 @@ ul.float-menu li.float-list {
   margin-bottom: 10px;
 }
 ul.float-menu li.float-list a {
-  background-color: #515151;
-  color: #1dbaba;
+  background-color: #484848;
+  color: #00b494;
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 2px 8px rgba(3, 3, 3, 0.6);
@@ -210,7 +210,7 @@ ul.float-menu li.float-list a .linkLabel {
   visibility: hidden;
   width: 100px;
   background-color: transparent;
-  color: #1dbaba;
+  color: #00b494;
   font-family: Cambay;
   text-align: center;
   text-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
@@ -321,7 +321,7 @@ a#menu-share:hover>i {
 }
 .proj a {
   text-decoration: none;
-  color: #28313e;
+  color: #183154;
 }
 section#projects {
   padding-bottom: 3rem;
@@ -357,7 +357,7 @@ p.form-header {
 label {
   font-family: Cambay;
   font-size: 1.2rem;
-  color: #1dbaba;
+  color: #00b494;
   padding: 8px 0 2px 0;
 }
 input[type=text],
@@ -373,7 +373,7 @@ input[type=text],
   width: 300px;
 }
 button[type=submit] {
-  background: #1dbaba;
+  background: #00b494;
   color: #030303;
   border-radius: 5px;
   font-family: Cambay;
@@ -385,12 +385,12 @@ button[type=submit]:hover {
   box-shadow: 0 2px 8px #030303;
 }
 input:focus, .messageBox:focus {
-  outline: 1px solid #1dbaba;
+  outline: 1px solid #00b494;
 }
 .successContainer {
   margin-top: 2rem;
   padding: 3rem;
-  background: #3c4a5d;
+  background: #183154;
   border-radius: 6px;
   width: 80%;
   margin-bottom: 2rem;
@@ -421,5 +421,5 @@ p.successBack a {
   color: #fefefe;
 }
 p.successBack a:hover {
-  color: #1dbaba;
+  color: #00b494;
 }
