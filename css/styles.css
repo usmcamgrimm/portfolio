@@ -78,7 +78,7 @@ h3 {
 }
 .vwcLink a {
   color: #fefefe;
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
 }
 hr.welcomeLine {
