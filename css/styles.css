@@ -372,6 +372,18 @@ input[type=text],
   border-radius: 5px;
   width: 300px;
 }
+@keyframes colors {
+  0% { caret-color: #183154; }
+  25% { caret-color: #00b494; }
+  50% { caret-color: #484848; }
+  75% { caret-color: #ce1126; }
+  100% { caret-color: #00b494; }
+}
+input[type=text],
+[type=email],
+.messageBox {
+  animation: 4s infinite colors
+}
 button[type=submit] {
   background: #00b494;
   color: #030303;
