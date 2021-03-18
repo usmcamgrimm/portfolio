@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .linkMenu {
         display: none;
     }
@@ -32,9 +32,9 @@
         text-align: center;
         margin: 0 auto;
         padding-top: 6px;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 2rem;
+        position: fixed;
+        left: 43%;
+        bottom: 35px;
     }
     .mobBtn a {
         color: #00b494;
@@ -53,7 +53,7 @@
         padding: 6px 0;
     }
 }
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 769px) {
     .mobSocContact {
         display: none;
     }
@@ -70,14 +70,9 @@
         margin-top: 10px;
     }
 }
-/* @media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
     .mobResume {
         display: none;
-    }
-} */
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-    .projWrapper {
-        margin: 2rem;
     }
 }
 @Media screen and (max-width: 599px) {
