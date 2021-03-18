@@ -25,7 +25,7 @@ ul.float-menu li.float-list a .linkLabel {
     top: 6px;
     right: 115%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     body {
         font-family: Cambay;
         color: #fefefe;
