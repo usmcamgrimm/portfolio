@@ -283,6 +283,9 @@ a#menu-share:hover>i {
   height: auto;
   border-radius: 5px;
 }
+.projImg:hover {
+  transform: scale(1.02);
+}
 .projectScreens {
   display: flex;
   flex-flow: row wrap;
@@ -302,6 +305,7 @@ a#menu-share:hover>i {
   box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.4), 0px -2px 5px rgba(3, 3, 3, 0.4);
 }
 .projWrapper:hover {
+  transform: rotate(4deg);
   box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
 }
 .projText1 {
@@ -322,6 +326,10 @@ a#menu-share:hover>i {
 .proj a {
   text-decoration: none;
   color: #183154;
+}
+.proj a:hover {
+  color: #00b494;
+  border-bottom: 1px solid #00b494;
 }
 section#projects {
   padding-bottom: 3rem;
