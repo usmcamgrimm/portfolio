@@ -54,6 +54,20 @@ h3 {
 .typed-cursor {
   display: none;
 }
+.down-btn {
+  color: #fbd46c;
+  text-shadow: 4px 3px 6px #030303;
+  font-size: 1.75rem;
+  position: absolute;
+  width: 100%;
+  bottom: 40px;
+  left: 0;
+  text-align: center;
+}
+.down-btn .fa-angle-double-down:hover {
+  color: #c8a956;
+  transform: scale(1.4);
+}
 .aboutSection {
   background: #fefefe;
 }
