@@ -285,9 +285,6 @@ a#menu-share:hover>i {
   height: auto;
   border-radius: 5px;
 }
-.projImg:hover {
-  transform: scale(1.02);
-}
 .projectScreens {
   display: flex;
   flex-flow: row wrap;
