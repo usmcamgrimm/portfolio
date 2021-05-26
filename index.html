@@ -111,8 +111,11 @@
         <h3>Send Me a Message</h3>
         <p class="form-header">I'd love to hear from you!</p>
         <div class="form-wrapper" id="contact-me-form">
-          <form class="contact-form" method="POST" data-netlify="true" action="./success.html">
+          <form class="contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="./success.html">
             <div class="form-fields">
+              <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+              </p>
               <label for="name">Your Name</label>
               <input type="text" id="name" name="name" pattern="^[a-zA-Z1-9].*" required>
               <label for="emailAddress" class="email-label">Email Address</label>
