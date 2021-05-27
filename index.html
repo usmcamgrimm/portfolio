@@ -111,19 +111,48 @@
         <h3>Send Me a Message</h3>
         <p class="form-header">I'd love to hear from you!</p>
         <div class="form-wrapper" id="contact-me-form">
-          <form class="contact-form" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="./success.html">
+          <form class="contact-form"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="./success.html"
+          >
+            <div class="hidden">
+              <label>
+                Don't fill this out if you're human:
+                  <input name="bot-field" />
+              </label>
+            </div>
             <div class="form-fields">
-              <p class="hidden">
-                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-              </p>
               <label for="name">Your Name</label>
-              <input type="text" id="name" name="name" placeholder="Name" pattern="^[a-zA-Z1-9].*" required>
+              <input 
+                type="text"
+                id="name"
+                name="name" 
+                placeholder="Name" 
+                pattern="^[a-zA-Z1-9].*" 
+                required
+              >
               <label for="emailAddress" class="email-label">Email Address</label>
-              <input type="email" id="emailAddress" name="emailAddress" placeholder="Your email address" required>
+              <input
+                type="email" 
+                id="emailAddress" 
+                name="emailAddress" 
+                placeholder="Your email address" 
+                required
+              >
             </div>
             <div class="form-text">
               <label for="message-box">Message</label>
-              <textarea rows="5" id="message-box" name="message-box" class="messageBox" placeholder="Type your message here" pattern="^[a-zA-Z1-9].*" required></textarea>
+              <textarea 
+                rows="5"
+                id="message-box" 
+                name="message-box" 
+                class="messageBox" 
+                placeholder="Type your message here" 
+                pattern="^[a-zA-Z1-9].*" 
+                required
+              ></textarea>
               <button type="submit">SEND</button>
             </div>
           </form>
