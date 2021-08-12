@@ -339,6 +339,26 @@ a#menu-share:hover>i {
 section#projects {
   padding-bottom: 3rem;
 }
+@media screen and (max-width: 1229px) and (min-width: 1025px) {
+  .projWrapper:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
+  }
+}
+@media screen and (min-width: 1230px) {
+  .projWrapper:first-child:hover {
+    transform: rotate(4deg);
+    box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
+  }
+  .projWrapper:nth-child(2):hover {
+      transform: scale(1.1);
+      box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
+  }
+  .projWrapper:last-child:hover {
+      transform: rotate(-4deg);
+      box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
+  }
+}
 /* ?Form Section */
 #contact {
   display: flex;
