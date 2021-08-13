@@ -127,10 +127,6 @@ hr.btmSepLine {
   color: #183154;
   text-align: center;
 }
-.wrapper {
-  position: relative;
-  width: 50%;
-}
 .overlay {
   position: absolute;
   top: 0;
@@ -142,9 +138,6 @@ hr.btmSepLine {
   opacity: 0;
   transition: 0.5s ease;
   background-color: #fefefe;
-}
-.wrapper:hover .overlay {
-  opacity: 1;
 }
 .label {
   font-family: Cambay;
