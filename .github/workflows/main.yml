@@ -10,7 +10,7 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           code_inspector_access_key: ${{ secrets.CODE_INSPECTOR_ACCESS_KEY }}
-          code_inspector_secret_key: $${{ secrets.CODE_INSPECTOR_SECRET_KEY }}
+          code_inspector_secret_key: ${{ secrets.CODE_INSPECTOR_SECRET_KEY }}
           min_quality_grade: 'WARNING'
           min_quality_score: '50'
           max_defects_rate: '0.0001'
