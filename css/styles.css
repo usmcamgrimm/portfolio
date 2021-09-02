@@ -46,10 +46,22 @@ h3 {
 }
 .devBox {
   position: absolute;
-  top: 60%;
+  top: 64%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
+}
+.typedRandom {
+  font-family: Cambay;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00b494;
+  text-shadow: 4px 3px 6px #242427;
+}
+.titleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .typed-cursor {
   display: none;
