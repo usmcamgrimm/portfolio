@@ -22,7 +22,8 @@
     h1 {
         font-size: 3rem;
     }
-    h2 {
+    h2,
+    .typedRandom {
         font-size: 1.7rem;
     }
     .aboutSection {
