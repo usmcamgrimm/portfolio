@@ -300,7 +300,7 @@ a#menu-share:hover>i {
 }
 .projectScreens {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
   justify-content: space-evenly;
   padding: 2rem;
 }
