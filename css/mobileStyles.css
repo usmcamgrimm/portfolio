@@ -13,14 +13,14 @@
         width: 96%;
     }
     .myPhoto {
-        max-width: 65%;
+        max-width: 40%;
         height: auto;
     }
     .devBox {
         width: 95%;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 3.4rem;
     }
     h2,
     .typedRandom {

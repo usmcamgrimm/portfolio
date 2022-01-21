@@ -19,49 +19,42 @@
 <body>
 
   <div id="particles">
-    <section class="introBox">
-      <div class="nameText">
-        <h1>Adrian Grimm</h1>
-      </div>
-      <div class="badPhoto">
-        <img src="images/adrian.png" class="myPhoto" alt="adrian at the beach" />
-      </div>
-    </section>
-
-    <section class="devBox">
-      <div class="titleText">
-        <span class="typedRandom" id="typed3"></span>
-      </div>
-    </section>
-
-    <section id="scrDown">
-      <div class="down-btn">
-        <i class="fas fa-angle-double-down" onClick="document.getElementById('about').scrollIntoView();"></i>
-      </div>
-    </section>
+    <div class="intro-wrapper">
+      <section class="introBox">
+        <div class="badPhoto">
+          <img src="images/adrian.png" class="myPhoto" alt="adrian at the beach" />
+        </div>
+        <div class="nameText">
+          <h1>Adrian Grimm</h1>
+        </div>
+      </section>
+  
+      <section id="about">
+        <div class="aboutContainer">
+          <h2>Welcome!</h2>
+          <p class="aboutIntro">
+            I am a front-end developer passionate about writing idiomatic code that conforms to and exceeds established "best practices" of design and accessibility standards. I love the process of writing code and watching as a project comes to life on the screen.
+          </p>
+          <div class="mobSocContact">
+            <div class="wrapper">
+              <a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer"><i class="fab fa-github mobContact"></i></a>
+              <a href="https://twitter.com/usmcamgrimm" target="_blank" rel="noreferrer"><i class="fab fa-twitter mobContact"></i></a>
+              <a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in mobContact"></i></a>
+              <a href="./resume.html"><i class="fas fa-file mobContact mobResShow"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <section id="scrDown">
+        <div class="down-btn">
+          <i class="fas fa-angle-double-down" onClick="document.getElementById('about').scrollIntoView();"></i>
+        </div>
+      </section>
+    </div>
   </div>
 
   <div class="aboutSection">
-    <section id="about">
-      <div class="aboutContainer">
-        <h2>Welcome!</h2>
-        <hr class="welcomeLine">
-        <p class="aboutIntro">
-          I am a front-end developer passionate about writing idiomatic code that conforms to and exceeds established "best practices" of design and accessibility standards. I love the process of writing code and watching as a project comes to life on the screen.
-        </p>
-        <hr class="sepLine">
-        <div class="mobSocContact">
-          <div class="wrapper">
-            <a href="https://github.com/usmcamgrimm" target="_blank" rel="noreferrer"><i class="fab fa-github mobContact"></i></a>
-            <a href="https://twitter.com/usmcamgrimm" target="_blank" rel="noreferrer"><i class="fab fa-twitter mobContact"></i></a>
-            <a href="https://www.linkedin.com/in/grimmam/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin-in mobContact"></i></a>
-            <a href="./resume.html"><i class="fas fa-file mobContact mobResShow"></i></a>
-          </div>
-        </div>
-        <hr class="btmSepLine">
-      </div>
-    </section>
-
     <section id="projects">
       <p class="projText">Projects</p>
       <div class="projectScreens">
@@ -89,7 +82,7 @@
     </section>
 
     <section id="contact">
-      <div class="aboutContainer">
+      <div class="formContainer">
         <h3 class="form-header">Send Me a Message</h3>
         <div class="form-wrapper" id="contact-me-form">
           <form class="contact-form"
