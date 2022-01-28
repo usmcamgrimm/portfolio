@@ -29,7 +29,8 @@
     .aboutSection {
         background: #fefefe;
     }
-    .aboutContainer {
+    .aboutContainer,
+    .formContainer {
         width: 88%;
         padding-left: 12px;
         padding-right: 12px;
@@ -112,6 +113,9 @@
 }
 @media screen and (min-width: 1025px) {
     .mobSocContact {
+        display: none;
+    }
+    .aboutContainer {
         display: none;
     }
     .mobResume {

@@ -1,15 +1,32 @@
+/* COLORS */
+.bllue {
+  color: #247ba0;
+}
+.red {
+  color: #fb3640;
+}
+.platinum {
+  color: #e2e2e2;
+}
+.lightGrey {
+  color: #605f5e;
+}
+.darkGrey {
+  color: #1e272e;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 body {
-  background: #183154;
+  background: #247ba0;
 }
 h1 {
   font-family: 'Racing Sans One';
   font-size: 5rem;
-  color: #fefefe;
+  color: #fb3640;
   text-shadow: 6px 6px 18px #242427;
 }
 h2 {
@@ -51,6 +68,8 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
+  background: #247ba0;
+  border: 4px groove #e2e2e2;
 }
 .typedRandom {
   font-family: Cambay;
@@ -85,12 +104,13 @@ h3 {
   display: flex;
   justify-content: center;
 }
-.aboutContainer {
+.aboutContainer,
+.formContainer {
   margin-top: 2rem;
   padding: 3rem;
-  background: #183154;
+  background: #247ba0;
   border-radius: 6px;
-  width: 80%;
+  width: 60%;
   margin-bottom: 2rem;
   box-shadow: 0 3px 8px #242427;
 }
@@ -134,7 +154,7 @@ hr.btmSepLine {
 .projText {
   font-family: Cambay;
   font-size: 2rem;
-  color: #183154;
+  color: #247ba0;
   text-align: center;
 }
 .overlay {
@@ -162,12 +182,12 @@ hr.btmSepLine {
   font-family: Cambay;
   font-size: 2rem;
   text-decoration: none;
-  color: #183154;
+  color: #247ba0;
   cursor: crosshair;
 }
 .footer {
   height: 45px;
-  background: #183154;
+  background: #247ba0;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -333,7 +353,7 @@ a#menu-share:hover>i {
 }
 .proj a {
   text-decoration: none;
-  color: #183154;
+  color: #247ba0;
 }
 .proj a:hover {
   color: #00b494;
@@ -419,7 +439,7 @@ input[type=text],
   width: 300px;
 }
 @keyframes colors {
-  0% { caret-color: #183154; }
+  0% { caret-color: #247ba0; }
   25% { caret-color: #00b494; }
   50% { caret-color: #484848; }
   75% { caret-color: #ce1126; }
@@ -448,7 +468,7 @@ input:focus, .messageBox:focus {
 .successContainer {
   margin-top: 2rem;
   padding: 3rem;
-  background: #183154;
+  background: #247ba0;
   border-radius: 6px;
   width: 80%;
   margin-bottom: 2rem;
