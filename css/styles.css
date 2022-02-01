@@ -49,52 +49,23 @@ h3 {
 }
 .introBox {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 25%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 75%;
 }
 .myPhoto {
   max-width: 50%;
   height: auto;
 }
-.devBox {
-  position: absolute;
-  top: 64%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  background: #247ba0;
-  border: 4px groove #e2e2e2;
-}
-.typedRandom {
-  font-family: Cambay;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #00b494;
-  text-shadow: 4px 3px 6px #242427;
-}
-.titleText {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.typed-cursor {
-  display: none;
-}
-.down-btn {
-  color: #00b494;
-  text-shadow: 0px 2px 6px #030303;
-  font-size: 1.75rem;
-  position: absolute;
-  width: 100%;
-  bottom: 40px;
-  left: 0;
-  text-align: center;
+p.aboutIntro {
+  font-family: Acme;
+  color: #e2e2e2;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
 }
 .aboutSection {
   background: #fefefe;
