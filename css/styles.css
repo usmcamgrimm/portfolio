@@ -25,7 +25,7 @@ body {
 }
 h1 {
   font-family: 'Racing Sans One';
-  font-size: 5rem;
+  font-size: clamp(1.5rem, 10vw, 6rem);
   color: #fb3640;
   text-shadow: 6px 6px 18px #242427;
 }
@@ -46,6 +46,14 @@ h3 {
   height: 100vh;
   text-align: center;
   box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.6);
+}
+.titleText {
+  margin-top: 32px;
+  border: 6px ridge #e2e2e2;
+  border-radius: 5px;
+  padding: 18px;
+  background: #247ba0;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.4 );
 }
 .introBox {
   display: flex;
@@ -172,11 +180,11 @@ hr.btmSepLine {
 .float {
   width: 60px;
   height: 60px;
-  background-color: #484848;
+  background-color: #fb3640;
   border-radius: 50%;
   box-shadow: 0 3px 12px rgba(3, 3, 3, 0.8);
   font-size: 32px;
-  color: #00b494;
+  color: #1e272e;
   text-align: center;
   margin: 0 auto;
   padding-top: 6px;
@@ -207,8 +215,8 @@ ul.float-menu li.float-list {
   margin-bottom: 10px;
 }
 ul.float-menu li.float-list a {
-  background-color: #484848;
-  color: #00b494;
+  background-color: #fb3640;
+  color: #1e272e;
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 2px 8px rgba(3, 3, 3, 0.6);
@@ -224,7 +232,7 @@ ul.float-menu li.float-list a .linkLabel {
   visibility: hidden;
   width: 100px;
   background-color: transparent;
-  color: #00b494;
+  color: #1e272e;
   font-family: Cambay;
   text-align: center;
   text-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
