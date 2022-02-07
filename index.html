@@ -43,85 +43,125 @@
     </section>
   </div>
 
-  <section class="aboutSection">
-    <section id="projects">
-      <p class="projText">Projects</p>
-      <div class="projectScreens">
-        <div class="projWrapper">
-          <img src="./images/portfolioScreen.JPG" class="projImg" alt="Screenshot of my portfolio" />
-          <div class="projText1">
-            <p class="proj"><a href="https://github.com/usmcamgrimm/portfolio" target="_blank" rel="noreferrer">Source</a></p>
-          </div>
-        </div>
-        <div class="projWrapper">
+  <section id="projects">
+    <p class="projText">Projects</p>
+    <div class="project-container">
+      <div class="project-wrapper">
+        <div class="project-image">
           <img src="./images/havamalScreen.png" class="projImg" alt="Screenshot of the Havamal website" />
-          <div class="projText2">
-            <p class="proj"><a href="https://www.havamalband.com" target="_blank" rel="noreferrer">Link</a></p>
-            <p class="proj"><a href="https://github.com/usmcamgrimm/havamalband" target="_blank" rel="noreferrer">Source</a></p>
-          </div>
         </div>
-        <div class="projWrapper">
-          <img src="./images/GroceriesList.JPG" class="projImg" alt="Screenshot of my grocery list application" />
-          <div class="projText2">
-            <p class="proj"><a href="https://groceries-list.netlify.app" target="_blank" rel="noreferrer">Link</a></p>
-            <p class="proj"><a href="https://github.com/usmcamgrimm/grocery-list" target="_blank" rel="noreferrer">Source</a></p>
-          </div>
+        <div class="project-text">
+          <p>This is a website I built for the Swedish band Havamal.</p>
+        </div>
+        <div class="project-links">
+          <p class="proj"><a href="https://www.havamalband.com" target="_blank" rel="noreferrer">Link</a></p>
+          <p class="proj"><a href="https://github.com/usmcamgrimm/havamalband" target="_blank" rel="noreferrer">Source</a></p>
         </div>
       </div>
-    </section>
 
-    <section id="contact">
-      <div class="formContainer">
-        <h3 class="form-header">Send Me a Message</h3>
-        <div class="form-wrapper" id="contact-me-form">
-          <form class="contact-form"
-            method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-            action="./success.html"
-          >
-            <div class="hidden">
-              <label>
-                Don't fill this out if you're human:
-              </label>
-              <input name="bot-field" />
-            </div>
-            <div class="form-fields">
-              <label for="name">Your Name</label>
-              <input 
-                type="text"
-                id="name"
-                name="name" 
-                placeholder="Name" 
-                pattern="^[a-zA-Z1-9].*" 
-                required
-              >
-              <label for="emailAddress" class="email-label">Email Address</label>
-              <input
-                type="email" 
-                id="emailAddress" 
-                name="emailAddress" 
-                placeholder="Your email address" 
-                required
-              >
-            </div>
-            <div class="form-text">
-              <label for="message-box">Message</label>
-              <textarea 
-                rows="5"
-                id="message-box" 
-                name="message-box" 
-                class="messageBox" 
-                placeholder="Type your message here" 
-                pattern="^[a-zA-Z1-9].*" 
-                required
-              ></textarea>
-              <button type="submit">SEND</button>
-            </div>
-          </form>
+      <div class="project-wrapper">
+        <div class="project-image">
+          <img src="./images/portfolioScreen.JPG" class="projImg" alt="Screenshot of my portfolio" />
+        </div>
+        <div class="project-text">
+          <p>My portfolio website is built with HTML, JavaScript, and CSS.</p>
+        </div>
+        <div class="project-links">
+          <p class="proj"><a href="https://github.com/usmcamgrimm/portfolio" target="_blank" rel="noreferrer">Source</a></p>
         </div>
       </div>
-    </section>
+
+      <div class="project-wrapper">
+        <div class="project-image">
+          <img src="./images/GroceriesList.JPG" class="projImg" alt="Screenshot of my grocery list application" />
+        </div>
+        <div class="project-text">
+          <p>Shopping list application I built that uses internal storage API.</p>
+        </div>
+        <div class="project-links:>
+          <p class="proj"><a href="https://groceries-list.netlify.app" target="_blank" rel="noreferrer">Link</a></p>
+          <p class="proj"><a href="https://github.com/usmcamgrimm/grocery-list" target="_blank" rel="noreferrer">Source</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="projects">
+    <p class="projText">Projects</p>
+    <div class="projectScreens">
+      <div class="projLinks">
+        <img src="./images/portfolioScreen.JPG" class="projImg" alt="Screenshot of my portfolio" />
+        <div class="projText1">
+          <p class="proj"><a href="https://github.com/usmcamgrimm/portfolio" target="_blank" rel="noreferrer">Source</a></p>
+        </div>
+      </div>
+      <div class="projLinks">
+        <img src="./images/havamalScreen.png" class="projImg" alt="Screenshot of the Havamal website" />
+        <div class="projText2">
+          <p class="proj"><a href="https://www.havamalband.com" target="_blank" rel="noreferrer">Link</a></p>
+          <p class="proj"><a href="https://github.com/usmcamgrimm/havamalband" target="_blank" rel="noreferrer">Source</a></p>
+        </div>
+      </div>
+      <div class="projLinks">
+        <img src="./images/GroceriesList.JPG" class="projImg" alt="Screenshot of my grocery list application" />
+        <div class="projText2">
+          <p class="proj"><a href="https://groceries-list.netlify.app" target="_blank" rel="noreferrer">Link</a></p>
+          <p class="proj"><a href="https://github.com/usmcamgrimm/grocery-list" target="_blank" rel="noreferrer">Source</a></p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="contact">
+    <div class="formContainer">
+      <h3 class="form-header">Send Me a Message</h3>
+      <div class="form-wrapper" id="contact-me-form">
+        <form class="contact-form"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          action="./success.html"
+        >
+          <div class="hidden">
+            <label>
+              Don't fill this out if you're human:
+            </label>
+            <input name="bot-field" />
+          </div>
+          <div class="form-fields">
+            <label for="name">Your Name</label>
+            <input 
+              type="text"
+              id="name"
+              name="name" 
+              placeholder="Name" 
+              pattern="^[a-zA-Z1-9].*" 
+              required
+            >
+            <label for="emailAddress" class="email-label">Email Address</label>
+            <input
+              type="email" 
+              id="emailAddress" 
+              name="emailAddress" 
+              placeholder="Your email address" 
+              required
+            >
+          </div>
+          <div class="form-text">
+            <label for="message-box">Message</label>
+            <textarea 
+              rows="5"
+              id="message-box" 
+              name="message-box" 
+              class="messageBox" 
+              placeholder="Type your message here" 
+              pattern="^[a-zA-Z1-9].*" 
+              required
+            ></textarea>
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </section>
 
   <div class="linkMenu">

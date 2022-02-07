@@ -1,5 +1,5 @@
 /* COLORS */
-.bllue {
+.blue {
   color: #247ba0;
 }
 .red {
@@ -174,7 +174,7 @@ hr.btmSepLine {
 .footer p {
   font-family: Cambay;
   font-size: 1em;
-  color: #fbd46c;
+  color: #e2e2e2;
 }
 /* Add section for FAB Menu */
 .float {
@@ -291,17 +291,46 @@ a#menu-share:hover>i {
     transform: rotate(0deg);
   }
 }
-/* ?Projects Section */
-.projImg {
-  max-width: 350px;
-  height: auto;
-  border-radius: 5px;
+/* Projects Section */
+section#projects {
+  background: #ffffff;
 }
-.projectScreens {
+.project-container {
+  width: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.project-image {
+  max-width: 250px;
+  height: auto;
+}
+.project-text p {
+  font-family: Cambay;
+  color: #1e272e;
+}
+.project-links {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   padding: 2rem;
+}
+/* .projLinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.projectScreens {
+  max-width: 350px;
+  height: auto;
+  border-radius: 5px;
 }
 .projWrapper {
   display: flex;
@@ -340,6 +369,7 @@ a#menu-share:hover>i {
 }
 section#projects {
   padding-bottom: 3rem;
+  background: #ffffff;
 }
 @media screen and (max-width: 1229px) and (min-width: 1025px) {
   .projWrapper:hover {
@@ -360,9 +390,10 @@ section#projects {
       transform: rotate(-4deg);
       box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
   }
-}
+} */
 /* ?Form Section */
 #contact {
+  background: #ffffff;
   display: flex;
   justify-content: center;
 }
