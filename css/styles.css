@@ -72,7 +72,7 @@ h3 {
 }
 p.aboutIntro {
   font-family: Acme;
-  color: #e2e2e2;
+  color: #ffffff;
   font-size: clamp(1.25rem, 2vw, 1.75rem);
 }
 .aboutSection {
@@ -83,7 +83,6 @@ p.aboutIntro {
   display: flex;
   justify-content: center;
 }
-.aboutContainer,
 .formContainer {
   margin-top: 2rem;
   padding: 3rem;
@@ -135,6 +134,7 @@ hr.btmSepLine {
   font-size: 2rem;
   color: #247ba0;
   text-align: center;
+  margin: 48px 0;
 }
 .overlay {
   position: absolute;
@@ -294,103 +294,54 @@ a#menu-share:hover>i {
 /* Projects Section */
 section#projects {
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .project-container {
-  width: 60%;
+  max-width: 800px;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: space-evenly;
   align-items: center;
 }
 .project-wrapper {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   align-items: center;
+  margin-bottom: 32px;
+  border-radius: 5px;
 }
-.project-image {
-  max-width: 250px;
+.project-image  img {
+  max-width: 750px;
   height: auto;
+  border-radius: 5px;
 }
 .project-text p {
   font-family: Cambay;
   color: #1e272e;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
 }
-.project-links {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 2rem;
+.project-links p {
+  display: inline-block;
+  padding: 18px 0 36px 24px;
 }
-/* .projLinks {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 2rem;
-}
-.projectScreens {
-  max-width: 350px;
-  height: auto;
-  border-radius: 5px;
-}
-.projWrapper {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: space-between;
-  padding: 12px;
-  background-color: #fefefe;
-  border-radius: 5px;
-  width: 375px;
-  height: 250px;
-  box-shadow: 0px 2px 4px rgba(3, 3, 3, 0.4), 0px -2px 5px rgba(3, 3, 3, 0.4);
-}
-.projText1 {
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
-}
-.projText2 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  padding-top: 10px;
-}
-.proj {
+.project-links a {
   font-family: Cambay;
-  font-size: 1rem;
-}
-.proj a {
   text-decoration: none;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
   color: #247ba0;
 }
-.proj a:hover {
-  color: #00b494;
-  border-bottom: 1px solid #00b494;
-}
-section#projects {
-  padding-bottom: 3rem;
-  background: #ffffff;
-}
-@media screen and (max-width: 1229px) and (min-width: 1025px) {
-  .projWrapper:hover {
-      transform: scale(1.05);
-      box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
+@media screen and (min-width: 1025px) {
+  .project-wrapper:hover {
+      transform: scale(1.02);
+      box-shadow: 0px 4px 24px rgba(3, 3, 3, 0.4), 0px -4px 24px rgba(3, 3, 3, 0.4);
+  }
+  .project-links a:hover {
+    color: #1e272e;
   }
 }
-@media screen and (min-width: 1230px) {
-  .projWrapper:first-child:hover {
-    transform: rotate(4deg);
-    box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
-  }
-  .projWrapper:nth-child(2):hover {
-      transform: scale(1.1);
-      box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
-  }
-  .projWrapper:last-child:hover {
-      transform: rotate(-4deg);
-      box-shadow: 0px 4px 10px rgba(3, 3, 3, 0.4), 0px -4px 10px rgba(3, 3, 3, 0.4);
-  }
-} */
 /* ?Form Section */
 #contact {
   background: #ffffff;
