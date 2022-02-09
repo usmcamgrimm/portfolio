@@ -411,12 +411,15 @@ button[type=submit] {
   color: #1e272e;
   border-radius: 5px;
   font-family: Cambay;
-  font-size: 1rem;
+  font-size: 1.1rem;
   border: none;
   width: 300px;
 }
 button[type=submit]:hover {
-  box-shadow: 0 2px 8px #030303;
+  box-shadow: 0 2px 8px rgba(3, 3, 3, 0.8);
+}
+button[type=submit]:active {
+  box-shadow: 0 0 8px rgba(3, 3, 3, 0.6);
 }
 input:focus, .messageBox:focus {
   outline: 1px solid #00b494;
