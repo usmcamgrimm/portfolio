@@ -38,8 +38,7 @@ h2 {
 h3 {
   font-family: Cambay;
   font-size: 1.8rem;
-  color: #00b494;
-  text-shadow: 0 3px 2px #242427;
+  color: #1e272e;
 }
 #particles {
   width: 100%;
@@ -156,13 +155,6 @@ hr.btmSepLine {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-}
-.label a {
-  font-family: Cambay;
-  font-size: 2rem;
-  text-decoration: none;
-  color: #247ba0;
-  cursor: crosshair;
 }
 .footer {
   height: 45px;
@@ -348,6 +340,9 @@ section#projects {
   display: flex;
   justify-content: center;
 }
+.formContainer {
+  max-width: 750px;
+}
 #contact h3 {
   text-align: center;
 }
@@ -384,7 +379,7 @@ p.form-header {
 label {
   font-family: Cambay;
   font-size: 1.2rem;
-  color: #00b494;
+  color: #1e272e;
   padding: 8px 0 2px 0;
 }
 input[type=text],
@@ -412,8 +407,8 @@ input[type=text],
   animation: 4s infinite colors
 }
 button[type=submit] {
-  background: #00b494;
-  color: #030303;
+  background: #fb3640;
+  color: #1e272e;
   border-radius: 5px;
   font-family: Cambay;
   font-size: 1rem;
