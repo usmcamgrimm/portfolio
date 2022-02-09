@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 @Media screen and (max-width: 599px) {
     .linkMenu {
         display: none;
@@ -13,34 +8,24 @@
         width: 96%;
     }
     .myPhoto {
-        max-width: 65%;
+        max-width: 55%;
         height: auto;
+        margin-top: 64px
     }
-    .devBox {
-        width: 95%;
-    }
-    h1 {
-        font-size: 3rem;
-    }
-    h2,
-    .typedRandom {
-        font-size: 1.7rem;
-    }
-    .aboutSection {
-        background: #fefefe;
-    }
-    .aboutContainer,
     .formContainer {
         width: 88%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .projWrapper {
+    .project-container {
+        width: 100%;
+    }
+    .project-wrapper {
         margin-bottom: 1.2rem;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .projWrapper {
+    .project-wrapper {
         margin: 2rem;
     }
 }
@@ -63,7 +48,7 @@
     .linkMenu {
         display: none;
     }
-    .projWrapper {
+    .project-wrapper {
         margin-bottom: 1.5rem;
     }
     .mobSocContact {
@@ -77,13 +62,13 @@
         align-items: center;
     }
     .mobContact {
-        color: #00b494;
+        color: #ffffff;
         font-size: 2.5rem;
     }
     .mobBtn {
         width: 60px;
         height: 60px;
-        background-color: #484848;
+        background-color: #fb3640;
         border-radius: 50%;
         box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
         font-size: 32px;
@@ -95,7 +80,7 @@
         margin-bottom: 2rem;
     }
     .mobBtn a {
-        color: #00b494;
+        color: #1e272e;
     }
     .contact-form {
         display: flex;
@@ -129,12 +114,6 @@
     }
     .email-label {
         margin-top: 10px;
-    }
-    .down-btn .fa-angle-double-down:hover {
-        color: #fbd46c;
-        transform: scale(1.1);
-        cursor: pointer;
-        text-shadow: 0 3px 8px #030303;
     }
 }
 @media screen and (min-width: 1440px) {
