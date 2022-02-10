@@ -4,13 +4,14 @@
     }
     .introBox {
         padding: 0;
-        justify-content: center;
         width: 96%;
     }
     .myPhoto {
-        max-width: 55%;
+        max-width: 45%;
         height: auto;
-        margin-top: 64px
+    }
+    .badPhoto {
+        margin-top: 132px;
     }
     .titleText {
         width: 90%;
