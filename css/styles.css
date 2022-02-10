@@ -73,7 +73,7 @@ h3 {
 p.aboutIntro {
   font-family: Acme;
   color: #ffffff;
-  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-size: clamp(1.3rem, 2vw, 1.75rem);
 }
 .aboutSection {
   background: #fefefe;

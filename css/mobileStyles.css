@@ -15,6 +15,10 @@
     }
     .titleText {
         width: 90%;
+        padding: 12px;
+    }
+    .aboutIntro {
+        padding: 0;
     }
     .formContainer {
         width: 88%;
