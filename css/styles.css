@@ -24,8 +24,9 @@ body {
   background: #247ba0;
 }
 h1 {
-  font-family: 'Racing Sans One';
-  font-size: clamp(1.5rem, 12vw, 6rem);
+  font-family: 'Bangers', sans-serif;
+  font-size: 8rem;
+  letter-spacing: 6px;
   color: #fb3640;
   text-shadow: 6px 6px 18px #242427;
 }

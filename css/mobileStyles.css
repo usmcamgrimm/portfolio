@@ -13,6 +13,10 @@
     .badPhoto {
         margin-top: 132px;
     }
+    h1 {
+        font-size: 4rem;
+        letter-spacing: 3px;
+    }
     .titleText {
         width: 90%;
         padding: 12px;
