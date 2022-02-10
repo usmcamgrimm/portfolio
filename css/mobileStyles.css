@@ -12,6 +12,9 @@
         height: auto;
         margin-top: 64px
     }
+    .titleText {
+        width: 90%;
+    }
     .formContainer {
         width: 88%;
         padding-left: 12px;
@@ -21,7 +24,16 @@
         width: 100%;
     }
     .project-wrapper {
+        width: 100%;
         margin-bottom: 1.2rem;
+    }
+    .project-image img {
+        max-width: 380px;
+        height: auto;     
+    }
+    .project-notes {
+        text-align: center;
+        padding: 6px 8px 0 8px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
