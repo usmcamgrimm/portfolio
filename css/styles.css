@@ -417,13 +417,13 @@ input:focus, .messageBox:focus {
 }
 p.successMessage {
   font-family: cambay;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #fefefe;
   text-align: center;
 }
 p.successBack {
   font-family: Cambay;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   color: #fefefe;
   text-align: center;
   padding-top: 1.25rem;
@@ -431,7 +431,8 @@ p.successBack {
 p.successBack a {
   text-decoration: none;
   color: #fefefe;
+  border-bottom: 1px solid #fefefe;
 }
 p.successBack a:hover {
-  color: #00b494;
+  color: #e2e2e2;
 }

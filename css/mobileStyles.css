@@ -54,20 +54,11 @@
     .project-wrapper {
         margin: 2rem;
     }
-}
-@media screen and (max-width: 1023px) {
-    #about p {
-        font-size: 1.5rem;
-        font-weight: bold;
+    h3 {
+        font-size: 1.6rem;
     }
-    #about {
-        font-weight: bold;
-    }
-    .aboutIntro {
-        font-weight: normal;
-    }
-    .aboutBody {
-        display: none;
+    p.aboutIntro {
+        font-size: 1.8rem;
     }
 }
 @media screen and (max-width: 1024px) {
