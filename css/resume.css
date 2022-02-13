@@ -4,31 +4,15 @@
     margin: 0;
 }
 body {
-    background: #183154;
+    background: #fefefe;
 }
 section#resume {
     height: 100vh;
 }
-ul.float-menu li.float-list a .linkLabel {
-    visibility: hidden;
-    width: 80px;
-    background-color: transparent;
-    font-family: Cambay;
-    background-color: #484848;
-    color: #00b494;
-    text-align: center;
-    border-radius: 6px;
-    padding: 3px 0;
-    box-shadow: 0px 4px 12px rgba(3, 3, 3, 0.5);
-    position: absolute;
-    z-index: 1;
-    top: 6px;
-    right: 115%;
-}
 @media screen and (max-width: 1024px) {
     body {
         font-family: Cambay;
-        color: #fefefe;
+        color: #1e272e;
     }
     section#resume {
         display: none;
@@ -47,7 +31,7 @@ ul.float-menu li.float-list a .linkLabel {
     }
     .contact p,
     .contact a {
-        color: #fefefe;
+        color: #1e272e;
         font-size: 1rem;
         font-family: Cambay;
     }
@@ -55,7 +39,7 @@ ul.float-menu li.float-list a .linkLabel {
         font-size: 1.2rem;
     }
     .heading p {
-        color: #fefefe;
+        color: #1e272e;
         font-size: 1.1rem;
         padding: 4px 10px;
         font-family: Cambay;
@@ -79,32 +63,22 @@ ul.float-menu li.float-list a .linkLabel {
     h4 {
         font-family: Cambay;
         font-size: 1.3rem;
-        color: #00b494;
+        color: #247ba0;
         text-decoration: underline;
         padding-top: 1rem;
     }
     .title {
         font-weight: bold;
-        color: #fefefe;
+        color: #1e272e;
         text-decoration: underline;
     }
     .edu,
     .work {
         padding-bottom: 8px;
     }
-    ul.float-menu li.float-list a .linkLabel {
+    ul.float-menu li.float-list a {
         color: #00b494;
     }
-    /* .skills {
-        padding-left: 12px;
-    }
-    .skillsList {
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .skillsList li {
-        list-style: none;
-    } */
     /* Accordion Styling */
     .work-accordion {
         padding: 12px;

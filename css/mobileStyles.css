@@ -1,68 +1,71 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-@Media screen and (max-width: 599px) {
+@media screen and (max-width: 599px) {
     .linkMenu {
         display: none;
     }
     .introBox {
         padding: 0;
-        justify-content: center;
         width: 96%;
     }
     .myPhoto {
-        max-width: 65%;
+        max-width: 45%;
         height: auto;
     }
-    .devBox {
-        width: 95%;
+    .badPhoto {
+        margin-top: 132px;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 4rem;
+        letter-spacing: 3px;
     }
-    h2,
-    .typedRandom {
-        font-size: 1.7rem;
+    .titleText {
+        width: 90%;
+        padding: 12px;
     }
-    .aboutSection {
-        background: #fefefe;
+    .aboutIntro {
+        padding: 0;
     }
-    .aboutContainer {
+    .formContainer {
         width: 88%;
         padding-left: 12px;
         padding-right: 12px;
     }
-    .projWrapper {
+    .project-container {
+        width: 100%;
+    }
+    .project-wrapper {
+        width: 100%;
         margin-bottom: 1.2rem;
+    }
+    .project-image img {
+        max-width: 380px;
+        height: auto;     
+    }
+    .project-notes {
+        text-align: center;
+        padding: 6px 8px 0 8px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+    h1 {
+        font-size: 5rem;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .projWrapper {
+    .project-wrapper {
         margin: 2rem;
     }
-}
-@media screen and (max-width: 1023px) {
-    #about p {
-        font-size: 1.5rem;
-        font-weight: bold;
+    h3 {
+        font-size: 1.6rem;
     }
-    #about {
-        font-weight: bold;
-    }
-    .aboutIntro {
-        font-weight: normal;
-    }
-    .aboutBody {
-        display: none;
+    p.aboutIntro {
+        font-size: 1.8rem;
     }
 }
 @media screen and (max-width: 1024px) {
     .linkMenu {
         display: none;
     }
-    .projWrapper {
+    .project-wrapper {
         margin-bottom: 1.5rem;
     }
     .mobSocContact {
@@ -76,25 +79,25 @@
         align-items: center;
     }
     .mobContact {
-        color: #00b494;
+        color: #ffffff;
         font-size: 2.5rem;
     }
     .mobBtn {
-        width: 60px;
-        height: 60px;
-        background-color: #484848;
+        width: 50px;
+        height: 50px;
+        background-color: #fb3640;
         border-radius: 50%;
         box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
         font-size: 32px;
         text-align: center;
         margin: 0 auto;
-        padding-top: 6px;
+        padding-top: 0;
         display: flex;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 24px;
     }
     .mobBtn a {
-        color: #00b494;
+        color: #1e272e;
     }
     .contact-form {
         display: flex;
@@ -114,6 +117,9 @@
     .mobSocContact {
         display: none;
     }
+    .aboutContainer {
+        display: none;
+    }
     .mobResume {
         display: none;
     }
@@ -125,12 +131,6 @@
     }
     .email-label {
         margin-top: 10px;
-    }
-    .down-btn .fa-angle-double-down:hover {
-        color: #fbd46c;
-        transform: scale(1.1);
-        cursor: pointer;
-        text-shadow: 0 3px 8px #030303;
     }
 }
 @media screen and (min-width: 1440px) {

@@ -4,7 +4,7 @@
       "value": 400,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 400
       }
     },
     "color": {
@@ -54,7 +54,7 @@
     },
     "move": {
       "enable": true,
-      "speed": 2.1,
+      "speed": 1,
       "direction": "none",
       "random": true,
       "straight": false,
@@ -74,10 +74,6 @@
         "enable": true,
         "mode": "bubble"
       },
-      "onclick": {
-        "enable": true,
-        "mode": "repulse"
-      },
       "resize": true
     },
     "modes": {
@@ -89,14 +85,14 @@
       },
       "bubble": {
         "distance": 146.17389821424212,
-        "size": 6,
+        "size": 4,
         "duration": 1.542946703372556,
         "opacity": 0,
         "speed": 3
       },
       "repulse": {
-        "distance": 300,
-        "duration": 0.4
+        "distance": 250,
+        "duration": 0.25
       },
       "push": {
         "particles_nb": 4
