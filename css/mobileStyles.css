@@ -83,18 +83,18 @@
         font-size: 2.5rem;
     }
     .mobBtn {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         background-color: #fb3640;
         border-radius: 50%;
         box-shadow: 0 3px 12px rgba(3, 3, 3, 0.7);
         font-size: 32px;
         text-align: center;
         margin: 0 auto;
-        padding-top: 6px;
+        padding-top: 0;
         display: flex;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 24px;
     }
     .mobBtn a {
         color: #1e272e;
