@@ -101,36 +101,6 @@ p.aboutIntro {
 .aboutIntro {
   padding: 12px;
 }
-.aboutBody {
-  text-align: left;
-  padding-bottom: 12px;
-}
-.vwcLink a {
-  color: #fefefe;
-  text-decoration: underline;
-  cursor: pointer;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: #fefefe;
-}
-.label {
-  font-family: Cambay;
-  font-size: 1.5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
 .footer {
   height: 45px;
   background: #247ba0;
@@ -397,7 +367,7 @@ button[type=submit]:active {
   box-shadow: 0 0 8px rgba(3, 3, 3, 0.6);
 }
 input:focus, .messageBox:focus {
-  outline: 1px solid #00b494;
+  outline: 1px solid #247ba0;
 }
 .successContainer {
   margin-top: 2rem;
