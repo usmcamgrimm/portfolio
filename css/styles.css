@@ -181,7 +181,7 @@ ul.float-menu li.float-list {
   list-style: none;
   margin-bottom: 10px;
 }
-ul.float-menu li.float-list a {
+ul.float-menu li.float-list a .linkLabel {
   background-color: #fb3640;
   color: #1e272e;
   border-radius: 50%;
@@ -195,7 +195,7 @@ ul.float-menu li.float-list a:hover {
   box-shadow: 0px 4px 12px rgba(3, 3, 3, 0.7);
   transform: scale(1.2);
 }
-ul.float-menu li.float-list a {
+ul.float-menu li.float-list a .linkLabel {
   visibility: hidden;
   width: 100px;
   background-color: transparent;
