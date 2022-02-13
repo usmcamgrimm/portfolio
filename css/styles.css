@@ -181,7 +181,7 @@ ul.float-menu li.float-list {
   list-style: none;
   margin-bottom: 10px;
 }
-ul.float-menu li.float-list a .linkLabel {
+ul.float-menu li.float-list a {
   background-color: #fb3640;
   color: #1e272e;
   border-radius: 50%;
@@ -212,7 +212,7 @@ ul.float-menu:hover {
   visibility: visible !important;
   opacity: 1 !important;
 }
-ul.float-menu li.float-list a:hover {
+ul.float-menu li.float-list a:hover .linkLabel {
   visibility: visible;
 }
 .my-float {
