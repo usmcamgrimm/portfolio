@@ -255,10 +255,14 @@ section#projects {
   height: auto;
   border-radius: 5px;
 }
+.project-text {
+  padding: 12px 48px 0 48px;
+}
 .project-text p {
   font-family: Cambay;
   color: #1e272e;
   font-size: clamp(1.1rem, 2vw, 1.3rem);
+  text-align: center;
 }
 .project-links p {
   display: inline-block;
