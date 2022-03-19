@@ -280,7 +280,7 @@ section#projects {
     color: #1e272e;
   }
 }
-/* ?Form Section */
+/* Form Section */
 #contact {
   background: #ffffff;
   display: flex;
@@ -291,13 +291,7 @@ section#projects {
 }
 #contact h3 {
   text-align: center;
-}
-p.form-header {
-  text-align: center;
-  font-family: Comfortaa;
-  font-size: 1rem;
-  color: #fbd46c;
-  padding-bottom: 1.2rem;
+  color: #e2e2e2;
 }
 .contact-form {
   display: flex;
@@ -333,12 +327,14 @@ input[type=text],
   padding: 8px 12px;
   border-radius: 5px;
   width: 100%;
+  background: #e2e2e2;
 }
 .messageBox {
   margin-bottom: 6px;
   padding: 6px;
   border-radius: 5px;
   width: 300px;
+  background: #e2e2e2;
 }
 @keyframes colors {
   0% { caret-color: #247ba0; }
