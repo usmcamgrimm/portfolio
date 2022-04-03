@@ -1,24 +1,29 @@
 /* COLORS */
 .blue {
-  color: #247ba0;
+  color: #1d2158;
 }
 .red {
-  color: #fb3640;
+  color: #a30303;
 }
-.platinum {
-  color: #e2e2e2;
+.yellow {
+  color: #ffb400;
 }
 .lightGrey {
-  color: #605f5e;
+  color: #dddddd;
 }
-.darkGrey {
-  color: #1e272e;
+.black {
+  color: #000000;
 }
 @font-face {
   font-family: 'wolfsbane2';
   src:  url('../fonts/wolfsbane2.woff') format('woff'),
         url('../fonts/wolfsbane2.woff2') format('woff2'),
         url('../fonts/wolfsbane2.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'bankgothic';
+  src:  url('../fonts/BankGothic-Bold.woff2') format('woff2'),
+        url('../fonts/BankGothic-Bold.ttf') format('truetype');
 }
 * {
   box-sizing: border-box;
