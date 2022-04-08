@@ -18,7 +18,12 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
   padding: 0;
   box-sizing: inherit;
   font-family: inherit; }
-
+@font-face {
+  font-family: 'wolfsbane2';
+  src:  url('../fonts/wolfsbane2.woff') format('woff'),
+        url('../fonts/wolfsbane2.woff2') format('woff2'),
+        url('../fonts/wolfsbane2.ttf') format('truetype');
+}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
@@ -36,10 +41,9 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: Inter;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Inter', sans-serif; }
+  font-family: 'Cambay', sans-serif; }
 
 a {
   text-decoration: none;
@@ -62,10 +66,15 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 6rem;
+  font-family: 'wolfsbane2', 'Cambay', sans-serif;
+  font-size: 9rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center; }
+  letter-spacing: 4px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffb400;
+  text-shadow: 0 3px 7px #000000;
+}
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
       font-size: 4.5rem; } }
