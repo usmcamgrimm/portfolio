@@ -246,6 +246,7 @@ textarea {
 }
 .heading-primary-havamal {
   color: #ffcd00;
+  text-shadow: 0 2px 6px #000000;
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -434,7 +435,7 @@ textarea {
           font-size: 2.4rem; } }
     .projects__row-content-desc {
       font-size: 1.8rem;
-      color: grey;
+      color: #18181e;
       max-width: 60rem;
       line-height: 1.7;
       margin-bottom: 3rem; }
@@ -465,15 +466,14 @@ textarea {
       .contact__form-field {
         margin-bottom: 3rem; } }
   .contact__form-label {
-    color: #666;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
-    font-weight: 700;
+    color: #1e272e;
+    font-size: 1.7rem;
+    font-weight: bold;
     margin-bottom: 1rem;
     display: block;
     text-align: left; }
   .contact__form-input {
-    color: #333;
+    color: #1e272e;
     padding: 2rem;
     width: 100%;
     border: 1px solid #ebebeb;
@@ -481,7 +481,6 @@ textarea {
     letter-spacing: 0px;
     background: #f0f0f0;
     border-radius: 5px;
-    font-weight: 600;
     /* Code for Modern Browsers */
     /* Code for WebKit, Blink, Edge */
     /* Code for Internet Explorer 10-11 */
@@ -489,19 +488,19 @@ textarea {
     /* Code for Mozilla Firefox 4 to 18 */
     /* Code for Mozilla Firefox 19+ */ }
     .contact__form-input::placeholder {
-      color: #999;
+      color: rgba(30,39,46, 0.7);
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-webkit-input-placeholder {
-      color: #999;
+      color: rgba(30,39,46, 0.7);
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-ms-input-placeholder {
-      color: #999;
+      color: rgba(30,39,46, 0.7);
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input::-ms-input-placeholder {
-      color: #999;
+      color: rgba(30,39,46, 0.7);
       font-weight: 600;
       font-size: 1.6rem; }
     .contact__form-input:-moz-placeholder {
@@ -511,7 +510,7 @@ textarea {
       font-size: 1.6rem; }
     .contact__form-input::-moz-placeholder {
       opacity: 1;
-      color: #999;
+      color: rgba(30,39,46, 0.7);
       font-weight: 600;
       font-size: 1.6rem; }
   .contact__btn {
@@ -579,7 +578,7 @@ textarea {
   .project-details__desc-para {
     font-size: 1.8rem;
     line-height: 1.7;
-    color: grey;
+    color: #18181e;
     margin-bottom: 2rem; }
 
 .project-details__tools-used {
