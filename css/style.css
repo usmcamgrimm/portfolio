@@ -187,6 +187,22 @@ textarea {
   .btn--theme-inv-havamal:hover {
     background: #005293;
     color: #fecb00; }
+    .btn--theme-portfolio {
+      background: #247ba0;
+      color: #e2e2e2; }
+    .btn--theme-inv-portfolio {
+      color: #005293;
+      background: #e2e2e2;
+      border: 2px solid #247ba0;
+      box-shadow: none;
+      padding: calc(1.5rem - 2px) calc(5rem - 2px); }
+    .btn--theme-portfolio:hover {
+      color: #247ba0;
+      background: #e2e2e2;
+      border: 2px solid #247ba0; }
+    .btn--theme-inv-portfolio:hover {
+      background: #247ba0;
+      color: #e2e2e2; }
 
 .sec-pad {
   padding: 12rem 0; }
@@ -220,6 +236,25 @@ textarea {
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary-havamal {
+    font-size: 4.5rem; 
+  } 
+}
+
+/* Portfolio Section Styles */
+.project-cs-hero-portfolio {
+  background: #247ba0;
+}
+.heading-primary-portfolio {
+  font-family: Bangers;
+  color: #fb3640;
+  font-size: 8rem;
+  text-shadow: 0 2px 6px #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center; 
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-primary-portfolio {
     font-size: 4.5rem; 
   } 
 }
