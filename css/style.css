@@ -187,22 +187,38 @@ textarea {
   .btn--theme-inv-havamal:hover {
     background: #005293;
     color: #fecb00; }
-    .btn--theme-portfolio {
-      background: #247ba0;
-      color: #e2e2e2; }
-    .btn--theme-inv-portfolio {
-      color: #005293;
-      background: #e2e2e2;
-      border: 2px solid #247ba0;
-      box-shadow: none;
-      padding: calc(1.5rem - 2px) calc(5rem - 2px); }
-    .btn--theme-portfolio:hover {
-      color: #247ba0;
-      background: #e2e2e2;
-      border: 2px solid #247ba0; }
-    .btn--theme-inv-portfolio:hover {
-      background: #247ba0;
-      color: #e2e2e2; }
+  .btn--theme-portfolio {
+    background: #247ba0;
+    color: #e2e2e2; }
+  .btn--theme-inv-portfolio {
+    color: #005293;
+    background: #e2e2e2;
+    border: 2px solid #247ba0;
+    box-shadow: none;
+    padding: calc(1.5rem - 2px) calc(5rem - 2px); }
+  .btn--theme-portfolio:hover {
+    color: #247ba0;
+    background: #e2e2e2;
+    border: 2px solid #247ba0; }
+  .btn--theme-inv-portfolio:hover {
+    background: #247ba0;
+    color: #e2e2e2; }
+  .btn--theme-list {
+    background: #800080;
+    color: #ffffff; }
+  .btn--theme-inv-list {
+    color: #800080;
+    background: #ffffff;
+    border: 2px solid #800080;
+    box-shadow: none;
+    padding: calc(1.5rem - 2px) calc(5rem - 2px); }
+  .btn--theme-list:hover {
+    color: #800080;
+    background: #ffffff;
+    border: 2px solid #800080; }
+  .btn--theme-inv-list:hover {
+    background: #800080;
+    color: #ffffff; }
 
 .sec-pad {
   padding: 12rem 0; }
@@ -255,6 +271,25 @@ textarea {
 }
 @media only screen and (max-width: 37.5em) {
   .heading-primary-portfolio {
+    font-size: 4.5rem; 
+  } 
+}
+
+/* List App Section Styles */
+.project-cs-hero-list {
+  background: #18181a;
+}
+.heading-primary-list {
+  font-family: Roboto;
+  color: #800080;
+  font-size: 8rem;
+  text-shadow: 0 2px 6px #000000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center; 
+}
+@media only screen and (max-width: 37.5em) {
+  .heading-primary-list {
     font-size: 4.5rem; 
   } 
 }
@@ -577,7 +612,6 @@ textarea {
         .project-details__links-btn:last-child {
           margin: 0; } }
 
-/* Havamal Project Styling */
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(0, 75, 135, 0.8), rgba(0, 75, 135, 0.8)), url(../../assets/svg/common-bg.svg);
