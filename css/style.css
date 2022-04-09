@@ -75,7 +75,7 @@ textarea:focus {
 }
 .heading-primary {
   font-family: 'wolfsbane2', 'Cambay', sans-serif;
-  font-size: 9rem;
+  font-size: clamp(80px, 10vw, 144px);
   text-transform: uppercase;
   letter-spacing: 4px;
   font-weight: normal;
@@ -91,11 +91,11 @@ textarea:focus {
   color: #ffb400;
   text-shadow: 0 3px 7px #000000;
 }
-@media only screen and (max-width: 37.5em) {
+/* @media only screen and (max-width: 37.5em) {
   .heading-primary {
     font-size: 4.5rem; 
   } 
-}
+} */
 .heading-sec__mb-bg {
   margin-bottom: 11rem; 
 }
