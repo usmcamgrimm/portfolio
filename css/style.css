@@ -83,6 +83,14 @@ textarea:focus {
   color: #ffb400;
   text-shadow: 0 3px 7px #000000;
 }
+.heading-success {
+  font-family: 'Cambay', sans-serif;
+  font-size: 4rem;
+  font-weight: normal;
+  text-align: center;
+  color: #ffb400;
+  text-shadow: 0 3px 7px #000000;
+}
 @media only screen and (max-width: 37.5em) {
   .heading-primary {
     font-size: 4.5rem; 
