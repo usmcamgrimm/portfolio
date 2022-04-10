@@ -247,24 +247,25 @@ textarea:focus {
   background: #247ba0;
   color: #e2e2e2; 
 }
-.btn--theme-list {
-  background: #800080;
+.btn--theme-vwc {
+  background: #0c1d40;
   color: #ffffff; 
+  border: 2px solid #c5113e;
 }
-.btn--theme-inv-list {
-  color: #800080;
+.btn--theme-inv-vwc {
+  color: #0c1d40;
   background: #ffffff;
-  border: 2px solid #800080;
+  border: 2px solid #c5113e;
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px); 
 }
-.btn--theme-list:hover {
-  color: #800080;
+.btn--theme-vwc:hover {
+  color: #0c1d40;
   background: #ffffff;
-  border: 2px solid #800080; 
+  border: 2px solid #c5113e; 
 }
-.btn--theme-inv-list:hover {
-  background: #800080;
+.btn--theme-inv-vwc:hover {
+  background: #0c1d40;
   color: #ffffff; 
 }
 .sec-pad {
@@ -328,21 +329,21 @@ textarea:focus {
   } 
 }
 
-/* List App Section Styles */
-.project-cs-hero-list {
-  background: #18181a;
+/* VWC Extension Pack Section Styles */
+.project-cs-hero-vwc {
+  background: #0c1d40;
 }
-.heading-primary-list {
-  font-family: Roboto;
-  color: #800080;
-  font-size: 8rem;
+.heading-primary-vwc {
+  font-family: Montserrat, sans-serif;
+  color: #c5113e;
+  font-size: 7rem;
   text-shadow: 0 2px 6px #000000;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; 
 }
 @media only screen and (max-width: 37.5em) {
-  .heading-primary-list {
+  .heading-primary-vwc {
     font-size: 4.5rem; 
   } 
 }
@@ -703,7 +704,7 @@ textarea:focus {
 .project-details__tools-used {
   margin: 0 0 7rem 0; 
 }
-.project-details__tools-used-list {
+.project-details__tools-used-vwc {
   display: flex;
   flex-wrap: wrap; 
 }
@@ -977,7 +978,7 @@ textarea:focus {
 .skills__skill,
 .skills__skill-havamal,
 .skills__skill-portfolio,
-.skills__skill-list {
+.skills__skill-vwc {
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
@@ -995,8 +996,8 @@ textarea:focus {
   background: #247ba0;
   color: #ffffff;
 }
-.skills__skill-list {
-  background: #800080;
+.skills__skill-vwc {
+  background: #c5113e;
   color: #ffffff;
 }
 .mouse {
