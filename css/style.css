@@ -366,15 +366,97 @@ textarea:focus {
 .home-hero__socials {
   position: absolute;
   top: 50%;
-  border: 2px solid #dddddd;
-  border-left: 2px solid #dddddd;
-  border-radius: 6px;
-  transform: translateY(-50%); 
+  left: 32px;
 }
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
     display: none; 
   } 
+}
+.socials-float {
+  width: 60px;
+  height: 60px;
+  background-color: #ffb400;
+  border-radius: 50%;
+  box-shadow: 0 3px 12px rgba(3, 3, 3, 0.8);
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 12px;
+  position: fixed;
+  z-index: 1000;
+}
+.socials-float:hover {
+  box-shadow: 0 5px 15px rgba(3, 3, 3, 0.7);
+}
+ul.home-hero__socials-list, li.home-hero__social {
+  font-size: 1.5rem;
+  list-style: none;
+}
+ul.home-hero__socials-list:hover {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+ul.home-hero__socials-list {
+  position: fixed;
+  left: 96px;
+  top: 35%;
+  padding-bottom: 40px;
+  z-index: 100;
+}
+.social-float {
+  font-size: 22px;
+  background: #ffb400;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #000000;
+  box-shadow: 0 5px 15px rgba(3, 3, 3, 0.8);
+}
+.social-float:hover {
+  box-shadow: 0 3px 8px #000000;
+  transform: scale(1.2);
+}
+a#list-float+ul {
+  visibility: hidden;
+}
+a#list-float:hover+ul {
+  visibility: visible;
+  animation: scale-in 0.2s;
+}
+a#list-float i {
+  animation: rotate-in 0.5s;
+}
+a#list-float:hover>i {
+  animation: rotate-out 0.2s;
+}
+@keyframes scale-in {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes rotate-in {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-out {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
 .home-hero__mouse-scroll-cont {
   position: absolute;
@@ -402,13 +484,10 @@ textarea:focus {
 .home-hero__social-icon {
   width: 100%; 
 }
-.fab {
+.fab, .far {
   font-size: 2.5rem;
   padding-top: 8px;
   padding-bottom: 8px;
-}
-.fab:hover {
-  color: #ffb400;
 }
 .home-hero__content {
   position: absolute;
@@ -965,6 +1044,9 @@ textarea:focus {
 }
 .footer_social {
   padding-right: 16px;
+}
+.footer-social:hover {
+  color: #a30303;
 }
 @media only screen and (max-width: 56.25em) {
   .main-footer__lower {
