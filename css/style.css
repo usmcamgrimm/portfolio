@@ -1045,8 +1045,8 @@ a#list-float:hover>i {
 .footer_social {
   padding-right: 16px;
 }
-.footer-social:hover {
-  color: #a30303;
+.footer_social:hover {
+  color: #ffb400;
 }
 @media only screen and (max-width: 56.25em) {
   .main-footer__lower {
