@@ -347,6 +347,12 @@ textarea:focus {
     font-size: 4.5rem; 
   } 
 }
+.project-details__showcase-img-vwc {
+  width: 100%;
+  border: 2px solid #0c1d40;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
 
 .home-hero {
   color: #fff;
@@ -588,6 +594,9 @@ a#list-float:hover>i {
   display: block;
   object-fit: cover;
   border-radius: 5px;
+}
+.vwc-img {
+  border: 2px solid #1d2158;
 }
 .projects__row-content {
   padding: 2rem 0;
