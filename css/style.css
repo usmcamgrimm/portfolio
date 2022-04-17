@@ -586,7 +586,8 @@ a#list-float:hover>i {
 .projects__row-img {
   width: 100%;
   display: block;
-  object-fit: cover; 
+  object-fit: cover;
+  border-radius: 5px;
 }
 .projects__row-content {
   padding: 2rem 0;
