@@ -186,7 +186,8 @@ textarea:focus {
   transition: transform .3s; 
 }
 .btn:hover {
-  transform: translateY(-3px); 
+  transform: scale(1.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 .btn--bg {
   padding: 1.5rem 8rem;
