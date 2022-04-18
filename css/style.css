@@ -81,7 +81,7 @@ textarea:focus {
   font-weight: normal;
   text-align: center;
   color: #ffb400;
-  text-shadow: 0 3px 7px #000000;
+  text-shadow: 0 4px 12px #000000;
 }
 .heading-success {
   font-family: 'Cambay', sans-serif;
