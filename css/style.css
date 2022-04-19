@@ -186,7 +186,7 @@ textarea:focus {
   transition: transform .3s; 
 }
 .btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 .btn--bg {
@@ -927,7 +927,8 @@ a#list-float:hover>i {
   transition: color .3s; 
 }
 .header__link:hover {
-  color: #1d2158; 
+  color: #1d2158;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 @media only screen and (max-width: 56.25em) {
   .header__link {
