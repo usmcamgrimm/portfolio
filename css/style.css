@@ -76,12 +76,13 @@ textarea:focus {
 .heading-primary {
   font-family: 'wolfsbane2', 'Cambay', sans-serif;
   font-size: clamp(80px, 10vw, 144px);
+  font-style: italic;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   font-weight: normal;
   text-align: center;
   color: #ffb400;
-  text-shadow: 0 4px 12px #000000;
+  text-shadow: 8px 8px 0 #a30303;
 }
 .heading-success {
   font-family: 'Cambay', sans-serif;
@@ -114,11 +115,14 @@ textarea:focus {
 }
 .heading-sec__main {
   display: block;
-  font-size: 4rem;
+  font-family: 'Wolfsbane2', 'Cambay', sans-serif;
+  font-size: 7rem;
   color: #1d2158;
+  font-style: italic;
+  font-weight: normal;
+  text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
-  letter-spacing: 1px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-align: center;
   margin-bottom: 3.5rem;
   position: relative; 
