@@ -194,7 +194,7 @@ textarea:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
 }
 .btn--bg {
-  padding: 1.5rem 8rem;
+  padding: 1.5rem 5rem;
   font-size: 2rem; 
 }
 .btn--med {
