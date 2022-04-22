@@ -394,6 +394,7 @@ textarea:focus {
   padding: 12px 8px;
   display: flex;
   justify-content: center;
+  box-shadow: 0 2px 12px #000000;
 }
 .socials-menu-close {
   position: absolute;
@@ -411,7 +412,7 @@ textarea:focus {
   transition: all 0.3s;
   animation: socials-close-out 0.3s;
 }
-.home-hero__social-icon-link {
+.home-hero__social {
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -419,6 +420,7 @@ textarea:focus {
   z-index: 300;
   transform:  scale(0);
   background-color: #ffb400;
+  box-shadow: 0 2px 8px #000000;
 }
 .home-hero__mouse-scroll-cont {
   position: absolute;
