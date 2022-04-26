@@ -381,6 +381,11 @@ textarea:focus {
 }
 
 /* Add section for FAB Menu */
+@media only screen and (max-width: 56.25em) {
+  .linkMenu {
+    display: none; 
+  } 
+}
 .float {
   width: 60px;
   height: 60px;
