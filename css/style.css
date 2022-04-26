@@ -379,54 +379,12 @@ textarea:focus {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* .socials-menu {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 48px;
-  right: 48px;
-  z-index: 99;
-  background: #ffb400;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 32px;
-  color: #000000;
-  padding: 12px 8px;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 2px 12px #000000;
-}
-.socials-menu-close {
-  position: absolute;
-  top: 0;
-  display: block;
-  bottom: 0;
-  left: 0;
-  display: block;
-  right: 0;
-  padding: 12px;
-  opacity: 0;
-  margin: auto;
-  font-size: 36px;
-  transform: rotateZ(-70deg);
-  transition: all 0.3s;
-  animation: socials-close-out 0.3s;
-}
-.social-menu-item {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  position: fixed;
-  z-index: 10;
-  transform:  scale(0);
-  background: #ffb400;
-  box-shadow: 0 2px 8px #000000;
-} */
+
 /* Add section for FAB Menu */
 .float {
   width: 60px;
   height: 60px;
-  background-color: #fb3640;
+  background-color: #ffcd00;
   border-radius: 50%;
   box-shadow: 0 3px 12px rgba(3, 3, 3, 0.8);
   font-size: 32px;
@@ -439,9 +397,11 @@ textarea:focus {
   bottom: 40px;
   z-index: 1000;
 }
-.fas,
-.fab {
-  margin-top: 8px;
+.social-button {
+  padding-top: 10px;
+}
+.menu-button {
+  padding-top: 8px;
 }
 ul.float-menu li.float-list a .fa-arrow-circle-left {
   font-size: 1.5rem;
@@ -461,13 +421,13 @@ ul.float-menu li.float-list {
   margin-bottom: 10px;
 }
 ul.float-menu li.float-list a {
-  background-color: #fb3640;
+  background-color: #ffcd00;
   color: #1e272e;
   border-radius: 50%;
   text-align: center;
   box-shadow: 0 2px 8px rgba(3, 3, 3, 0.6);
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   display: block;
 }
 ul.float-menu li.float-list a:hover {
