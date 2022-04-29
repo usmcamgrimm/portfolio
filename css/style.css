@@ -171,7 +171,8 @@ textarea:focus {
 .heading-sm {
   font-size: 2.2rem;
   text-transform: uppercase;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 .main-container {
   max-width: 120rem;
