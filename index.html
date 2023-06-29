@@ -282,6 +282,9 @@
                   required
                   placeholder="Enter Your Name"
                   type="text"
+                  minlength="2"
+                  maxlength="50"
+                  pattern="[A-Za-z]{2,50}"
                   class="contact__form-input"
                   name="name"
                   id="name"
@@ -308,6 +311,7 @@
                   placeholder="Enter Your Message"
                   name="message"
                   id="message"
+                  pattern="[a-zA-Z][a-zA-Z0-9-_.]{5,}"
                 ></textarea>
               </div>
               <button type="submit" class="btn btn--theme contact__btn" aria-label="Submit message">
