@@ -297,6 +297,10 @@ textarea:focus {
 .d-none {
   display: none; 
 }
+.vwc-link:hover {
+  color: #c5203e;
+  text-decoration: underline;
+}
 
 /* Havamal Section Styles */
 .project-cs-hero-havamal {
