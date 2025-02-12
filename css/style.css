@@ -253,6 +253,26 @@ textarea:focus {
   background: #013369;
   color: #ffffff; 
 }
+.btn--theme-launches {
+  background: #0a0a0a;
+  color: #22c55e; 
+}
+.btn--theme-inv-launches {
+  color: #0a0a0a;
+  background: #22c55e;
+  border: 2px solid #22c55e;
+  box-shadow: none;
+  padding: calc(1.5rem - 2px) calc(5rem - 2px); 
+}
+.btn--theme-launches:hover {
+  color: #0a0a0a;
+  background: #22c55e;
+  border: 2px solid #22c55e; 
+}
+.btn--theme-inv-launches:hover {
+  background: #0a0a0a;
+  color: #22c55e; 
+}
 .btn--theme-portfolio {
   background: #247ba0;
   color: #e2e2e2; 
@@ -329,8 +349,12 @@ textarea:focus {
 .project-cs-hero-colts {
   background: #013369;
 }
+.project-cs-hero-launches {
+  background: #0a0a0a;
+}
 .heading-primary-havamal,
-.heading-primary-colts {
+.heading-primary-colts,
+.heading-primary-launches {
   text-shadow: 0 2px 6px #000000;
   font-size: 6rem;
   text-transform: uppercase;
@@ -343,9 +367,13 @@ textarea:focus {
 .heading-primary-colts {
   color: #ffffff;
 }
+.heading-primary-launches {
+  color: #22c55e;
+}
 @media only screen and (max-width: 37.5em) {
   .heading-primary-havamal,
-  .heading-primary-colts {
+  .heading-primary-colts,
+  .heading-primary-launches {
     font-size: 4.5rem; 
   } 
 }
@@ -1134,6 +1162,7 @@ a#menu-share:hover>i {
 .skills__skill-havamal,
 .skills__skill-colts,
 .skills__skill-portfolio,
+.skills__skill-launches,
 .skills__skill-vwc {
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
@@ -1151,6 +1180,10 @@ a#menu-share:hover>i {
 .skills__skill-colts {
   background: #013369;
   color: #ffffff;
+}
+.skills__skill-launches {
+  background: #0a0a0a;
+  color: #22c55e;
 }
 .skills__skill-portfolio {
   background: #247ba0;
