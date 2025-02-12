@@ -233,6 +233,26 @@ textarea:focus {
   background: #005293;
   color: #fecb00; 
 }
+.btn--theme-colts {
+  background: #013369;
+  color: #ffffff; 
+}
+.btn--theme-inv-colts {
+  color: #013369;
+  background: #ffffff;
+  border: 2px solid #013369;
+  box-shadow: none;
+  padding: calc(1.5rem - 2px) calc(5rem - 2px); 
+}
+.btn--theme-colts:hover {
+  color: #013369;
+  background: #ffffff;
+  border: 2px solid #013369; 
+}
+.btn--theme-inv-colts:hover {
+  background: #013369;
+  color: #ffffff; 
+}
 .btn--theme-portfolio {
   background: #247ba0;
   color: #e2e2e2; 
@@ -302,20 +322,30 @@ textarea:focus {
   text-decoration: underline;
 }
 
-/* Havamal Section Styles */
+/* Section Styles */
 .project-cs-hero-havamal {
   background: #005293;
 }
-.heading-primary-havamal {
-  color: #ffcd00;
+.project-cs-hero-colts {
+  background: #013369;
+}
+.heading-primary-havamal,
+.heading-primary-colts {
   text-shadow: 0 2px 6px #000000;
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; 
 }
+.heading-primary-havamal {
+  color: #ffcd00;
+}
+.heading-primary-colts {
+  color: #ffffff;
+}
 @media only screen and (max-width: 37.5em) {
-  .heading-primary-havamal {
+  .heading-primary-havamal,
+  .heading-primary-colts {
     font-size: 4.5rem; 
   } 
 }
@@ -1102,6 +1132,7 @@ a#menu-share:hover>i {
 }
 .skills__skill,
 .skills__skill-havamal,
+.skills__skill-colts,
 .skills__skill-portfolio,
 .skills__skill-vwc {
   padding: 1rem 2rem;
@@ -1116,6 +1147,10 @@ a#menu-share:hover>i {
 .skills__skill-havamal {
   background: #005293;
   color: #fecb00;
+}
+.skills__skill-colts {
+  background: #013369;
+  color: #ffffff;
 }
 .skills__skill-portfolio {
   background: #247ba0;
