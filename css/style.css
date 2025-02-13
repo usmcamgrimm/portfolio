@@ -259,8 +259,8 @@ textarea:focus {
 }
 .btn--theme-inv-launches {
   color: #0a0a0a;
-  background: #22c55e;
-  border: 2px solid #22c55e;
+  background: #ffffff;
+  border: 2px solid #0a0a0a;
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px); 
 }
@@ -292,27 +292,6 @@ textarea:focus {
 .btn--theme-inv-portfolio:hover {
   background: #247ba0;
   color: #e2e2e2; 
-}
-.btn--theme-vwc {
-  background: #0c1d40;
-  color: #ffffff; 
-  border: 2px solid #c5113e;
-}
-.btn--theme-inv-vwc {
-  color: #0c1d40;
-  background: #ffffff;
-  border: 2px solid #c5113e;
-  box-shadow: none;
-  padding: calc(1.5rem - 2px) calc(5rem - 2px); 
-}
-.btn--theme-vwc:hover {
-  color: #0c1d40;
-  background: #ffffff;
-  border: 2px solid #c5113e; 
-}
-.btn--theme-inv-vwc:hover {
-  background: #0c1d40;
-  color: #ffffff; 
 }
 .sec-pad {
   padding: 12rem 0; 
@@ -395,31 +374,6 @@ textarea:focus {
   .heading-primary-portfolio {
     font-size: 4.5rem; 
   } 
-}
-
-/* VWC Extension Pack Section Styles */
-.project-cs-hero-vwc {
-  background: #0c1d40;
-}
-.heading-primary-vwc {
-  font-family: Montserrat, sans-serif;
-  color: #c5113e;
-  font-size: 7rem;
-  text-shadow: 0 2px 6px #000000;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center; 
-}
-@media only screen and (max-width: 37.5em) {
-  .heading-primary-vwc {
-    font-size: 4.5rem; 
-  } 
-}
-.project-details__showcase-img-vwc {
-  width: 100%;
-  border: 2px solid #0c1d40;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 }
 
 .home-hero {
@@ -644,23 +598,15 @@ a#menu-share:hover>i {
   grid-gap: 5rem;
   margin-bottom: 11rem; 
 }
-.podcasts__row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 @media only screen and (max-width: 56.25em) {
-  .projects__row,
-  .podcasts__row {
+  .projects__row {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
     margin-bottom: 8rem; 
   } 
 }
 @media only screen and (max-width: 56.25em) {
-  .projects__row,
-  .podcasts__row {
+  .projects__row {
     text-align: center; 
   } 
 }
@@ -1162,8 +1108,7 @@ a#menu-share:hover>i {
 .skills__skill-havamal,
 .skills__skill-colts,
 .skills__skill-portfolio,
-.skills__skill-launches,
-.skills__skill-vwc {
+.skills__skill-launches {
   padding: 1rem 2rem;
   margin-bottom: 1.5rem;
   margin-right: 1.5rem;
@@ -1187,10 +1132,6 @@ a#menu-share:hover>i {
 }
 .skills__skill-portfolio {
   background: #247ba0;
-  color: #ffffff;
-}
-.skills__skill-vwc {
-  background: #c5113e;
   color: #ffffff;
 }
 .mouse,
